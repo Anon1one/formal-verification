@@ -1,0 +1,8 @@
+{
+    "importFilesToOrigRelpaths": {},
+    "primary_contract": "ERC721Harness",
+    "specfile": "certora/SafeMint_and_SafeTransfer_Rules_in_ERC-721/ERC721.spec",
+    "specfileOrigRelpath": "certora/SafeMint_and_SafeTransfer_Rules_in_ERC-721/ERC721.spec",
+    "specfilesToImportDecls": {},
+    "type": "spec"
+}

@@ -1,0 +1,1937 @@
+{
+    "ERC20_00000000ce4604a0000000000000000000000001": {
+        "contracts": [
+            {
+                "address": "00000000ce4604a0000000000000000000000001",
+                "allMethods": [
+                    {
+                        "contractName": "ERC20",
+                        "fullArgs": [],
+                        "isLibrary": false,
+                        "name": "DOMAIN_SEPARATOR",
+                        "notpayable": true,
+                        "originalFile": "src/Using_requireInvariant_in_Rules_and_Invariants/ERC20.sol",
+                        "paramNames": [],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "bytes32",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "3644e515",
+                        "sourceBytes": {
+                            "begin": 5318,
+                            "size": 177
+                        },
+                        "stateMutability": "view",
+                        "visibility": "public",
+                        "vyper_metadata": null
+                    },
+                    {
+                        "contractName": "ERC20",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "address",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "_burn",
+                        "notpayable": true,
+                        "originalFile": null,
+                        "paramNames": [
+                            "from",
+                            "amount"
+                        ],
+                        "returns": [],
+                        "sighash": "0",
+                        "sourceBytes": null,
+                        "stateMutability": "nonpayable",
+                        "visibility": "internal",
+                        "vyper_metadata": null
+                    },
+                    {
+                        "contractName": "ERC20",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "address",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "_mint",
+                        "notpayable": true,
+                        "originalFile": null,
+                        "paramNames": [
+                            "to",
+                            "amount"
+                        ],
+                        "returns": [],
+                        "sighash": "0",
+                        "sourceBytes": null,
+                        "stateMutability": "nonpayable",
+                        "visibility": "internal",
+                        "vyper_metadata": null
+                    },
+                    {
+                        "contractName": "ERC20",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "address",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "address",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "allowance",
+                        "notpayable": true,
+                        "originalFile": "src/Using_requireInvariant_in_Rules_and_Invariants/ERC20.sol",
+                        "paramNames": [],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "dd62ed3e",
+                        "sourceBytes": {
+                            "begin": 1379,
+                            "size": 64
+                        },
+                        "stateMutability": "view",
+                        "visibility": "external",
+                        "vyper_metadata": null
+                    },
+                    {
+                        "contractName": "ERC20",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "address",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "approve",
+                        "notpayable": true,
+                        "originalFile": "src/Using_requireInvariant_in_Rules_and_Invariants/ERC20.sol",
+                        "paramNames": [
+                            "spender",
+                            "amount"
+                        ],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "bool",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "095ea7b3",
+                        "sourceBytes": {
+                            "begin": 2452,
+                            "size": 211
+                        },
+                        "stateMutability": "nonpayable",
+                        "visibility": "public",
+                        "vyper_metadata": null
+                    },
+                    {
+                        "contractName": "ERC20",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "address",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "balanceOf",
+                        "notpayable": true,
+                        "originalFile": "src/Using_requireInvariant_in_Rules_and_Invariants/ERC20.sol",
+                        "paramNames": [],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "70a08231",
+                        "sourceBytes": {
+                            "begin": 1328,
+                            "size": 44
+                        },
+                        "stateMutability": "view",
+                        "visibility": "external",
+                        "vyper_metadata": null
+                    },
+                    {
+                        "contractName": "ERC20",
+                        "fullArgs": [],
+                        "isLibrary": false,
+                        "name": "computeDomainSeparator",
+                        "notpayable": true,
+                        "originalFile": null,
+                        "paramNames": [],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "bytes32",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "0",
+                        "sourceBytes": null,
+                        "stateMutability": "view",
+                        "visibility": "internal",
+                        "vyper_metadata": null
+                    },
+                    {
+                        "contractName": "ERC20",
+                        "fullArgs": [
+                            {
+                                "location": "memory",
+                                "typeDesc": {
+                                    "type": "StringType"
+                                }
+                            },
+                            {
+                                "location": "memory",
+                                "typeDesc": {
+                                    "type": "StringType"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint8",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "constructor",
+                        "notpayable": true,
+                        "originalFile": "src/Using_requireInvariant_in_Rules_and_Invariants/ERC20.sol",
+                        "paramNames": [
+                            "_name",
+                            "_symbol",
+                            "_decimals"
+                        ],
+                        "returns": [],
+                        "sighash": "0",
+                        "sourceBytes": {
+                            "begin": 1972,
+                            "size": 292
+                        },
+                        "stateMutability": "nonpayable",
+                        "visibility": "public",
+                        "vyper_metadata": null
+                    },
+                    {
+                        "contractName": "ERC20",
+                        "fullArgs": [],
+                        "isLibrary": false,
+                        "name": "decimals",
+                        "notpayable": true,
+                        "originalFile": "src/Using_requireInvariant_in_Rules_and_Invariants/ERC20.sol",
+                        "paramNames": [],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint8",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "313ce567",
+                        "sourceBytes": {
+                            "begin": 1074,
+                            "size": 31
+                        },
+                        "stateMutability": "view",
+                        "visibility": "external",
+                        "vyper_metadata": null
+                    },
+                    {
+                        "contractName": "ERC20",
+                        "fullArgs": [],
+                        "isLibrary": false,
+                        "name": "name",
+                        "notpayable": true,
+                        "originalFile": "src/Using_requireInvariant_in_Rules_and_Invariants/ERC20.sol",
+                        "paramNames": [],
+                        "returns": [
+                            {
+                                "location": "memory",
+                                "typeDesc": {
+                                    "type": "StringType"
+                                }
+                            }
+                        ],
+                        "sighash": "06fdde03",
+                        "sourceBytes": {
+                            "begin": 1022,
+                            "size": 18
+                        },
+                        "stateMutability": "view",
+                        "visibility": "external",
+                        "vyper_metadata": null
+                    },
+                    {
+                        "contractName": "ERC20",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "address",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "nonces",
+                        "notpayable": true,
+                        "originalFile": "src/Using_requireInvariant_in_Rules_and_Invariants/ERC20.sol",
+                        "paramNames": [],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "7ecebe00",
+                        "sourceBytes": {
+                            "begin": 1742,
+                            "size": 41
+                        },
+                        "stateMutability": "view",
+                        "visibility": "external",
+                        "vyper_metadata": null
+                    },
+                    {
+                        "contractName": "ERC20",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "address",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "address",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint8",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "bytes32",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "bytes32",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "permit",
+                        "notpayable": true,
+                        "originalFile": "src/Using_requireInvariant_in_Rules_and_Invariants/ERC20.sol",
+                        "paramNames": [
+                            "owner",
+                            "spender",
+                            "value",
+                            "deadline",
+                            "v",
+                            "r",
+                            "s"
+                        ],
+                        "returns": [],
+                        "sighash": "d505accf",
+                        "sourceBytes": {
+                            "begin": 3829,
+                            "size": 1483
+                        },
+                        "stateMutability": "nonpayable",
+                        "visibility": "public",
+                        "vyper_metadata": null
+                    },
+                    {
+                        "contractName": "ERC20",
+                        "fullArgs": [],
+                        "isLibrary": false,
+                        "name": "symbol",
+                        "notpayable": true,
+                        "originalFile": "src/Using_requireInvariant_in_Rules_and_Invariants/ERC20.sol",
+                        "paramNames": [],
+                        "returns": [
+                            {
+                                "location": "memory",
+                                "typeDesc": {
+                                    "type": "StringType"
+                                }
+                            }
+                        ],
+                        "sighash": "95d89b41",
+                        "sourceBytes": {
+                            "begin": 1047,
+                            "size": 20
+                        },
+                        "stateMutability": "view",
+                        "visibility": "external",
+                        "vyper_metadata": null
+                    },
+                    {
+                        "contractName": "ERC20",
+                        "fullArgs": [],
+                        "isLibrary": false,
+                        "name": "totalSupply",
+                        "notpayable": true,
+                        "originalFile": "src/Using_requireInvariant_in_Rules_and_Invariants/ERC20.sol",
+                        "paramNames": [],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "18160ddd",
+                        "sourceBytes": {
+                            "begin": 1295,
+                            "size": 26
+                        },
+                        "stateMutability": "view",
+                        "visibility": "external",
+                        "vyper_metadata": null
+                    },
+                    {
+                        "contractName": "ERC20",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "address",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "transfer",
+                        "notpayable": true,
+                        "originalFile": "src/Using_requireInvariant_in_Rules_and_Invariants/ERC20.sol",
+                        "paramNames": [
+                            "to",
+                            "amount"
+                        ],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "bool",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "a9059cbb",
+                        "sourceBytes": {
+                            "begin": 2669,
+                            "size": 373
+                        },
+                        "stateMutability": "nonpayable",
+                        "visibility": "public",
+                        "vyper_metadata": null
+                    },
+                    {
+                        "contractName": "ERC20",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "address",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "address",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "transferFrom",
+                        "notpayable": true,
+                        "originalFile": "src/Using_requireInvariant_in_Rules_and_Invariants/ERC20.sol",
+                        "paramNames": [
+                            "from",
+                            "to",
+                            "amount"
+                        ],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "bool",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "23b872dd",
+                        "sourceBytes": {
+                            "begin": 3048,
+                            "size": 592
+                        },
+                        "stateMutability": "nonpayable",
+                        "visibility": "public",
+                        "vyper_metadata": null
+                    }
+                ],
+                "bytecode": "608060405234801561000f575f5ffd5b50600436106100b2575f3560e01c806370a082311161006f57806370a082311461018e5780637ecebe00146101be57806395d89b41146101ee578063a9059cbb1461020c578063d505accf1461023c578063dd62ed3e14610258576100b2565b806306fdde03146100b6578063095ea7b3146100d457806318160ddd1461010457806323b872dd14610122578063313ce567146101525780633644e51514610170575b5f5ffd5b6100be610288565b6040516100cb9190610fd8565b60405180910390f35b6100ee60048036038101906100e99190611089565b610313565b6040516100fb91906110e1565b60405180910390f35b61010c610493565b6040516101199190611109565b60405180910390f35b61013c60048036038101906101379190611122565b610499565b60405161014991906110e1565b60405180910390f35b61015a61078a565b604051610167919061118d565b60405180910390f35b6101786107ae565b60405161018591906111be565b60405180910390f35b6101a860048036038101906101a391906111d7565b610878565b6040516101b59190611109565b60405180910390f35b6101d860048036038101906101d391906111d7565b61088d565b6040516101e59190611109565b60405180910390f35b6101f66108a2565b6040516102039190610fd8565b60405180910390f35b61022660048036038101906102219190611089565b61092e565b60405161023391906110e1565b60405180910390f35b61025660048036038101906102519190611256565b610ace565b005b610272600480360381019061026d91906112f3565b610e50565b60405161027f9190611109565b60405180910390f35b5f80546102949061135e565b80601f01602080910402602001604051908101604052809291908181526020018280546102c09061135e565b801561030b5780601f106102e25761010080835404028352916020019161030b565b820191905f5260205f20905b8154815290600101906020018083116102ee57829003601f168201915b505050505081565b5f64f196e500047fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000400005260027fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000400015260097fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff0004000552817fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00046001528160045f3373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020015f205f8573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020015f20819055508273ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff167f8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925846040516104819190611109565b60405180910390a36001905092915050565b60025481565b5f64f196e500077fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000700005260037fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000700015260497fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff0007000552817fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00076002525f60045f8673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020015f205f3373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020015f20549050807fffffff6e4604afefe123321beef1b02fffffffffffffffffffffffff00000001527fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff811461067c5782816105ff91906113bb565b60045f8773ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020015f205f3373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020015f20819055505b8260035f8773ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020015f205f8282546106c891906113bb565b925050819055508260035f8673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020015f205f82825401925050819055508373ffffffffffffffffffffffffffffffffffffffff168573ffffffffffffffffffffffffffffffffffffffff167fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef856040516107769190611109565b60405180910390a360019150509392505050565b7f000000000000000000000000000000000000000000000000000000000000000081565b5f64f196e500057fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00050000525f7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00050001525f7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00050004527f000000000000000000000000000000000000000000000000000000000000000046146108515761084c610e70565b610873565b7f00000000000000000000000000000000000000000000000000000000000000005b905090565b6003602052805f5260405f205f915090505481565b6005602052805f5260405f205f915090505481565b600180546108af9061135e565b80601f01602080910402602001604051908101604052809291908181526020018280546108db9061135e565b80156109265780601f106108fd57610100808354040283529160200191610926565b820191905f5260205f20905b81548152906001019060200180831161090957829003601f168201915b505050505081565b5f64f196e500067fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000600005260027fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000600015260097fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff0006000552817fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00066001528160035f3373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020015f205f828254610a0e91906113bb565b925050819055508160035f8573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020015f205f82825401925050819055508273ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff167fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef84604051610abc9190611109565b60405180910390a36001905092915050565b64f196e500037fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000300005260077fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff0003000152620492497fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff0003000552807fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000360065242841015610ba6576040517f08c379a0000000000000000000000000000000000000000000000000000000008152600401610b9d90611438565b60405180910390fd5b5f6001610bb16107ae565b7f6e71edae12b1b97f4d1f60370fef10105fa2faae0126114a169c64845d6126c98a8a8a60055f8f73ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020015f205f815480929190600101919050558b604051602001610c3696959493929190611465565b60405160208183030381529060405280519060200120604051602001610c5d929190611538565b604051602081830303815290604052805190602001208585856040515f8152602001604052604051610c92949392919061156e565b6020604051602081039080840390855afa158015610cb2573d5f5f3e3d5ffd5b5050506020604051035190505f73ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff1614158015610d2557508773ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff16145b610d64576040517f08c379a0000000000000000000000000000000000000000000000000000000008152600401610d5b906115fb565b60405180910390fd5b8560045f8373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020015f205f8973ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020015f2081905550508573ffffffffffffffffffffffffffffffffffffffff168773ffffffffffffffffffffffffffffffffffffffff167f8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b92587604051610e3f9190611109565b60405180910390a350505050505050565b6004602052815f5260405f20602052805f5260405f205f91509150505481565b5f64f196e500007fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00000000525f7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00000001525f7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00000004527f8b73c3c69bb8fe3d512ecc4cf759cc79239f7b179b0ffacaa9a75d522b39400f5f604051610f0e91906116b5565b60405180910390207fc89efdaa54c0f20c7adf612882df0950f5a951637e0307cdcb4c672f298b8bc64630604051602001610f4d9594939291906116cb565b60405160208183030381529060405280519060200120905090565b5f81519050919050565b5f82825260208201905092915050565b8281835e5f83830152505050565b5f601f19601f8301169050919050565b5f610faa82610f68565b610fb48185610f72565b9350610fc4818560208601610f82565b610fcd81610f90565b840191505092915050565b5f6020820190508181035f830152610ff08184610fa0565b905092915050565b5f5ffd5b5f73ffffffffffffffffffffffffffffffffffffffff82169050919050565b5f61102582610ffc565b9050919050565b6110358161101b565b811461103f575f5ffd5b50565b5f813590506110508161102c565b92915050565b5f819050919050565b61106881611056565b8114611072575f5ffd5b50565b5f813590506110838161105f565b92915050565b5f5f6040838503121561109f5761109e610ff8565b5b5f6110ac85828601611042565b92505060206110bd85828601611075565b9150509250929050565b5f8115159050919050565b6110db816110c7565b82525050565b5f6020820190506110f45f8301846110d2565b92915050565b61110381611056565b82525050565b5f60208201905061111c5f8301846110fa565b92915050565b5f5f5f6060848603121561113957611138610ff8565b5b5f61114686828701611042565b935050602061115786828701611042565b925050604061116886828701611075565b9150509250925092565b5f60ff82169050919050565b61118781611172565b82525050565b5f6020820190506111a05f83018461117e565b92915050565b5f819050919050565b6111b8816111a6565b82525050565b5f6020820190506111d15f8301846111af565b92915050565b5f602082840312156111ec576111eb610ff8565b5b5f6111f984828501611042565b91505092915050565b61120b81611172565b8114611215575f5ffd5b50565b5f8135905061122681611202565b92915050565b611235816111a6565b811461123f575f5ffd5b50565b5f813590506112508161122c565b92915050565b5f5f5f5f5f5f5f60e0888a03121561127157611270610ff8565b5b5f61127e8a828b01611042565b975050602061128f8a828b01611042565b96505060406112a08a828b01611075565b95505060606112b18a828b01611075565b94505060806112c28a828b01611218565b93505060a06112d38a828b01611242565b92505060c06112e48a828b01611242565b91505092959891949750929550565b5f5f6040838503121561130957611308610ff8565b5b5f61131685828601611042565b925050602061132785828601611042565b9150509250929050565b7f4e487b71000000000000000000000000000000000000000000000000000000005f52602260045260245ffd5b5f600282049050600182168061137557607f821691505b60208210810361138857611387611331565b5b50919050565b7f4e487b71000000000000000000000000000000000000000000000000000000005f52601160045260245ffd5b5f6113c582611056565b91506113d083611056565b92508282039050818111156113e8576113e761138e565b5b92915050565b7f5045524d49545f444541444c494e455f455850495245440000000000000000005f82015250565b5f611422601783610f72565b915061142d826113ee565b602082019050919050565b5f6020820190508181035f83015261144f81611416565b9050919050565b61145f8161101b565b82525050565b5f60c0820190506114785f8301896111af565b6114856020830188611456565b6114926040830187611456565b61149f60608301866110fa565b6114ac60808301856110fa565b6114b960a08301846110fa565b979650505050505050565b5f81905092915050565b7f19010000000000000000000000000000000000000000000000000000000000005f82015250565b5f6115026002836114c4565b915061150d826114ce565b600282019050919050565b5f819050919050565b61153261152d826111a6565b611518565b82525050565b5f611542826114f6565b915061154e8285611521565b60208201915061155e8284611521565b6020820191508190509392505050565b5f6080820190506115815f8301876111af565b61158e602083018661117e565b61159b60408301856111af565b6115a860608301846111af565b95945050505050565b7f494e56414c49445f5349474e45520000000000000000000000000000000000005f82015250565b5f6115e5600e83610f72565b91506115f0826115b1565b602082019050919050565b5f6020820190508181035f830152611612816115d9565b9050919050565b5f81905092915050565b5f819050815f5260205f209050919050565b5f81546116418161135e565b61164b8186611619565b9450600182165f8114611665576001811461167a576116ac565b60ff19831686528115158202860193506116ac565b61168385611623565b5f5b838110156116a457815481890152600182019150602081019050611685565b838801955050505b50505092915050565b5f6116c08284611635565b915081905092915050565b5f60a0820190506116de5f8301886111af565b6116eb60208301876111af565b6116f860408301866111af565b61170560608301856110fa565b6117126080830184611456565b969550505050505056fea2646970667358221220380b97f85ab08f9214d20ccc30f923b057ed69048a9cf708cebb563b9e08472664736f6c634300081e0033",
+                "compilerName": "solc",
+                "compilerParameters": {
+                    "optimizerOn": false,
+                    "optimizerRuns": null,
+                    "type": "SolcParameters",
+                    "viaIR": false
+                },
+                "compilerVersion": "0.8.30",
+                "constructorBytecode": "60e060405234801561000f575f5ffd5b50604051611f4a380380611f4a833981810160405281019061003191906102fe565b825f908161003f9190610596565b50816001908161004f9190610596565b508060ff1660808160ff16815250504660a0818152505061007461008360201b60201c565b60c081815250505050506107ce565b5f64f196e500007fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00000000525f7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00000001525f7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00000004527f8b73c3c69bb8fe3d512ecc4cf759cc79239f7b179b0ffacaa9a75d522b39400f5f6040516101219190610701565b60405180910390207fc89efdaa54c0f20c7adf612882df0950f5a951637e0307cdcb4c672f298b8bc6463060405160200161016095949392919061077d565b60405160208183030381529060405280519060200120905090565b5f604051905090565b5f5ffd5b5f5ffd5b5f5ffd5b5f5ffd5b5f601f19601f8301169050919050565b7f4e487b71000000000000000000000000000000000000000000000000000000005f52604160045260245ffd5b6101da82610194565b810181811067ffffffffffffffff821117156101f9576101f86101a4565b5b80604052505050565b5f61020b61017b565b905061021782826101d1565b919050565b5f67ffffffffffffffff821115610236576102356101a4565b5b61023f82610194565b9050602081019050919050565b8281835e5f83830152505050565b5f61026c6102678461021c565b610202565b90508281526020810184848401111561028857610287610190565b5b61029384828561024c565b509392505050565b5f82601f8301126102af576102ae61018c565b5b81516102bf84826020860161025a565b91505092915050565b5f60ff82169050919050565b6102dd816102c8565b81146102e7575f5ffd5b50565b5f815190506102f8816102d4565b92915050565b5f5f5f6060848603121561031557610314610184565b5b5f84015167ffffffffffffffff81111561033257610331610188565b5b61033e8682870161029b565b935050602084015167ffffffffffffffff81111561035f5761035e610188565b5b61036b8682870161029b565b925050604061037c868287016102ea565b9150509250925092565b5f81519050919050565b7f4e487b71000000000000000000000000000000000000000000000000000000005f52602260045260245ffd5b5f60028204905060018216806103d457607f821691505b6020821081036103e7576103e6610390565b5b50919050565b5f819050815f5260205f209050919050565b5f6020601f8301049050919050565b5f82821b905092915050565b5f600883026104497fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff8261040e565b610453868361040e565b95508019841693508086168417925050509392505050565b5f819050919050565b5f819050919050565b5f61049761049261048d8461046b565b610474565b61046b565b9050919050565b5f819050919050565b6104b08361047d565b6104c46104bc8261049e565b84845461041a565b825550505050565b5f5f905090565b6104db6104cc565b6104e68184846104a7565b505050565b5b81811015610509576104fe5f826104d3565b6001810190506104ec565b5050565b601f82111561054e5761051f816103ed565b610528846103ff565b81016020851015610537578190505b61054b610543856103ff565b8301826104eb565b50505b505050565b5f82821c905092915050565b5f61056e5f1984600802610553565b1980831691505092915050565b5f610586838361055f565b9150826002028217905092915050565b61059f82610386565b67ffffffffffffffff8111156105b8576105b76101a4565b5b6105c282546103bd565b6105cd82828561050d565b5f60209050601f8311600181146105fe575f84156105ec578287015190505b6105f6858261057b565b86555061065d565b601f19841661060c866103ed565b5f5b828110156106335784890151825560018201915060208501945060208101905061060e565b86831015610650578489015161064c601f89168261055f565b8355505b6001600288020188555050505b505050505050565b5f81905092915050565b5f819050815f5260205f209050919050565b5f815461068d816103bd565b6106978186610665565b9450600182165f81146106b157600181146106c6576106f8565b60ff19831686528115158202860193506106f8565b6106cf8561066f565b5f5b838110156106f0578154818901526001820191506020810190506106d1565b838801955050505b50505092915050565b5f61070c8284610681565b915081905092915050565b5f819050919050565b61072981610717565b82525050565b6107388161046b565b82525050565b5f73ffffffffffffffffffffffffffffffffffffffff82169050919050565b5f6107678261073e565b9050919050565b6107778161075d565b82525050565b5f60a0820190506107905f830188610720565b61079d6020830187610720565b6107aa6040830186610720565b6107b7606083018561072f565b6107c4608083018461076e565b9695505050505050565b60805160a05160c0516117526107f85f395f61085301525f61081f01525f61078c01526117525ff3fe608060405234801561000f575f5ffd5b50600436106100b2575f3560e01c806370a082311161006f57806370a082311461018e5780637ecebe00146101be57806395d89b41146101ee578063a9059cbb1461020c578063d505accf1461023c578063dd62ed3e14610258576100b2565b806306fdde03146100b6578063095ea7b3146100d457806318160ddd1461010457806323b872dd14610122578063313ce567146101525780633644e51514610170575b5f5ffd5b6100be610288565b6040516100cb9190610fd8565b60405180910390f35b6100ee60048036038101906100e99190611089565b610313565b6040516100fb91906110e1565b60405180910390f35b61010c610493565b6040516101199190611109565b60405180910390f35b61013c60048036038101906101379190611122565b610499565b60405161014991906110e1565b60405180910390f35b61015a61078a565b604051610167919061118d565b60405180910390f35b6101786107ae565b60405161018591906111be565b60405180910390f35b6101a860048036038101906101a391906111d7565b610878565b6040516101b59190611109565b60405180910390f35b6101d860048036038101906101d391906111d7565b61088d565b6040516101e59190611109565b60405180910390f35b6101f66108a2565b6040516102039190610fd8565b60405180910390f35b61022660048036038101906102219190611089565b61092e565b60405161023391906110e1565b60405180910390f35b61025660048036038101906102519190611256565b610ace565b005b610272600480360381019061026d91906112f3565b610e50565b60405161027f9190611109565b60405180910390f35b5f80546102949061135e565b80601f01602080910402602001604051908101604052809291908181526020018280546102c09061135e565b801561030b5780601f106102e25761010080835404028352916020019161030b565b820191905f5260205f20905b8154815290600101906020018083116102ee57829003601f168201915b505050505081565b5f64f196e500047fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000400005260027fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000400015260097fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff0004000552817fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00046001528160045f3373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020015f205f8573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020015f20819055508273ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff167f8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925846040516104819190611109565b60405180910390a36001905092915050565b60025481565b5f64f196e500077fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000700005260037fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000700015260497fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff0007000552817fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00076002525f60045f8673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020015f205f3373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020015f20549050807fffffff6e4604afefe123321beef1b02fffffffffffffffffffffffff00000001527fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff811461067c5782816105ff91906113bb565b60045f8773ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020015f205f3373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020015f20819055505b8260035f8773ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020015f205f8282546106c891906113bb565b925050819055508260035f8673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020015f205f82825401925050819055508373ffffffffffffffffffffffffffffffffffffffff168573ffffffffffffffffffffffffffffffffffffffff167fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef856040516107769190611109565b60405180910390a360019150509392505050565b7f000000000000000000000000000000000000000000000000000000000000000081565b5f64f196e500057fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00050000525f7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00050001525f7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00050004527f000000000000000000000000000000000000000000000000000000000000000046146108515761084c610e70565b610873565b7f00000000000000000000000000000000000000000000000000000000000000005b905090565b6003602052805f5260405f205f915090505481565b6005602052805f5260405f205f915090505481565b600180546108af9061135e565b80601f01602080910402602001604051908101604052809291908181526020018280546108db9061135e565b80156109265780601f106108fd57610100808354040283529160200191610926565b820191905f5260205f20905b81548152906001019060200180831161090957829003601f168201915b505050505081565b5f64f196e500067fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000600005260027fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000600015260097fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff0006000552817fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00066001528160035f3373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020015f205f828254610a0e91906113bb565b925050819055508160035f8573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020015f205f82825401925050819055508273ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff167fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef84604051610abc9190611109565b60405180910390a36001905092915050565b64f196e500037fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000300005260077fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff0003000152620492497fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff0003000552807fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000360065242841015610ba6576040517f08c379a0000000000000000000000000000000000000000000000000000000008152600401610b9d90611438565b60405180910390fd5b5f6001610bb16107ae565b7f6e71edae12b1b97f4d1f60370fef10105fa2faae0126114a169c64845d6126c98a8a8a60055f8f73ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020015f205f815480929190600101919050558b604051602001610c3696959493929190611465565b60405160208183030381529060405280519060200120604051602001610c5d929190611538565b604051602081830303815290604052805190602001208585856040515f8152602001604052604051610c92949392919061156e565b6020604051602081039080840390855afa158015610cb2573d5f5f3e3d5ffd5b5050506020604051035190505f73ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff1614158015610d2557508773ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff16145b610d64576040517f08c379a0000000000000000000000000000000000000000000000000000000008152600401610d5b906115fb565b60405180910390fd5b8560045f8373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020015f205f8973ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020015f2081905550508573ffffffffffffffffffffffffffffffffffffffff168773ffffffffffffffffffffffffffffffffffffffff167f8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b92587604051610e3f9190611109565b60405180910390a350505050505050565b6004602052815f5260405f20602052805f5260405f205f91509150505481565b5f64f196e500007fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00000000525f7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00000001525f7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00000004527f8b73c3c69bb8fe3d512ecc4cf759cc79239f7b179b0ffacaa9a75d522b39400f5f604051610f0e91906116b5565b60405180910390207fc89efdaa54c0f20c7adf612882df0950f5a951637e0307cdcb4c672f298b8bc64630604051602001610f4d9594939291906116cb565b60405160208183030381529060405280519060200120905090565b5f81519050919050565b5f82825260208201905092915050565b8281835e5f83830152505050565b5f601f19601f8301169050919050565b5f610faa82610f68565b610fb48185610f72565b9350610fc4818560208601610f82565b610fcd81610f90565b840191505092915050565b5f6020820190508181035f830152610ff08184610fa0565b905092915050565b5f5ffd5b5f73ffffffffffffffffffffffffffffffffffffffff82169050919050565b5f61102582610ffc565b9050919050565b6110358161101b565b811461103f575f5ffd5b50565b5f813590506110508161102c565b92915050565b5f819050919050565b61106881611056565b8114611072575f5ffd5b50565b5f813590506110838161105f565b92915050565b5f5f6040838503121561109f5761109e610ff8565b5b5f6110ac85828601611042565b92505060206110bd85828601611075565b9150509250929050565b5f8115159050919050565b6110db816110c7565b82525050565b5f6020820190506110f45f8301846110d2565b92915050565b61110381611056565b82525050565b5f60208201905061111c5f8301846110fa565b92915050565b5f5f5f6060848603121561113957611138610ff8565b5b5f61114686828701611042565b935050602061115786828701611042565b925050604061116886828701611075565b9150509250925092565b5f60ff82169050919050565b61118781611172565b82525050565b5f6020820190506111a05f83018461117e565b92915050565b5f819050919050565b6111b8816111a6565b82525050565b5f6020820190506111d15f8301846111af565b92915050565b5f602082840312156111ec576111eb610ff8565b5b5f6111f984828501611042565b91505092915050565b61120b81611172565b8114611215575f5ffd5b50565b5f8135905061122681611202565b92915050565b611235816111a6565b811461123f575f5ffd5b50565b5f813590506112508161122c565b92915050565b5f5f5f5f5f5f5f60e0888a03121561127157611270610ff8565b5b5f61127e8a828b01611042565b975050602061128f8a828b01611042565b96505060406112a08a828b01611075565b95505060606112b18a828b01611075565b94505060806112c28a828b01611218565b93505060a06112d38a828b01611242565b92505060c06112e48a828b01611242565b91505092959891949750929550565b5f5f6040838503121561130957611308610ff8565b5b5f61131685828601611042565b925050602061132785828601611042565b9150509250929050565b7f4e487b71000000000000000000000000000000000000000000000000000000005f52602260045260245ffd5b5f600282049050600182168061137557607f821691505b60208210810361138857611387611331565b5b50919050565b7f4e487b71000000000000000000000000000000000000000000000000000000005f52601160045260245ffd5b5f6113c582611056565b91506113d083611056565b92508282039050818111156113e8576113e761138e565b5b92915050565b7f5045524d49545f444541444c494e455f455850495245440000000000000000005f82015250565b5f611422601783610f72565b915061142d826113ee565b602082019050919050565b5f6020820190508181035f83015261144f81611416565b9050919050565b61145f8161101b565b82525050565b5f60c0820190506114785f8301896111af565b6114856020830188611456565b6114926040830187611456565b61149f60608301866110fa565b6114ac60808301856110fa565b6114b960a08301846110fa565b979650505050505050565b5f81905092915050565b7f19010000000000000000000000000000000000000000000000000000000000005f82015250565b5f6115026002836114c4565b915061150d826114ce565b600282019050919050565b5f819050919050565b61153261152d826111a6565b611518565b82525050565b5f611542826114f6565b915061154e8285611521565b60208201915061155e8284611521565b6020820191508190509392505050565b5f6080820190506115815f8301876111af565b61158e602083018661117e565b61159b60408301856111af565b6115a860608301846111af565b95945050505050565b7f494e56414c49445f5349474e45520000000000000000000000000000000000005f82015250565b5f6115e5600e83610f72565b91506115f0826115b1565b602082019050919050565b5f6020820190508181035f830152611612816115d9565b9050919050565b5f81905092915050565b5f819050815f5260205f209050919050565b5f81546116418161135e565b61164b8186611619565b9450600182165f8114611665576001811461167a576116ac565b60ff19831686528115158202860193506116ac565b61168385611623565b5f5b838110156116a457815481890152600182019150602081019050611685565b838801955050505b50505092915050565b5f6116c08284611635565b915081905092915050565b5f60a0820190506116de5f8301886111af565b6116eb60208301876111af565b6116f860408301866111af565b61170560608301856110fa565b6117126080830184611456565b969550505050505056fea2646970667358221220380b97f85ab08f9214d20ccc30f923b057ed69048a9cf708cebb563b9e08472664736f6c634300081e0033",
+                "constructorSrcmap": "474:9127:0:-:0;;;1972:292;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;2092:5;2085:4;:12;;;;;;:::i;:::-;;2116:7;2107:6;:16;;;;;;:::i;:::-;;2144:9;2133:20;;;;;;;;;;2183:13;2164:32;;;;;;2233:24;:22;;;:24;;:::i;:::-;2206:51;;;;;;1972:292;;;474:9127;;7312:720;7377:7;7489:13;7421:66;7414:89;7579:1;7511:66;7504:77;7657:1;7589:66;7582:77;7748:95;7881:4;7865:22;;;;;;:::i;:::-;;;;;;;;7909:14;7945:13;7988:4;7716:295;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;7689:336;;;;;;7670:355;;7312:720;:::o;7:75:1:-;40:6;73:2;67:9;57:19;;7:75;:::o;88:117::-;197:1;194;187:12;211:117;320:1;317;310:12;334:117;443:1;440;433:12;457:117;566:1;563;556:12;580:102;621:6;672:2;668:7;663:2;656:5;652:14;648:28;638:38;;580:102;;;:::o;688:180::-;736:77;733:1;726:88;833:4;830:1;823:15;857:4;854:1;847:15;874:281;957:27;979:4;957:27;:::i;:::-;949:6;945:40;1087:6;1075:10;1072:22;1051:18;1039:10;1036:34;1033:62;1030:88;;;1098:18;;:::i;:::-;1030:88;1138:10;1134:2;1127:22;917:238;874:281;;:::o;1161:129::-;1195:6;1222:20;;:::i;:::-;1212:30;;1251:33;1279:4;1271:6;1251:33;:::i;:::-;1161:129;;;:::o;1296:308::-;1358:4;1448:18;1440:6;1437:30;1434:56;;;1470:18;;:::i;:::-;1434:56;1508:29;1530:6;1508:29;:::i;:::-;1500:37;;1592:4;1586;1582:15;1574:23;;1296:308;;;:::o;1610:139::-;1699:6;1694:3;1689;1683:23;1740:1;1731:6;1726:3;1722:16;1715:27;1610:139;;;:::o;1755:434::-;1844:5;1869:66;1885:49;1927:6;1885:49;:::i;:::-;1869:66;:::i;:::-;1860:75;;1958:6;1951:5;1944:21;1996:4;1989:5;1985:16;2034:3;2025:6;2020:3;2016:16;2013:25;2010:112;;;2041:79;;:::i;:::-;2010:112;2131:52;2176:6;2171:3;2166;2131:52;:::i;:::-;1850:339;1755:434;;;;;:::o;2209:355::-;2276:5;2325:3;2318:4;2310:6;2306:17;2302:27;2292:122;;2333:79;;:::i;:::-;2292:122;2443:6;2437:13;2468:90;2554:3;2546:6;2539:4;2531:6;2527:17;2468:90;:::i;:::-;2459:99;;2282:282;2209:355;;;;:::o;2570:86::-;2605:7;2645:4;2638:5;2634:16;2623:27;;2570:86;;;:::o;2662:118::-;2733:22;2749:5;2733:22;:::i;:::-;2726:5;2723:33;2713:61;;2770:1;2767;2760:12;2713:61;2662:118;:::o;2786:139::-;2841:5;2872:6;2866:13;2857:22;;2888:31;2913:5;2888:31;:::i;:::-;2786:139;;;;:::o;2931:1005::-;3037:6;3045;3053;3102:2;3090:9;3081:7;3077:23;3073:32;3070:119;;;3108:79;;:::i;:::-;3070:119;3249:1;3238:9;3234:17;3228:24;3279:18;3271:6;3268:30;3265:117;;;3301:79;;:::i;:::-;3265:117;3406:74;3472:7;3463:6;3452:9;3448:22;3406:74;:::i;:::-;3396:84;;3199:291;3550:2;3539:9;3535:18;3529:25;3581:18;3573:6;3570:30;3567:117;;;3603:79;;:::i;:::-;3567:117;3708:74;3774:7;3765:6;3754:9;3750:22;3708:74;:::i;:::-;3698:84;;3500:292;3831:2;3857:62;3911:7;3902:6;3891:9;3887:22;3857:62;:::i;:::-;3847:72;;3802:127;2931:1005;;;;;:::o;3942:99::-;3994:6;4028:5;4022:12;4012:22;;3942:99;;;:::o;4047:180::-;4095:77;4092:1;4085:88;4192:4;4189:1;4182:15;4216:4;4213:1;4206:15;4233:320;4277:6;4314:1;4308:4;4304:12;4294:22;;4361:1;4355:4;4351:12;4382:18;4372:81;;4438:4;4430:6;4426:17;4416:27;;4372:81;4500:2;4492:6;4489:14;4469:18;4466:38;4463:84;;4519:18;;:::i;:::-;4463:84;4284:269;4233:320;;;:::o;4559:141::-;4608:4;4631:3;4623:11;;4654:3;4651:1;4644:14;4688:4;4685:1;4675:18;4667:26;;4559:141;;;:::o;4706:93::-;4743:6;4790:2;4785;4778:5;4774:14;4770:23;4760:33;;4706:93;;;:::o;4805:107::-;4849:8;4899:5;4893:4;4889:16;4868:37;;4805:107;;;;:::o;4918:393::-;4987:6;5037:1;5025:10;5021:18;5060:97;5090:66;5079:9;5060:97;:::i;:::-;5178:39;5208:8;5197:9;5178:39;:::i;:::-;5166:51;;5250:4;5246:9;5239:5;5235:21;5226:30;;5299:4;5289:8;5285:19;5278:5;5275:30;5265:40;;4994:317;;4918:393;;;;;:::o;5317:77::-;5354:7;5383:5;5372:16;;5317:77;;;:::o;5400:60::-;5428:3;5449:5;5442:12;;5400:60;;;:::o;5466:142::-;5516:9;5549:53;5567:34;5576:24;5594:5;5576:24;:::i;:::-;5567:34;:::i;:::-;5549:53;:::i;:::-;5536:66;;5466:142;;;:::o;5614:75::-;5657:3;5678:5;5671:12;;5614:75;;;:::o;5695:269::-;5805:39;5836:7;5805:39;:::i;:::-;5866:91;5915:41;5939:16;5915:41;:::i;:::-;5907:6;5900:4;5894:11;5866:91;:::i;:::-;5860:4;5853:105;5771:193;5695:269;;;:::o;5970:73::-;6015:3;6036:1;6029:8;;5970:73;:::o;6049:189::-;6126:32;;:::i;:::-;6167:65;6225:6;6217;6211:4;6167:65;:::i;:::-;6102:136;6049:189;;:::o;6244:186::-;6304:120;6321:3;6314:5;6311:14;6304:120;;;6375:39;6412:1;6405:5;6375:39;:::i;:::-;6348:1;6341:5;6337:13;6328:22;;6304:120;;;6244:186;;:::o;6436:543::-;6537:2;6532:3;6529:11;6526:446;;;6571:38;6603:5;6571:38;:::i;:::-;6655:29;6673:10;6655:29;:::i;:::-;6645:8;6641:44;6838:2;6826:10;6823:18;6820:49;;;6859:8;6844:23;;6820:49;6882:80;6938:22;6956:3;6938:22;:::i;:::-;6928:8;6924:37;6911:11;6882:80;:::i;:::-;6541:431;;6526:446;6436:543;;;:::o;6985:117::-;7039:8;7089:5;7083:4;7079:16;7058:37;;6985:117;;;;:::o;7108:169::-;7152:6;7185:51;7233:1;7229:6;7221:5;7218:1;7214:13;7185:51;:::i;:::-;7181:56;7266:4;7260;7256:15;7246:25;;7159:118;7108:169;;;;:::o;7282:295::-;7358:4;7504:29;7529:3;7523:4;7504:29;:::i;:::-;7496:37;;7566:3;7563:1;7559:11;7553:4;7550:21;7542:29;;7282:295;;;;:::o;7582:1395::-;7699:37;7732:3;7699:37;:::i;:::-;7801:18;7793:6;7790:30;7787:56;;;7823:18;;:::i;:::-;7787:56;7867:38;7899:4;7893:11;7867:38;:::i;:::-;7952:67;8012:6;8004;7998:4;7952:67;:::i;:::-;8046:1;8070:4;8057:17;;8102:2;8094:6;8091:14;8119:1;8114:618;;;;8776:1;8793:6;8790:77;;;8842:9;8837:3;8833:19;8827:26;8818:35;;8790:77;8893:67;8953:6;8946:5;8893:67;:::i;:::-;8887:4;8880:81;8749:222;8084:887;;8114:618;8166:4;8162:9;8154:6;8150:22;8200:37;8232:4;8200:37;:::i;:::-;8259:1;8273:208;8287:7;8284:1;8281:14;8273:208;;;8366:9;8361:3;8357:19;8351:26;8343:6;8336:42;8417:1;8409:6;8405:14;8395:24;;8464:2;8453:9;8449:18;8436:31;;8310:4;8307:1;8303:12;8298:17;;8273:208;;;8509:6;8500:7;8497:19;8494:179;;;8567:9;8562:3;8558:19;8552:26;8610:48;8652:4;8644:6;8640:17;8629:9;8610:48;:::i;:::-;8602:6;8595:64;8517:156;8494:179;8719:1;8715;8707:6;8703:14;8699:22;8693:4;8686:36;8121:611;;;8084:887;;7674:1303;;;7582:1395;;:::o;8983:147::-;9084:11;9121:3;9106:18;;8983:147;;;;:::o;9136:144::-;9188:4;9211:3;9203:11;;9234:3;9231:1;9224:14;9268:4;9265:1;9255:18;9247:26;;9136:144;;;:::o;9308:878::-;9413:3;9450:5;9444:12;9479:36;9505:9;9479:36;:::i;:::-;9531:88;9612:6;9607:3;9531:88;:::i;:::-;9524:95;;9650:1;9639:9;9635:17;9666:1;9661:166;;;;9841:1;9836:344;;;;9628:552;;9661:166;9745:4;9741:9;9730;9726:25;9721:3;9714:38;9807:6;9800:14;9793:22;9785:6;9781:35;9776:3;9772:45;9765:52;;9661:166;;9836:344;9903:41;9938:5;9903:41;:::i;:::-;9966:1;9980:154;9994:6;9991:1;9988:13;9980:154;;;10068:7;10062:14;10058:1;10053:3;10049:11;10042:35;10118:1;10109:7;10105:15;10094:26;;10016:4;10013:1;10009:12;10004:17;;9980:154;;;10163:6;10158:3;10154:16;10147:23;;9843:337;;9628:552;;9417:769;;9308:878;;;;:::o;10192:273::-;10323:3;10345:94;10435:3;10426:6;10345:94;:::i;:::-;10338:101;;10456:3;10449:10;;10192:273;;;;:::o;10471:77::-;10508:7;10537:5;10526:16;;10471:77;;;:::o;10554:118::-;10641:24;10659:5;10641:24;:::i;:::-;10636:3;10629:37;10554:118;;:::o;10678:::-;10765:24;10783:5;10765:24;:::i;:::-;10760:3;10753:37;10678:118;;:::o;10802:126::-;10839:7;10879:42;10872:5;10868:54;10857:65;;10802:126;;;:::o;10934:96::-;10971:7;11000:24;11018:5;11000:24;:::i;:::-;10989:35;;10934:96;;;:::o;11036:118::-;11123:24;11141:5;11123:24;:::i;:::-;11118:3;11111:37;11036:118;;:::o;11160:664::-;11365:4;11403:3;11392:9;11388:19;11380:27;;11417:71;11485:1;11474:9;11470:17;11461:6;11417:71;:::i;:::-;11498:72;11566:2;11555:9;11551:18;11542:6;11498:72;:::i;:::-;11580;11648:2;11637:9;11633:18;11624:6;11580:72;:::i;:::-;11662;11730:2;11719:9;11715:18;11706:6;11662:72;:::i;:::-;11744:73;11812:3;11801:9;11797:19;11788:6;11744:73;:::i;:::-;11160:664;;;;;;;;:::o;474:9127:0:-;;;;;;;;;;;;;;;;;;;;;;;;;",
+                "extensionContracts": [],
+                "file": "src/Using_requireInvariant_in_Rules_and_Invariants/ERC20.sol",
+                "immutables": [
+                    {
+                        "length": 32,
+                        "offset": 1932,
+                        "type": {
+                            "location": "stack",
+                            "typeDesc": {
+                                "primitiveName": "uint8",
+                                "type": "Primitive"
+                            }
+                        },
+                        "varname": "decimals"
+                    },
+                    {
+                        "length": 32,
+                        "offset": 2079,
+                        "type": {
+                            "location": "stack",
+                            "typeDesc": {
+                                "primitiveName": "uint256",
+                                "type": "Primitive"
+                            }
+                        },
+                        "varname": "INITIAL_CHAIN_ID"
+                    },
+                    {
+                        "length": 32,
+                        "offset": 2131,
+                        "type": {
+                            "location": "stack",
+                            "typeDesc": {
+                                "primitiveName": "bytes32",
+                                "type": "Primitive"
+                            }
+                        },
+                        "varname": "INITIAL_DOMAIN_SEPARATOR"
+                    }
+                ],
+                "internalFuncs": [
+                    {
+                        "contractName": "ERC20",
+                        "fullArgs": [],
+                        "isLibrary": false,
+                        "name": "computeDomainSeparator",
+                        "notpayable": true,
+                        "originalFile": null,
+                        "paramNames": [],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "bytes32",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "0",
+                        "sourceBytes": null,
+                        "stateMutability": "view",
+                        "visibility": "internal",
+                        "vyper_metadata": null
+                    },
+                    {
+                        "contractName": "ERC20",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "address",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "_mint",
+                        "notpayable": true,
+                        "originalFile": null,
+                        "paramNames": [
+                            "to",
+                            "amount"
+                        ],
+                        "returns": [],
+                        "sighash": "0",
+                        "sourceBytes": null,
+                        "stateMutability": "nonpayable",
+                        "visibility": "internal",
+                        "vyper_metadata": null
+                    },
+                    {
+                        "contractName": "ERC20",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "address",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "_burn",
+                        "notpayable": true,
+                        "originalFile": null,
+                        "paramNames": [
+                            "from",
+                            "amount"
+                        ],
+                        "returns": [],
+                        "sighash": "0",
+                        "sourceBytes": null,
+                        "stateMutability": "nonpayable",
+                        "visibility": "internal",
+                        "vyper_metadata": null
+                    }
+                ],
+                "internalFunctionHarnesses": {},
+                "internalFunctionStarts": [
+                    3970,
+                    4610,
+                    648,
+                    4233,
+                    1930,
+                    4361,
+                    2189,
+                    4493,
+                    5006,
+                    3984,
+                    787,
+                    1171,
+                    5142,
+                    4632,
+                    1177,
+                    5657,
+                    4123,
+                    5400,
+                    4000,
+                    5409,
+                    2210,
+                    4386,
+                    5667,
+                    4518,
+                    4140,
+                    4652,
+                    1966,
+                    2350,
+                    4527,
+                    4913,
+                    5553,
+                    5685,
+                    5813,
+                    5432,
+                    5176,
+                    5051,
+                    4542,
+                    4162,
+                    4674,
+                    5316,
+                    4295,
+                    5835,
+                    2766,
+                    5326,
+                    3664,
+                    4306,
+                    4694,
+                    4567,
+                    5206,
+                    5593,
+                    4056,
+                    4182,
+                    4088,
+                    4958,
+                    4191,
+                    4321,
+                    5221,
+                    3944,
+                    5486,
+                    5102,
+                    3696,
+                    3954,
+                    4851,
+                    4466,
+                    4213,
+                    5366,
+                    2168,
+                    4346,
+                    5627,
+                    4092,
+                    4478
+                ],
+                "internalFunctions": {
+                    "0xf196e50000": {
+                        "canonicalId": "src/Using_requireInvariant_in_Rules_and_Invariants/ERC20.sol|ERC20",
+                        "declaringContract": "ERC20",
+                        "method": {
+                            "contractName": "ERC20",
+                            "fullArgs": [],
+                            "isLibrary": false,
+                            "name": "computeDomainSeparator",
+                            "notpayable": true,
+                            "originalFile": "src/Using_requireInvariant_in_Rules_and_Invariants/ERC20.sol",
+                            "paramNames": [],
+                            "returns": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "bytes32",
+                                        "type": "Primitive"
+                                    }
+                                }
+                            ],
+                            "sighash": "0",
+                            "sourceBytes": {
+                                "begin": 5501,
+                                "size": 446
+                            },
+                            "stateMutability": "view",
+                            "visibility": "internal",
+                            "vyper_metadata": null
+                        }
+                    },
+                    "0xf196e50001": {
+                        "canonicalId": "src/Using_requireInvariant_in_Rules_and_Invariants/ERC20.sol|ERC20",
+                        "declaringContract": "ERC20",
+                        "method": {
+                            "contractName": "ERC20",
+                            "fullArgs": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "address",
+                                        "type": "Primitive"
+                                    }
+                                },
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "uint256",
+                                        "type": "Primitive"
+                                    }
+                                }
+                            ],
+                            "isLibrary": false,
+                            "name": "_mint",
+                            "notpayable": true,
+                            "originalFile": "src/Using_requireInvariant_in_Rules_and_Invariants/ERC20.sol",
+                            "paramNames": [
+                                "to",
+                                "amount"
+                            ],
+                            "returns": [],
+                            "sighash": "0",
+                            "sourceBytes": {
+                                "begin": 6141,
+                                "size": 325
+                            },
+                            "stateMutability": "nonpayable",
+                            "visibility": "internal",
+                            "vyper_metadata": null
+                        }
+                    },
+                    "0xf196e50002": {
+                        "canonicalId": "src/Using_requireInvariant_in_Rules_and_Invariants/ERC20.sol|ERC20",
+                        "declaringContract": "ERC20",
+                        "method": {
+                            "contractName": "ERC20",
+                            "fullArgs": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "address",
+                                        "type": "Primitive"
+                                    }
+                                },
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "uint256",
+                                        "type": "Primitive"
+                                    }
+                                }
+                            ],
+                            "isLibrary": false,
+                            "name": "_burn",
+                            "notpayable": true,
+                            "originalFile": "src/Using_requireInvariant_in_Rules_and_Invariants/ERC20.sol",
+                            "paramNames": [
+                                "from",
+                                "amount"
+                            ],
+                            "returns": [],
+                            "sighash": "0",
+                            "sourceBytes": {
+                                "begin": 6472,
+                                "size": 328
+                            },
+                            "stateMutability": "nonpayable",
+                            "visibility": "internal",
+                            "vyper_metadata": null
+                        }
+                    },
+                    "0xf196e50003": {
+                        "canonicalId": "src/Using_requireInvariant_in_Rules_and_Invariants/ERC20.sol|ERC20",
+                        "declaringContract": "ERC20",
+                        "method": {
+                            "contractName": "ERC20",
+                            "fullArgs": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "address",
+                                        "type": "Primitive"
+                                    }
+                                },
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "address",
+                                        "type": "Primitive"
+                                    }
+                                },
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "uint256",
+                                        "type": "Primitive"
+                                    }
+                                },
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "uint256",
+                                        "type": "Primitive"
+                                    }
+                                },
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "uint8",
+                                        "type": "Primitive"
+                                    }
+                                },
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "bytes32",
+                                        "type": "Primitive"
+                                    }
+                                },
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "bytes32",
+                                        "type": "Primitive"
+                                    }
+                                }
+                            ],
+                            "isLibrary": false,
+                            "name": "permit",
+                            "notpayable": true,
+                            "originalFile": "src/Using_requireInvariant_in_Rules_and_Invariants/ERC20.sol",
+                            "paramNames": [
+                                "owner",
+                                "spender",
+                                "value",
+                                "deadline",
+                                "v",
+                                "r",
+                                "s"
+                            ],
+                            "returns": [],
+                            "sighash": "d505accf",
+                            "sourceBytes": {
+                                "begin": 3829,
+                                "size": 1483
+                            },
+                            "stateMutability": "nonpayable",
+                            "visibility": "public",
+                            "vyper_metadata": null
+                        }
+                    },
+                    "0xf196e50004": {
+                        "canonicalId": "src/Using_requireInvariant_in_Rules_and_Invariants/ERC20.sol|ERC20",
+                        "declaringContract": "ERC20",
+                        "method": {
+                            "contractName": "ERC20",
+                            "fullArgs": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "address",
+                                        "type": "Primitive"
+                                    }
+                                },
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "uint256",
+                                        "type": "Primitive"
+                                    }
+                                }
+                            ],
+                            "isLibrary": false,
+                            "name": "approve",
+                            "notpayable": true,
+                            "originalFile": "src/Using_requireInvariant_in_Rules_and_Invariants/ERC20.sol",
+                            "paramNames": [
+                                "spender",
+                                "amount"
+                            ],
+                            "returns": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "bool",
+                                        "type": "Primitive"
+                                    }
+                                }
+                            ],
+                            "sighash": "095ea7b3",
+                            "sourceBytes": {
+                                "begin": 2452,
+                                "size": 211
+                            },
+                            "stateMutability": "nonpayable",
+                            "visibility": "public",
+                            "vyper_metadata": null
+                        }
+                    },
+                    "0xf196e50005": {
+                        "canonicalId": "src/Using_requireInvariant_in_Rules_and_Invariants/ERC20.sol|ERC20",
+                        "declaringContract": "ERC20",
+                        "method": {
+                            "contractName": "ERC20",
+                            "fullArgs": [],
+                            "isLibrary": false,
+                            "name": "DOMAIN_SEPARATOR",
+                            "notpayable": true,
+                            "originalFile": "src/Using_requireInvariant_in_Rules_and_Invariants/ERC20.sol",
+                            "paramNames": [],
+                            "returns": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "bytes32",
+                                        "type": "Primitive"
+                                    }
+                                }
+                            ],
+                            "sighash": "3644e515",
+                            "sourceBytes": {
+                                "begin": 5318,
+                                "size": 177
+                            },
+                            "stateMutability": "view",
+                            "visibility": "public",
+                            "vyper_metadata": null
+                        }
+                    },
+                    "0xf196e50006": {
+                        "canonicalId": "src/Using_requireInvariant_in_Rules_and_Invariants/ERC20.sol|ERC20",
+                        "declaringContract": "ERC20",
+                        "method": {
+                            "contractName": "ERC20",
+                            "fullArgs": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "address",
+                                        "type": "Primitive"
+                                    }
+                                },
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "uint256",
+                                        "type": "Primitive"
+                                    }
+                                }
+                            ],
+                            "isLibrary": false,
+                            "name": "transfer",
+                            "notpayable": true,
+                            "originalFile": "src/Using_requireInvariant_in_Rules_and_Invariants/ERC20.sol",
+                            "paramNames": [
+                                "to",
+                                "amount"
+                            ],
+                            "returns": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "bool",
+                                        "type": "Primitive"
+                                    }
+                                }
+                            ],
+                            "sighash": "a9059cbb",
+                            "sourceBytes": {
+                                "begin": 2669,
+                                "size": 373
+                            },
+                            "stateMutability": "nonpayable",
+                            "visibility": "public",
+                            "vyper_metadata": null
+                        }
+                    },
+                    "0xf196e50007": {
+                        "canonicalId": "src/Using_requireInvariant_in_Rules_and_Invariants/ERC20.sol|ERC20",
+                        "declaringContract": "ERC20",
+                        "method": {
+                            "contractName": "ERC20",
+                            "fullArgs": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "address",
+                                        "type": "Primitive"
+                                    }
+                                },
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "address",
+                                        "type": "Primitive"
+                                    }
+                                },
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "uint256",
+                                        "type": "Primitive"
+                                    }
+                                }
+                            ],
+                            "isLibrary": false,
+                            "name": "transferFrom",
+                            "notpayable": true,
+                            "originalFile": "src/Using_requireInvariant_in_Rules_and_Invariants/ERC20.sol",
+                            "paramNames": [
+                                "from",
+                                "to",
+                                "amount"
+                            ],
+                            "returns": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "bool",
+                                        "type": "Primitive"
+                                    }
+                                }
+                            ],
+                            "sighash": "23b872dd",
+                            "sourceBytes": {
+                                "begin": 3048,
+                                "size": 592
+                            },
+                            "stateMutability": "nonpayable",
+                            "visibility": "public",
+                            "vyper_metadata": null
+                        }
+                    }
+                },
+                "is_static_address": false,
+                "lang": "Solidity",
+                "localAssignments": {
+                    "1": {
+                        "lhs": "allowed",
+                        "sourceLoc": {
+                            "begin": "3182",
+                            "len": "45",
+                            "source": "0"
+                        }
+                    }
+                },
+                "methods": [
+                    {
+                        "contractName": "ERC20",
+                        "fullArgs": [
+                            {
+                                "location": "memory",
+                                "typeDesc": {
+                                    "type": "StringType"
+                                }
+                            },
+                            {
+                                "location": "memory",
+                                "typeDesc": {
+                                    "type": "StringType"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint8",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "constructor",
+                        "notpayable": true,
+                        "originalFile": "src/Using_requireInvariant_in_Rules_and_Invariants/ERC20.sol",
+                        "paramNames": [
+                            "_name",
+                            "_symbol",
+                            "_decimals"
+                        ],
+                        "returns": [],
+                        "sighash": "0",
+                        "sourceBytes": {
+                            "begin": 1972,
+                            "size": 292
+                        },
+                        "stateMutability": "nonpayable",
+                        "visibility": "public",
+                        "vyper_metadata": null
+                    },
+                    {
+                        "contractName": "ERC20",
+                        "fullArgs": [],
+                        "isLibrary": false,
+                        "name": "symbol",
+                        "notpayable": true,
+                        "originalFile": "src/Using_requireInvariant_in_Rules_and_Invariants/ERC20.sol",
+                        "paramNames": [],
+                        "returns": [
+                            {
+                                "location": "memory",
+                                "typeDesc": {
+                                    "type": "StringType"
+                                }
+                            }
+                        ],
+                        "sighash": "95d89b41",
+                        "sourceBytes": {
+                            "begin": 1047,
+                            "size": 20
+                        },
+                        "stateMutability": "view",
+                        "visibility": "external",
+                        "vyper_metadata": null
+                    },
+                    {
+                        "contractName": "ERC20",
+                        "fullArgs": [],
+                        "isLibrary": false,
+                        "name": "totalSupply",
+                        "notpayable": true,
+                        "originalFile": "src/Using_requireInvariant_in_Rules_and_Invariants/ERC20.sol",
+                        "paramNames": [],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "18160ddd",
+                        "sourceBytes": {
+                            "begin": 1295,
+                            "size": 26
+                        },
+                        "stateMutability": "view",
+                        "visibility": "external",
+                        "vyper_metadata": null
+                    },
+                    {
+                        "contractName": "ERC20",
+                        "fullArgs": [],
+                        "isLibrary": false,
+                        "name": "name",
+                        "notpayable": true,
+                        "originalFile": "src/Using_requireInvariant_in_Rules_and_Invariants/ERC20.sol",
+                        "paramNames": [],
+                        "returns": [
+                            {
+                                "location": "memory",
+                                "typeDesc": {
+                                    "type": "StringType"
+                                }
+                            }
+                        ],
+                        "sighash": "06fdde03",
+                        "sourceBytes": {
+                            "begin": 1022,
+                            "size": 18
+                        },
+                        "stateMutability": "view",
+                        "visibility": "external",
+                        "vyper_metadata": null
+                    },
+                    {
+                        "contractName": "ERC20",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "address",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "nonces",
+                        "notpayable": true,
+                        "originalFile": "src/Using_requireInvariant_in_Rules_and_Invariants/ERC20.sol",
+                        "paramNames": [],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "7ecebe00",
+                        "sourceBytes": {
+                            "begin": 1742,
+                            "size": 41
+                        },
+                        "stateMutability": "view",
+                        "visibility": "external",
+                        "vyper_metadata": null
+                    },
+                    {
+                        "contractName": "ERC20",
+                        "fullArgs": [],
+                        "isLibrary": false,
+                        "name": "decimals",
+                        "notpayable": true,
+                        "originalFile": "src/Using_requireInvariant_in_Rules_and_Invariants/ERC20.sol",
+                        "paramNames": [],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint8",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "313ce567",
+                        "sourceBytes": {
+                            "begin": 1074,
+                            "size": 31
+                        },
+                        "stateMutability": "view",
+                        "visibility": "external",
+                        "vyper_metadata": null
+                    },
+                    {
+                        "contractName": "ERC20",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "address",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "address",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint8",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "bytes32",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "bytes32",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "permit",
+                        "notpayable": true,
+                        "originalFile": "src/Using_requireInvariant_in_Rules_and_Invariants/ERC20.sol",
+                        "paramNames": [
+                            "owner",
+                            "spender",
+                            "value",
+                            "deadline",
+                            "v",
+                            "r",
+                            "s"
+                        ],
+                        "returns": [],
+                        "sighash": "d505accf",
+                        "sourceBytes": {
+                            "begin": 3829,
+                            "size": 1483
+                        },
+                        "stateMutability": "nonpayable",
+                        "visibility": "public",
+                        "vyper_metadata": null
+                    },
+                    {
+                        "contractName": "ERC20",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "address",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "balanceOf",
+                        "notpayable": true,
+                        "originalFile": "src/Using_requireInvariant_in_Rules_and_Invariants/ERC20.sol",
+                        "paramNames": [],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "70a08231",
+                        "sourceBytes": {
+                            "begin": 1328,
+                            "size": 44
+                        },
+                        "stateMutability": "view",
+                        "visibility": "external",
+                        "vyper_metadata": null
+                    },
+                    {
+                        "contractName": "ERC20",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "address",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "approve",
+                        "notpayable": true,
+                        "originalFile": "src/Using_requireInvariant_in_Rules_and_Invariants/ERC20.sol",
+                        "paramNames": [
+                            "spender",
+                            "amount"
+                        ],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "bool",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "095ea7b3",
+                        "sourceBytes": {
+                            "begin": 2452,
+                            "size": 211
+                        },
+                        "stateMutability": "nonpayable",
+                        "visibility": "public",
+                        "vyper_metadata": null
+                    },
+                    {
+                        "contractName": "ERC20",
+                        "fullArgs": [],
+                        "isLibrary": false,
+                        "name": "DOMAIN_SEPARATOR",
+                        "notpayable": true,
+                        "originalFile": "src/Using_requireInvariant_in_Rules_and_Invariants/ERC20.sol",
+                        "paramNames": [],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "bytes32",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "3644e515",
+                        "sourceBytes": {
+                            "begin": 5318,
+                            "size": 177
+                        },
+                        "stateMutability": "view",
+                        "visibility": "public",
+                        "vyper_metadata": null
+                    },
+                    {
+                        "contractName": "ERC20",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "address",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "transfer",
+                        "notpayable": true,
+                        "originalFile": "src/Using_requireInvariant_in_Rules_and_Invariants/ERC20.sol",
+                        "paramNames": [
+                            "to",
+                            "amount"
+                        ],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "bool",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "a9059cbb",
+                        "sourceBytes": {
+                            "begin": 2669,
+                            "size": 373
+                        },
+                        "stateMutability": "nonpayable",
+                        "visibility": "public",
+                        "vyper_metadata": null
+                    },
+                    {
+                        "contractName": "ERC20",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "address",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "address",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "transferFrom",
+                        "notpayable": true,
+                        "originalFile": "src/Using_requireInvariant_in_Rules_and_Invariants/ERC20.sol",
+                        "paramNames": [
+                            "from",
+                            "to",
+                            "amount"
+                        ],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "bool",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "23b872dd",
+                        "sourceBytes": {
+                            "begin": 3048,
+                            "size": 592
+                        },
+                        "stateMutability": "nonpayable",
+                        "visibility": "public",
+                        "vyper_metadata": null
+                    },
+                    {
+                        "contractName": "ERC20",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "address",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "address",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "allowance",
+                        "notpayable": true,
+                        "originalFile": "src/Using_requireInvariant_in_Rules_and_Invariants/ERC20.sol",
+                        "paramNames": [],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "dd62ed3e",
+                        "sourceBytes": {
+                            "begin": 1379,
+                            "size": 64
+                        },
+                        "stateMutability": "view",
+                        "visibility": "external",
+                        "vyper_metadata": null
+                    }
+                ],
+                "name": "ERC20",
+                "original_file": "src/Using_requireInvariant_in_Rules_and_Invariants/ERC20.sol",
+                "solidityTypes": [],
+                "sourceBytes": {
+                    "begin": 474,
+                    "size": 6328
+                },
+                "srcmap": "474:9127:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1022:18;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;2452:568;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;1295:26;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;3762:1058;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;1074:31;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;6855:451;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;1328:44;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;1742:41;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;1047:20;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;3026:730;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;5009:1840;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;1379:64;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;1022:18;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;2452:568::-;2526:4;2635:13;2567:66;2560:89;2725:1;2657:66;2650:77;2803:1;2735:66;2728:77;2881:6;2813:66;2806:82;2932:6;2899:9;:21;2909:10;2899:21;;;;;;;;;;;;;;;:30;2921:7;2899:30;;;;;;;;;;;;;;;:39;;;;2975:7;2954:37;;2963:10;2954:37;;;2984:6;2954:37;;;;;;:::i;:::-;;;;;;;;3009:4;3002:11;;2452:568;;;;:::o;1295:26::-;;;;:::o;3762:1058::-;3880:4;3989:13;3921:66;3914:89;4079:1;4011:66;4004:77;4157:2;4089:66;4082:78;4236:6;4168:66;4161:82;4254:15;4272:9;:15;4282:4;4272:15;;;;;;;;;;;;;;;:27;4288:10;4272:27;;;;;;;;;;;;;;;;4254:45;;4399:7;4332:66;4325:82;4469:17;4458:7;:28;4454:80;;4528:6;4518:7;:16;;;;:::i;:::-;4488:9;:15;4498:4;4488:15;;;;;;;;;;;;;;;:27;4504:10;4488:27;;;;;;;;;;;;;;;:46;;;;4454:80;4564:6;4545:9;:15;4555:4;4545:15;;;;;;;;;;;;;;;;:25;;;;;;;:::i;:::-;;;;;;;;4733:6;4716:9;:13;4726:2;4716:13;;;;;;;;;;;;;;;;:23;;;;;;;;;;;4780:2;4765:26;;4774:4;4765:26;;;4784:6;4765:26;;;;;;:::i;:::-;;;;;;;;4809:4;4802:11;;;3762:1058;;;;;:::o;1074:31::-;;;:::o;6855:451::-;6912:7;7024:13;6956:66;6949:89;7114:1;7046:66;7039:77;7192:1;7124:66;7117:77;7229:16;7212:13;:33;:87;;7275:24;:22;:24::i;:::-;7212:87;;;7248:24;7212:87;7205:94;;6855:451;:::o;1328:44::-;;;;;;;;;;;;;;;;;:::o;1742:41::-;;;;;;;;;;;;;;;;;:::o;1047:20::-;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;3026:730::-;3096:4;3205:13;3137:66;3130:89;3295:1;3227:66;3220:77;3373:1;3305:66;3298:77;3451:6;3383:66;3376:82;3494:6;3469:9;:21;3479:10;3469:21;;;;;;;;;;;;;;;;:31;;;;;;;:::i;:::-;;;;;;;;3663:6;3646:9;:13;3656:2;3646:13;;;;;;;;;;;;;;;;:23;;;;;;;;;;;3716:2;3695:32;;3704:10;3695:32;;;3720:6;3695:32;;;;;;:::i;:::-;;;;;;;;3745:4;3738:11;;3026:730;;;;:::o;5009:1840::-;5301:13;5233:66;5226:89;5391:1;5323:66;5316:77;5469:6;5401:66;5394:82;5552:1;5484:66;5477:77;5585:15;5573:8;:27;;5565:63;;;;;;;;;;;;:::i;:::-;;;;;;;;;5793:24;5820:805;5956:18;:16;:18::i;:::-;6083:165;6282:5;6321:7;6362:5;6401:6;:13;6408:5;6401:13;;;;;;;;;;;;;;;;:15;;;;;;;;;;;;6450:8;6039:449;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;6000:514;;;;;;5878:658;;;;;;;;;:::i;:::-;;;;;;;;;;;;;5847:707;;;;;;6572:1;6591;6610;5820:805;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;5793:832;;6676:1;6648:30;;:16;:30;;;;:59;;;;;6702:5;6682:25;;:16;:25;;;6648:59;6640:86;;;;;;;;;;;;:::i;:::-;;;;;;;;;6780:5;6741:9;:27;6751:16;6741:27;;;;;;;;;;;;;;;:36;6769:7;6741:36;;;;;;;;;;;;;;;:44;;;;5769:1027;6827:7;6811:31;;6820:5;6811:31;;;6836:5;6811:31;;;;;;:::i;:::-;;;;;;;;5009:1840;;;;;;;:::o;1379:64::-;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;7312:720::-;7377:7;7489:13;7421:66;7414:89;7579:1;7511:66;7504:77;7657:1;7589:66;7582:77;7748:95;7881:4;7865:22;;;;;;:::i;:::-;;;;;;;;7909:14;7945:13;7988:4;7716:295;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;7689:336;;;;;;7670:355;;7312:720;:::o;7:99:1:-;59:6;93:5;87:12;77:22;;7:99;;;:::o;112:169::-;196:11;230:6;225:3;218:19;270:4;265:3;261:14;246:29;;112:169;;;;:::o;287:139::-;376:6;371:3;366;360:23;417:1;408:6;403:3;399:16;392:27;287:139;;;:::o;432:102::-;473:6;524:2;520:7;515:2;508:5;504:14;500:28;490:38;;432:102;;;:::o;540:377::-;628:3;656:39;689:5;656:39;:::i;:::-;711:71;775:6;770:3;711:71;:::i;:::-;704:78;;791:65;849:6;844:3;837:4;830:5;826:16;791:65;:::i;:::-;881:29;903:6;881:29;:::i;:::-;876:3;872:39;865:46;;632:285;540:377;;;;:::o;923:313::-;1036:4;1074:2;1063:9;1059:18;1051:26;;1123:9;1117:4;1113:20;1109:1;1098:9;1094:17;1087:47;1151:78;1224:4;1215:6;1151:78;:::i;:::-;1143:86;;923:313;;;;:::o;1323:117::-;1432:1;1429;1422:12;1569:126;1606:7;1646:42;1639:5;1635:54;1624:65;;1569:126;;;:::o;1701:96::-;1738:7;1767:24;1785:5;1767:24;:::i;:::-;1756:35;;1701:96;;;:::o;1803:122::-;1876:24;1894:5;1876:24;:::i;:::-;1869:5;1866:35;1856:63;;1915:1;1912;1905:12;1856:63;1803:122;:::o;1931:139::-;1977:5;2015:6;2002:20;1993:29;;2031:33;2058:5;2031:33;:::i;:::-;1931:139;;;;:::o;2076:77::-;2113:7;2142:5;2131:16;;2076:77;;;:::o;2159:122::-;2232:24;2250:5;2232:24;:::i;:::-;2225:5;2222:35;2212:63;;2271:1;2268;2261:12;2212:63;2159:122;:::o;2287:139::-;2333:5;2371:6;2358:20;2349:29;;2387:33;2414:5;2387:33;:::i;:::-;2287:139;;;;:::o;2432:474::-;2500:6;2508;2557:2;2545:9;2536:7;2532:23;2528:32;2525:119;;;2563:79;;:::i;:::-;2525:119;2683:1;2708:53;2753:7;2744:6;2733:9;2729:22;2708:53;:::i;:::-;2698:63;;2654:117;2810:2;2836:53;2881:7;2872:6;2861:9;2857:22;2836:53;:::i;:::-;2826:63;;2781:118;2432:474;;;;;:::o;2912:90::-;2946:7;2989:5;2982:13;2975:21;2964:32;;2912:90;;;:::o;3008:109::-;3089:21;3104:5;3089:21;:::i;:::-;3084:3;3077:34;3008:109;;:::o;3123:210::-;3210:4;3248:2;3237:9;3233:18;3225:26;;3261:65;3323:1;3312:9;3308:17;3299:6;3261:65;:::i;:::-;3123:210;;;;:::o;3339:118::-;3426:24;3444:5;3426:24;:::i;:::-;3421:3;3414:37;3339:118;;:::o;3463:222::-;3556:4;3594:2;3583:9;3579:18;3571:26;;3607:71;3675:1;3664:9;3660:17;3651:6;3607:71;:::i;:::-;3463:222;;;;:::o;3691:619::-;3768:6;3776;3784;3833:2;3821:9;3812:7;3808:23;3804:32;3801:119;;;3839:79;;:::i;:::-;3801:119;3959:1;3984:53;4029:7;4020:6;4009:9;4005:22;3984:53;:::i;:::-;3974:63;;3930:117;4086:2;4112:53;4157:7;4148:6;4137:9;4133:22;4112:53;:::i;:::-;4102:63;;4057:118;4214:2;4240:53;4285:7;4276:6;4265:9;4261:22;4240:53;:::i;:::-;4230:63;;4185:118;3691:619;;;;;:::o;4316:86::-;4351:7;4391:4;4384:5;4380:16;4369:27;;4316:86;;;:::o;4408:112::-;4491:22;4507:5;4491:22;:::i;:::-;4486:3;4479:35;4408:112;;:::o;4526:214::-;4615:4;4653:2;4642:9;4638:18;4630:26;;4666:67;4730:1;4719:9;4715:17;4706:6;4666:67;:::i;:::-;4526:214;;;;:::o;4746:77::-;4783:7;4812:5;4801:16;;4746:77;;;:::o;4829:118::-;4916:24;4934:5;4916:24;:::i;:::-;4911:3;4904:37;4829:118;;:::o;4953:222::-;5046:4;5084:2;5073:9;5069:18;5061:26;;5097:71;5165:1;5154:9;5150:17;5141:6;5097:71;:::i;:::-;4953:222;;;;:::o;5181:329::-;5240:6;5289:2;5277:9;5268:7;5264:23;5260:32;5257:119;;;5295:79;;:::i;:::-;5257:119;5415:1;5440:53;5485:7;5476:6;5465:9;5461:22;5440:53;:::i;:::-;5430:63;;5386:117;5181:329;;;;:::o;5516:118::-;5587:22;5603:5;5587:22;:::i;:::-;5580:5;5577:33;5567:61;;5624:1;5621;5614:12;5567:61;5516:118;:::o;5640:135::-;5684:5;5722:6;5709:20;5700:29;;5738:31;5763:5;5738:31;:::i;:::-;5640:135;;;;:::o;5781:122::-;5854:24;5872:5;5854:24;:::i;:::-;5847:5;5844:35;5834:63;;5893:1;5890;5883:12;5834:63;5781:122;:::o;5909:139::-;5955:5;5993:6;5980:20;5971:29;;6009:33;6036:5;6009:33;:::i;:::-;5909:139;;;;:::o;6054:1199::-;6165:6;6173;6181;6189;6197;6205;6213;6262:3;6250:9;6241:7;6237:23;6233:33;6230:120;;;6269:79;;:::i;:::-;6230:120;6389:1;6414:53;6459:7;6450:6;6439:9;6435:22;6414:53;:::i;:::-;6404:63;;6360:117;6516:2;6542:53;6587:7;6578:6;6567:9;6563:22;6542:53;:::i;:::-;6532:63;;6487:118;6644:2;6670:53;6715:7;6706:6;6695:9;6691:22;6670:53;:::i;:::-;6660:63;;6615:118;6772:2;6798:53;6843:7;6834:6;6823:9;6819:22;6798:53;:::i;:::-;6788:63;;6743:118;6900:3;6927:51;6970:7;6961:6;6950:9;6946:22;6927:51;:::i;:::-;6917:61;;6871:117;7027:3;7054:53;7099:7;7090:6;7079:9;7075:22;7054:53;:::i;:::-;7044:63;;6998:119;7156:3;7183:53;7228:7;7219:6;7208:9;7204:22;7183:53;:::i;:::-;7173:63;;7127:119;6054:1199;;;;;;;;;;:::o;7259:474::-;7327:6;7335;7384:2;7372:9;7363:7;7359:23;7355:32;7352:119;;;7390:79;;:::i;:::-;7352:119;7510:1;7535:53;7580:7;7571:6;7560:9;7556:22;7535:53;:::i;:::-;7525:63;;7481:117;7637:2;7663:53;7708:7;7699:6;7688:9;7684:22;7663:53;:::i;:::-;7653:63;;7608:118;7259:474;;;;;:::o;7739:180::-;7787:77;7784:1;7777:88;7884:4;7881:1;7874:15;7908:4;7905:1;7898:15;7925:320;7969:6;8006:1;8000:4;7996:12;7986:22;;8053:1;8047:4;8043:12;8074:18;8064:81;;8130:4;8122:6;8118:17;8108:27;;8064:81;8192:2;8184:6;8181:14;8161:18;8158:38;8155:84;;8211:18;;:::i;:::-;8155:84;7976:269;7925:320;;;:::o;8251:180::-;8299:77;8296:1;8289:88;8396:4;8393:1;8386:15;8420:4;8417:1;8410:15;8437:194;8477:4;8497:20;8515:1;8497:20;:::i;:::-;8492:25;;8531:20;8549:1;8531:20;:::i;:::-;8526:25;;8575:1;8572;8568:9;8560:17;;8599:1;8593:4;8590:11;8587:37;;;8604:18;;:::i;:::-;8587:37;8437:194;;;;:::o;8637:173::-;8777:25;8773:1;8765:6;8761:14;8754:49;8637:173;:::o;8816:366::-;8958:3;8979:67;9043:2;9038:3;8979:67;:::i;:::-;8972:74;;9055:93;9144:3;9055:93;:::i;:::-;9173:2;9168:3;9164:12;9157:19;;8816:366;;;:::o;9188:419::-;9354:4;9392:2;9381:9;9377:18;9369:26;;9441:9;9435:4;9431:20;9427:1;9416:9;9412:17;9405:47;9469:131;9595:4;9469:131;:::i;:::-;9461:139;;9188:419;;;:::o;9613:118::-;9700:24;9718:5;9700:24;:::i;:::-;9695:3;9688:37;9613:118;;:::o;9737:775::-;9970:4;10008:3;9997:9;9993:19;9985:27;;10022:71;10090:1;10079:9;10075:17;10066:6;10022:71;:::i;:::-;10103:72;10171:2;10160:9;10156:18;10147:6;10103:72;:::i;:::-;10185;10253:2;10242:9;10238:18;10229:6;10185:72;:::i;:::-;10267;10335:2;10324:9;10320:18;10311:6;10267:72;:::i;:::-;10349:73;10417:3;10406:9;10402:19;10393:6;10349:73;:::i;:::-;10432;10500:3;10489:9;10485:19;10476:6;10432:73;:::i;:::-;9737:775;;;;;;;;;:::o;10518:148::-;10620:11;10657:3;10642:18;;10518:148;;;;:::o;10672:214::-;10812:66;10808:1;10800:6;10796:14;10789:90;10672:214;:::o;10892:400::-;11052:3;11073:84;11155:1;11150:3;11073:84;:::i;:::-;11066:91;;11166:93;11255:3;11166:93;:::i;:::-;11284:1;11279:3;11275:11;11268:18;;10892:400;;;:::o;11298:79::-;11337:7;11366:5;11355:16;;11298:79;;;:::o;11383:157::-;11488:45;11508:24;11526:5;11508:24;:::i;:::-;11488:45;:::i;:::-;11483:3;11476:58;11383:157;;:::o;11546:663::-;11787:3;11809:148;11953:3;11809:148;:::i;:::-;11802:155;;11967:75;12038:3;12029:6;11967:75;:::i;:::-;12067:2;12062:3;12058:12;12051:19;;12080:75;12151:3;12142:6;12080:75;:::i;:::-;12180:2;12175:3;12171:12;12164:19;;12200:3;12193:10;;11546:663;;;;;:::o;12215:545::-;12388:4;12426:3;12415:9;12411:19;12403:27;;12440:71;12508:1;12497:9;12493:17;12484:6;12440:71;:::i;:::-;12521:68;12585:2;12574:9;12570:18;12561:6;12521:68;:::i;:::-;12599:72;12667:2;12656:9;12652:18;12643:6;12599:72;:::i;:::-;12681;12749:2;12738:9;12734:18;12725:6;12681:72;:::i;:::-;12215:545;;;;;;;:::o;12766:164::-;12906:16;12902:1;12894:6;12890:14;12883:40;12766:164;:::o;12936:366::-;13078:3;13099:67;13163:2;13158:3;13099:67;:::i;:::-;13092:74;;13175:93;13264:3;13175:93;:::i;:::-;13293:2;13288:3;13284:12;13277:19;;12936:366;;;:::o;13308:419::-;13474:4;13512:2;13501:9;13497:18;13489:26;;13561:9;13555:4;13551:20;13547:1;13536:9;13532:17;13525:47;13589:131;13715:4;13589:131;:::i;:::-;13581:139;;13308:419;;;:::o;13733:147::-;13834:11;13871:3;13856:18;;13733:147;;;;:::o;13886:144::-;13938:4;13961:3;13953:11;;13984:3;13981:1;13974:14;14018:4;14015:1;14005:18;13997:26;;13886:144;;;:::o;14058:878::-;14163:3;14200:5;14194:12;14229:36;14255:9;14229:36;:::i;:::-;14281:88;14362:6;14357:3;14281:88;:::i;:::-;14274:95;;14400:1;14389:9;14385:17;14416:1;14411:166;;;;14591:1;14586:344;;;;14378:552;;14411:166;14495:4;14491:9;14480;14476:25;14471:3;14464:38;14557:6;14550:14;14543:22;14535:6;14531:35;14526:3;14522:45;14515:52;;14411:166;;14586:344;14653:41;14688:5;14653:41;:::i;:::-;14716:1;14730:154;14744:6;14741:1;14738:13;14730:154;;;14818:7;14812:14;14808:1;14803:3;14799:11;14792:35;14868:1;14859:7;14855:15;14844:26;;14766:4;14763:1;14759:12;14754:17;;14730:154;;;14913:6;14908:3;14904:16;14897:23;;14593:337;;14378:552;;14167:769;;14058:878;;;;:::o;14942:273::-;15073:3;15095:94;15185:3;15176:6;15095:94;:::i;:::-;15088:101;;15206:3;15199:10;;14942:273;;;;:::o;15221:664::-;15426:4;15464:3;15453:9;15449:19;15441:27;;15478:71;15546:1;15535:9;15531:17;15522:6;15478:71;:::i;:::-;15559:72;15627:2;15616:9;15612:18;15603:6;15559:72;:::i;:::-;15641;15709:2;15698:9;15694:18;15685:6;15641:72;:::i;:::-;15723;15791:2;15780:9;15776:18;15767:6;15723:72;:::i;:::-;15805:73;15873:3;15862:9;15858:19;15849:6;15805:73;:::i;:::-;15221:664;;;;;;;;:::o",
+                "storageLayout": {
+                    "storage": [
+                        {
+                            "astId": 20,
+                            "contract": "/home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module2/.certora_internal/26_02_22_16_22_56_011502fbe5/.certora_sources/src/Using_requireInvariant_in_Rules_and_Invariants/ERC20.sol:ERC20",
+                            "descriptor": {
+                                "annotations": [
+                                    {
+                                        "numberOfBytes": "32",
+                                        "type": "StorageAnnotation"
+                                    }
+                                ],
+                                "type": "StringType"
+                            },
+                            "label": "name",
+                            "offset": 0,
+                            "slot": "0",
+                            "type": "t_string_storage"
+                        },
+                        {
+                            "astId": 22,
+                            "contract": "/home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module2/.certora_internal/26_02_22_16_22_56_011502fbe5/.certora_sources/src/Using_requireInvariant_in_Rules_and_Invariants/ERC20.sol:ERC20",
+                            "descriptor": {
+                                "annotations": [
+                                    {
+                                        "numberOfBytes": "32",
+                                        "type": "StorageAnnotation"
+                                    }
+                                ],
+                                "type": "StringType"
+                            },
+                            "label": "symbol",
+                            "offset": 0,
+                            "slot": "1",
+                            "type": "t_string_storage"
+                        },
+                        {
+                            "astId": 26,
+                            "contract": "/home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module2/.certora_internal/26_02_22_16_22_56_011502fbe5/.certora_sources/src/Using_requireInvariant_in_Rules_and_Invariants/ERC20.sol:ERC20",
+                            "descriptor": {
+                                "annotations": [
+                                    {
+                                        "numberOfBytes": "32",
+                                        "type": "StorageAnnotation"
+                                    }
+                                ],
+                                "primitiveName": "uint256",
+                                "type": "Primitive"
+                            },
+                            "label": "totalSupply",
+                            "offset": 0,
+                            "slot": "2",
+                            "type": "t_uint256"
+                        },
+                        {
+                            "astId": 30,
+                            "contract": "/home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module2/.certora_internal/26_02_22_16_22_56_011502fbe5/.certora_sources/src/Using_requireInvariant_in_Rules_and_Invariants/ERC20.sol:ERC20",
+                            "descriptor": {
+                                "annotations": [
+                                    {
+                                        "numberOfBytes": "32",
+                                        "type": "StorageAnnotation"
+                                    }
+                                ],
+                                "mappingKeyType": {
+                                    "annotations": [
+                                        {
+                                            "numberOfBytes": "20",
+                                            "type": "StorageAnnotation"
+                                        }
+                                    ],
+                                    "primitiveName": "address",
+                                    "type": "Primitive"
+                                },
+                                "mappingValueType": {
+                                    "annotations": [
+                                        {
+                                            "numberOfBytes": "32",
+                                            "type": "StorageAnnotation"
+                                        }
+                                    ],
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                },
+                                "type": "Mapping"
+                            },
+                            "label": "balanceOf",
+                            "offset": 0,
+                            "slot": "3",
+                            "type": "t_mapping(t_address,t_uint256)"
+                        },
+                        {
+                            "astId": 36,
+                            "contract": "/home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module2/.certora_internal/26_02_22_16_22_56_011502fbe5/.certora_sources/src/Using_requireInvariant_in_Rules_and_Invariants/ERC20.sol:ERC20",
+                            "descriptor": {
+                                "annotations": [
+                                    {
+                                        "numberOfBytes": "32",
+                                        "type": "StorageAnnotation"
+                                    }
+                                ],
+                                "mappingKeyType": {
+                                    "annotations": [
+                                        {
+                                            "numberOfBytes": "20",
+                                            "type": "StorageAnnotation"
+                                        }
+                                    ],
+                                    "primitiveName": "address",
+                                    "type": "Primitive"
+                                },
+                                "mappingValueType": {
+                                    "annotations": [
+                                        {
+                                            "numberOfBytes": "32",
+                                            "type": "StorageAnnotation"
+                                        }
+                                    ],
+                                    "mappingKeyType": {
+                                        "annotations": [
+                                            {
+                                                "numberOfBytes": "20",
+                                                "type": "StorageAnnotation"
+                                            }
+                                        ],
+                                        "primitiveName": "address",
+                                        "type": "Primitive"
+                                    },
+                                    "mappingValueType": {
+                                        "annotations": [
+                                            {
+                                                "numberOfBytes": "32",
+                                                "type": "StorageAnnotation"
+                                            }
+                                        ],
+                                        "primitiveName": "uint256",
+                                        "type": "Primitive"
+                                    },
+                                    "type": "Mapping"
+                                },
+                                "type": "Mapping"
+                            },
+                            "label": "allowance",
+                            "offset": 0,
+                            "slot": "4",
+                            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))"
+                        },
+                        {
+                            "astId": 44,
+                            "contract": "/home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module2/.certora_internal/26_02_22_16_22_56_011502fbe5/.certora_sources/src/Using_requireInvariant_in_Rules_and_Invariants/ERC20.sol:ERC20",
+                            "descriptor": {
+                                "annotations": [
+                                    {
+                                        "numberOfBytes": "32",
+                                        "type": "StorageAnnotation"
+                                    }
+                                ],
+                                "mappingKeyType": {
+                                    "annotations": [
+                                        {
+                                            "numberOfBytes": "20",
+                                            "type": "StorageAnnotation"
+                                        }
+                                    ],
+                                    "primitiveName": "address",
+                                    "type": "Primitive"
+                                },
+                                "mappingValueType": {
+                                    "annotations": [
+                                        {
+                                            "numberOfBytes": "32",
+                                            "type": "StorageAnnotation"
+                                        }
+                                    ],
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                },
+                                "type": "Mapping"
+                            },
+                            "label": "nonces",
+                            "offset": 0,
+                            "slot": "5",
+                            "type": "t_mapping(t_address,t_uint256)"
+                        }
+                    ],
+                    "types": {
+                        "t_address": {
+                            "encoding": "inplace",
+                            "label": "address",
+                            "numberOfBytes": "20"
+                        },
+                        "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+                            "encoding": "mapping",
+                            "key": "t_address",
+                            "label": "mapping(address => mapping(address => uint256))",
+                            "numberOfBytes": "32",
+                            "value": "t_mapping(t_address,t_uint256)"
+                        },
+                        "t_mapping(t_address,t_uint256)": {
+                            "encoding": "mapping",
+                            "key": "t_address",
+                            "label": "mapping(address => uint256)",
+                            "numberOfBytes": "32",
+                            "value": "t_uint256"
+                        },
+                        "t_string_storage": {
+                            "encoding": "bytes",
+                            "label": "string",
+                            "numberOfBytes": "32"
+                        },
+                        "t_uint256": {
+                            "encoding": "inplace",
+                            "label": "uint256",
+                            "numberOfBytes": "32"
+                        }
+                    }
+                },
+                "transientStorageLayout": {
+                    "storage": [],
+                    "types": null
+                },
+                "varmap": ""
+            }
+        ],
+        "legacyStructLinking": {},
+        "library_addresses": [],
+        "origSourceDir": ".pre_autofinders.0",
+        "primary_contract": "ERC20",
+        "primary_contract_address": "00000000ce4604a0000000000000000000000001",
+        "prototypeFor": [],
+        "sdc_name": "ERC20.sol_0",
+        "sourceDir": ".post_autofinders.0",
+        "srclist": {
+            "0": "src/Using_requireInvariant_in_Rules_and_Invariants/ERC20.sol"
+        },
+        "state": {},
+        "structLinkingInfo": {}
+    }
+}

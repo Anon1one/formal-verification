@@ -1,0 +1,8 @@
+{
+    "importFilesToOrigRelpaths": {},
+    "primary_contract": "RareToken",
+    "specfile": "certora/Introduction_to_Parametric_Rules/RareToken.spec",
+    "specfileOrigRelpath": "certora/Introduction_to_Parametric_Rules/RareToken.spec",
+    "specfilesToImportDecls": {},
+    "type": "spec"
+}

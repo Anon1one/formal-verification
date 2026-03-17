@@ -1,0 +1,16 @@
+Saving last configuration file to .certora_internal/26_03_16_11_34_23_156731193b/run.conf
+You are using certora-cli version 8.6.1; however, version 8.8.1 is available. It is recommended to upgrade by running: pip install certora-cli --upgrade
+or
+pip3 install certora-cli --upgrade
+There is no TAC file. Going to script CertoraProver/certoraBuild.py to main_with_args()
+main build cache key computed based on {'files': ['src/Invariants_for_ERC-721/ERC721ReceiverHarness.sol', 'src/Transfer_and_Approval_Rules_for_ERC-721/ERC721Harness.sol'], 'package_version_for_build_cache': 'certora-cli 8.6.1', 'packages': ['forge-std/=lib/forge-std/src', 'forge-std/src/=lib/forge-std/src'], 'packages_path': 'node_modules', 'solc': 'solc', 'solc_allow_path': '.', 'test_condition': 'True'}
+Creating dir /home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module2/.certora_internal/26_03_16_11_34_23_156731193b/.certora_config
+In /home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module2/certora/Transfer_and_Approval_Rules_for_ERC-721/ERC721.spec, found the imports: []
+copying spec file /home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module2/certora/Transfer_and_Approval_Rules_for_ERC-721/ERC721.spec to /home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module2/.certora_internal/26_03_16_11_34_23_156731193b/.certora_sources/.0_ERC721.spec.spec
+writing /home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module2/.certora_internal/26_03_16_11_34_23_156731193b/.certora_verify.json
+Failed to run Certora Prover typechecker locally.
+Please check the errors below for problems in the specifications (.spec files) or the prover_args defined in the .conf file.
+[main] ERROR ALWAYS - Found errors in certora/Transfer_and_Approval_Rules_for_ERC-721/ERC721.spec:
+[main] ERROR ALWAYS - Error in spec file (ERC721.spec:130:18): Syntax error: unexpected token near `==`
+[main] ERROR ALWAYS - Error in spec file (ERC721.spec:134:1): Syntax error: unexpected token near `}`
+build failed

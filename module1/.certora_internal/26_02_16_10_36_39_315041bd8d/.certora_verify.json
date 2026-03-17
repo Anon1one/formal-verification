@@ -1,0 +1,8 @@
+{
+    "importFilesToOrigRelpaths": {},
+    "primary_contract": "OwnerCounter",
+    "specfile": "certora/Testing_msg.sender_and_msg.value_in_CVL/counter.spec",
+    "specfileOrigRelpath": "certora/Testing_msg.sender_and_msg.value_in_CVL/counter.spec",
+    "specfilesToImportDecls": {},
+    "type": "spec"
+}

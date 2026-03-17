@@ -1,0 +1,1115 @@
+{
+    "InitializableHarness_00000000ce4604a0000000000000000000000003": {
+        "contracts": [
+            {
+                "address": "00000000ce4604a0000000000000000000000003",
+                "allMethods": [
+                    {
+                        "contractName": "InitializableHarness",
+                        "fullArgs": [],
+                        "isLibrary": false,
+                        "name": "disable",
+                        "notpayable": true,
+                        "originalFile": "src/Formally_verifying_Initializable.sol/InitializableHarness.sol",
+                        "paramNames": [],
+                        "returns": [],
+                        "sighash": "2f2770db",
+                        "sourceBytes": {
+                            "begin": 289,
+                            "size": 66
+                        },
+                        "stateMutability": "nonpayable",
+                        "visibility": "public",
+                        "vyper_metadata": null
+                    },
+                    {
+                        "contractName": "InitializableHarness",
+                        "fullArgs": [],
+                        "isLibrary": false,
+                        "name": "initialize",
+                        "notpayable": true,
+                        "originalFile": "src/Formally_verifying_Initializable.sol/InitializableHarness.sol",
+                        "paramNames": [],
+                        "returns": [],
+                        "sighash": "8129fc1c",
+                        "sourceBytes": {
+                            "begin": 163,
+                            "size": 58
+                        },
+                        "stateMutability": "nonpayable",
+                        "visibility": "public",
+                        "vyper_metadata": null
+                    },
+                    {
+                        "contractName": "InitializableHarness",
+                        "fullArgs": [],
+                        "isLibrary": false,
+                        "name": "initializing",
+                        "notpayable": true,
+                        "originalFile": "src/Formally_verifying_Initializable.sol/InitializableHarness.sol",
+                        "paramNames": [],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "bool",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "2599f159",
+                        "sourceBytes": {
+                            "begin": 860,
+                            "size": 92
+                        },
+                        "stateMutability": "view",
+                        "visibility": "public",
+                        "vyper_metadata": null
+                    },
+                    {
+                        "contractName": "InitializableHarness",
+                        "fullArgs": [],
+                        "isLibrary": false,
+                        "name": "nested_init_init",
+                        "notpayable": true,
+                        "originalFile": "src/Formally_verifying_Initializable.sol/InitializableHarness.sol",
+                        "paramNames": [],
+                        "returns": [],
+                        "sighash": "eed2724f",
+                        "sourceBytes": {
+                            "begin": 361,
+                            "size": 94
+                        },
+                        "stateMutability": "nonpayable",
+                        "visibility": "public",
+                        "vyper_metadata": null
+                    },
+                    {
+                        "contractName": "InitializableHarness",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint64",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "nested_init_reinit",
+                        "notpayable": true,
+                        "originalFile": "src/Formally_verifying_Initializable.sol/InitializableHarness.sol",
+                        "paramNames": [
+                            "m"
+                        ],
+                        "returns": [],
+                        "sighash": "9b98ba33",
+                        "sourceBytes": {
+                            "begin": 460,
+                            "size": 94
+                        },
+                        "stateMutability": "nonpayable",
+                        "visibility": "public",
+                        "vyper_metadata": null
+                    },
+                    {
+                        "contractName": "InitializableHarness",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint64",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "nested_reinit_init",
+                        "notpayable": true,
+                        "originalFile": "src/Formally_verifying_Initializable.sol/InitializableHarness.sol",
+                        "paramNames": [
+                            "n"
+                        ],
+                        "returns": [],
+                        "sighash": "55466bdf",
+                        "sourceBytes": {
+                            "begin": 559,
+                            "size": 94
+                        },
+                        "stateMutability": "nonpayable",
+                        "visibility": "public",
+                        "vyper_metadata": null
+                    },
+                    {
+                        "contractName": "InitializableHarness",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint64",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint64",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "nested_reinit_reinit",
+                        "notpayable": true,
+                        "originalFile": "src/Formally_verifying_Initializable.sol/InitializableHarness.sol",
+                        "paramNames": [
+                            "n",
+                            "m"
+                        ],
+                        "returns": [],
+                        "sighash": "6c41d270",
+                        "sourceBytes": {
+                            "begin": 658,
+                            "size": 94
+                        },
+                        "stateMutability": "nonpayable",
+                        "visibility": "public",
+                        "vyper_metadata": null
+                    },
+                    {
+                        "contractName": "InitializableHarness",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint64",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "reinitialize",
+                        "notpayable": true,
+                        "originalFile": "src/Formally_verifying_Initializable.sol/InitializableHarness.sol",
+                        "paramNames": [
+                            "n"
+                        ],
+                        "returns": [],
+                        "sighash": "9a1b97df",
+                        "sourceBytes": {
+                            "begin": 226,
+                            "size": 58
+                        },
+                        "stateMutability": "nonpayable",
+                        "visibility": "public",
+                        "vyper_metadata": null
+                    },
+                    {
+                        "contractName": "InitializableHarness",
+                        "fullArgs": [],
+                        "isLibrary": false,
+                        "name": "version",
+                        "notpayable": true,
+                        "originalFile": "src/Formally_verifying_Initializable.sol/InitializableHarness.sol",
+                        "paramNames": [],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint64",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "54fd4d50",
+                        "sourceBytes": {
+                            "begin": 758,
+                            "size": 96
+                        },
+                        "stateMutability": "view",
+                        "visibility": "public",
+                        "vyper_metadata": null
+                    }
+                ],
+                "bytecode": "608060405234801561000f575f5ffd5b5060043610610091575f3560e01c80636c41d270116100645780636c41d270146100f75780638129fc1c146101135780639a1b97df1461011d5780639b98ba3314610139578063eed2724f1461015557610091565b80632599f159146100955780632f2770db146100b357806354fd4d50146100bd57806355466bdf146100db575b5f5ffd5b61009d61015f565b6040516100aa919061172d565b60405180910390f35b6100bb6101db565b005b6100c5610253565b6040516100d29190611768565b60405180910390f35b6100f560048036038101906100f091906117af565b6102cf565b005b610111600480360381019061010c91906117da565b610562565b005b61011b6107f7565b005b610137600480360381019061013291906117af565b610ac9565b005b610153600480360381019061014e91906117af565b610d54565b005b61015d611057565b005b5f64f196e5000a7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000a0000525f7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000a0001525f7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000a0004526101d6611331565b905090565b64f196e5000c7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000c0000525f7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000c0001525f7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000c0004526102516113bd565b565b5f64f196e500087fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00080000525f7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00080001525f7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00080004526102ca611546565b905090565b8064f196e5000b7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000b00005260017fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000b00015260017fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000b000552807fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000b600052815f61036d6115d8565b90505f7fffffff6e4604afefe123321beef1b02fffffffffffffffffffffffff0001000652805f0160089054906101000a900460ff16806103d857508167ffffffffffffffff16815f015f9054906101000a900467ffffffffffffffff1667ffffffffffffffff1610155b1561040f576040517ff92ee8a900000000000000000000000000000000000000000000000000000000815260040160405180910390fd5b81815f015f6101000a81548167ffffffffffffffff021916908367ffffffffffffffff1602179055505f815f015f9054906101000a900467ffffffffffffffff169050807fffffff6e4604afefe123321beef1b02fffffffffffffffffffffffff0000000a526001825f0160086101000a81548160ff0219169083151502179055505f825f0160089054906101000a900460ff169050807fffffff6e4604afefe123321beef1b02fffffffffffffffffffffffff0000000b526104d06107f7565b5f835f0160086101000a81548160ff0219169083151502179055505f835f0160089054906101000a900460ff169050807fffffff6e4604afefe123321beef1b02fffffffffffffffffffffffff0000000c527fc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2856040516105519190611768565b60405180910390a150505050505050565b8064f196e500077fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000700005260027fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000700015260097fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff0007000552807fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff0007600152825f6106006115d8565b90505f7fffffff6e4604afefe123321beef1b02fffffffffffffffffffffffff0001000652805f0160089054906101000a900460ff168061066b57508167ffffffffffffffff16815f015f9054906101000a900467ffffffffffffffff1667ffffffffffffffff1610155b156106a2576040517ff92ee8a900000000000000000000000000000000000000000000000000000000815260040160405180910390fd5b81815f015f6101000a81548167ffffffffffffffff021916908367ffffffffffffffff1602179055505f815f015f9054906101000a900467ffffffffffffffff169050807fffffff6e4604afefe123321beef1b02fffffffffffffffffffffffff0000000a526001825f0160086101000a81548160ff0219169083151502179055505f825f0160089054906101000a900460ff169050807fffffff6e4604afefe123321beef1b02fffffffffffffffffffffffff0000000b5261076486610ac9565b5f835f0160086101000a81548160ff0219169083151502179055505f835f0160089054906101000a900460ff169050807fffffff6e4604afefe123321beef1b02fffffffffffffffffffffffff0000000c527fc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2856040516107e59190611768565b60405180910390a15050505050505050565b64f196e5000d7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000d0000525f7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000d0001525f7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000d0004525f61086e6115d8565b90505f7fffffff6e4604afefe123321beef1b02fffffffffffffffffffffffff00010001525f815f0160089054906101000a900460ff16159050807fffffff6e4604afefe123321beef1b02fffffffffffffffffffffffff00000002525f825f015f9054906101000a900467ffffffffffffffff169050807fffffff6e4604afefe123321beef1b02fffffffffffffffffffffffff00000003525f5f8267ffffffffffffffff1614801561091f5750825b9050807fffffff6e4604afefe123321beef1b02fffffffffffffffffffffffff00000004525f60018367ffffffffffffffff1614801561097557505f3073ffffffffffffffffffffffffffffffffffffffff163b145b9050807fffffff6e4604afefe123321beef1b02fffffffffffffffffffffffff0000000552811580156109a6575080155b156109dd576040517ff92ee8a900000000000000000000000000000000000000000000000000000000815260040160405180910390fd5b6001855f015f6101000a81548167ffffffffffffffff021916908367ffffffffffffffff1602179055505f855f015f9054906101000a900467ffffffffffffffff169050807fffffff6e4604afefe123321beef1b02fffffffffffffffffffffffff00000009528415610a67576001865f0160086101000a81548160ff0219169083151502179055505b8415610ac1575f865f0160086101000a81548160ff0219169083151502179055507fc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d26001604051610ab8919061185a565b60405180910390a15b505050505050565b8064f196e5000e7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000e00005260017fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000e00015260017fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000e000552807fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000e600052815f610b676115d8565b90505f7fffffff6e4604afefe123321beef1b02fffffffffffffffffffffffff0001000652805f0160089054906101000a900460ff1680610bd257508167ffffffffffffffff16815f015f9054906101000a900467ffffffffffffffff1667ffffffffffffffff1610155b15610c09576040517ff92ee8a900000000000000000000000000000000000000000000000000000000815260040160405180910390fd5b81815f015f6101000a81548167ffffffffffffffff021916908367ffffffffffffffff1602179055505f815f015f9054906101000a900467ffffffffffffffff169050807fffffff6e4604afefe123321beef1b02fffffffffffffffffffffffff0000000a526001825f0160086101000a81548160ff0219169083151502179055505f825f0160089054906101000a900460ff169050807fffffff6e4604afefe123321beef1b02fffffffffffffffffffffffff0000000b525f835f0160086101000a81548160ff0219169083151502179055505f835f0160089054906101000a900460ff169050807fffffff6e4604afefe123321beef1b02fffffffffffffffffffffffff0000000c527fc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d285604051610d439190611768565b60405180910390a150505050505050565b8064f196e500097fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000900005260017fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000900015260017fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff0009000552807fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00096000525f610df16115d8565b90505f7fffffff6e4604afefe123321beef1b02fffffffffffffffffffffffff00010001525f815f0160089054906101000a900460ff16159050807fffffff6e4604afefe123321beef1b02fffffffffffffffffffffffff00000002525f825f015f9054906101000a900467ffffffffffffffff169050807fffffff6e4604afefe123321beef1b02fffffffffffffffffffffffff00000003525f5f8267ffffffffffffffff16148015610ea25750825b9050807fffffff6e4604afefe123321beef1b02fffffffffffffffffffffffff00000004525f60018367ffffffffffffffff16148015610ef857505f3073ffffffffffffffffffffffffffffffffffffffff163b145b9050807fffffff6e4604afefe123321beef1b02fffffffffffffffffffffffff000000055281158015610f29575080155b15610f60576040517ff92ee8a900000000000000000000000000000000000000000000000000000000815260040160405180910390fd5b6001855f015f6101000a81548167ffffffffffffffff021916908367ffffffffffffffff1602179055505f855f015f9054906101000a900467ffffffffffffffff169050807fffffff6e4604afefe123321beef1b02fffffffffffffffffffffffff00000009528415610fea576001865f0160086101000a81548160ff0219169083151502179055505b610ff388610ac9565b841561104d575f865f0160086101000a81548160ff0219169083151502179055507fc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d26001604051611044919061185a565b60405180910390a15b5050505050505050565b64f196e500067fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00060000525f7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00060001525f7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00060004525f6110ce6115d8565b90505f7fffffff6e4604afefe123321beef1b02fffffffffffffffffffffffff00010001525f815f0160089054906101000a900460ff16159050807fffffff6e4604afefe123321beef1b02fffffffffffffffffffffffff00000002525f825f015f9054906101000a900467ffffffffffffffff169050807fffffff6e4604afefe123321beef1b02fffffffffffffffffffffffff00000003525f5f8267ffffffffffffffff1614801561117f5750825b9050807fffffff6e4604afefe123321beef1b02fffffffffffffffffffffffff00000004525f60018367ffffffffffffffff161480156111d557505f3073ffffffffffffffffffffffffffffffffffffffff163b145b9050807fffffff6e4604afefe123321beef1b02fffffffffffffffffffffffff000000055281158015611206575080155b1561123d576040517ff92ee8a900000000000000000000000000000000000000000000000000000000815260040160405180910390fd5b6001855f015f6101000a81548167ffffffffffffffff021916908367ffffffffffffffff1602179055505f855f015f9054906101000a900467ffffffffffffffff169050807fffffff6e4604afefe123321beef1b02fffffffffffffffffffffffff000000095284156112c7576001865f0160086101000a81548160ff0219169083151502179055505b6112cf6107f7565b8415611329575f865f0160086101000a81548160ff0219169083151502179055507fc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d26001604051611320919061185a565b60405180910390a15b505050505050565b5f64f196e500047fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00040000525f7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00040001525f7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00040004526113a86115d8565b5f0160089054906101000a900460ff16905090565b64f196e500017fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00010000525f7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00010001525f7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00010004525f6114346115d8565b90505f7fffffff6e4604afefe123321beef1b02fffffffffffffffffffffffff0001000752805f0160089054906101000a900460ff16156114a1576040517ff92ee8a900000000000000000000000000000000000000000000000000000000815260040160405180910390fd5b67ffffffffffffffff8016815f015f9054906101000a900467ffffffffffffffff1667ffffffffffffffff16146115435767ffffffffffffffff815f015f6101000a81548167ffffffffffffffff021916908367ffffffffffffffff1602179055507fc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d267ffffffffffffffff60405161153a9190611768565b60405180910390a15b50565b5f64f196e500037fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00030000525f7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00030001525f7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00030004526115bd6115d8565b5f015f9054906101000a900467ffffffffffffffff16905090565b5f64f196e500057fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00050000525f7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00050001525f7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00050004525f61165061167c565b9050807fffffff6e4604afefe123321beef1b02fffffffffffffffffffffffff00000008528091505090565b5f64f196e500027fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00020000525f7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00020001525f7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00020004527ff0c57e16840df040f15088dc2f81fe391c3923bec73e23a9662efc9c229c6a005f1b905090565b5f8115159050919050565b61172781611713565b82525050565b5f6020820190506117405f83018461171e565b92915050565b5f67ffffffffffffffff82169050919050565b61176281611746565b82525050565b5f60208201905061177b5f830184611759565b92915050565b5f5ffd5b61178e81611746565b8114611798575f5ffd5b50565b5f813590506117a981611785565b92915050565b5f602082840312156117c4576117c3611781565b5b5f6117d18482850161179b565b91505092915050565b5f5f604083850312156117f0576117ef611781565b5b5f6117fd8582860161179b565b925050602061180e8582860161179b565b9150509250929050565b5f819050919050565b5f819050919050565b5f61184461183f61183a84611818565b611821565b611746565b9050919050565b6118548161182a565b82525050565b5f60208201905061186d5f83018461184b565b9291505056fea264697066735822122088149878b30ae1496b9da5e1574c04cac09cf858b5f39bd9b9ade4b181b8566664736f6c634300081e0033",
+                "compilerName": "solc",
+                "compilerParameters": {
+                    "optimizerOn": false,
+                    "optimizerRuns": null,
+                    "type": "SolcParameters",
+                    "viaIR": false
+                },
+                "compilerVersion": "0.8.30",
+                "constructorBytecode": "6080604052348015600e575f5ffd5b506118a98061001c5f395ff3fe608060405234801561000f575f5ffd5b5060043610610091575f3560e01c80636c41d270116100645780636c41d270146100f75780638129fc1c146101135780639a1b97df1461011d5780639b98ba3314610139578063eed2724f1461015557610091565b80632599f159146100955780632f2770db146100b357806354fd4d50146100bd57806355466bdf146100db575b5f5ffd5b61009d61015f565b6040516100aa919061172d565b60405180910390f35b6100bb6101db565b005b6100c5610253565b6040516100d29190611768565b60405180910390f35b6100f560048036038101906100f091906117af565b6102cf565b005b610111600480360381019061010c91906117da565b610562565b005b61011b6107f7565b005b610137600480360381019061013291906117af565b610ac9565b005b610153600480360381019061014e91906117af565b610d54565b005b61015d611057565b005b5f64f196e5000a7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000a0000525f7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000a0001525f7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000a0004526101d6611331565b905090565b64f196e5000c7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000c0000525f7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000c0001525f7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000c0004526102516113bd565b565b5f64f196e500087fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00080000525f7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00080001525f7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00080004526102ca611546565b905090565b8064f196e5000b7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000b00005260017fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000b00015260017fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000b000552807fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000b600052815f61036d6115d8565b90505f7fffffff6e4604afefe123321beef1b02fffffffffffffffffffffffff0001000652805f0160089054906101000a900460ff16806103d857508167ffffffffffffffff16815f015f9054906101000a900467ffffffffffffffff1667ffffffffffffffff1610155b1561040f576040517ff92ee8a900000000000000000000000000000000000000000000000000000000815260040160405180910390fd5b81815f015f6101000a81548167ffffffffffffffff021916908367ffffffffffffffff1602179055505f815f015f9054906101000a900467ffffffffffffffff169050807fffffff6e4604afefe123321beef1b02fffffffffffffffffffffffff0000000a526001825f0160086101000a81548160ff0219169083151502179055505f825f0160089054906101000a900460ff169050807fffffff6e4604afefe123321beef1b02fffffffffffffffffffffffff0000000b526104d06107f7565b5f835f0160086101000a81548160ff0219169083151502179055505f835f0160089054906101000a900460ff169050807fffffff6e4604afefe123321beef1b02fffffffffffffffffffffffff0000000c527fc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2856040516105519190611768565b60405180910390a150505050505050565b8064f196e500077fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000700005260027fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000700015260097fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff0007000552807fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff0007600152825f6106006115d8565b90505f7fffffff6e4604afefe123321beef1b02fffffffffffffffffffffffff0001000652805f0160089054906101000a900460ff168061066b57508167ffffffffffffffff16815f015f9054906101000a900467ffffffffffffffff1667ffffffffffffffff1610155b156106a2576040517ff92ee8a900000000000000000000000000000000000000000000000000000000815260040160405180910390fd5b81815f015f6101000a81548167ffffffffffffffff021916908367ffffffffffffffff1602179055505f815f015f9054906101000a900467ffffffffffffffff169050807fffffff6e4604afefe123321beef1b02fffffffffffffffffffffffff0000000a526001825f0160086101000a81548160ff0219169083151502179055505f825f0160089054906101000a900460ff169050807fffffff6e4604afefe123321beef1b02fffffffffffffffffffffffff0000000b5261076486610ac9565b5f835f0160086101000a81548160ff0219169083151502179055505f835f0160089054906101000a900460ff169050807fffffff6e4604afefe123321beef1b02fffffffffffffffffffffffff0000000c527fc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2856040516107e59190611768565b60405180910390a15050505050505050565b64f196e5000d7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000d0000525f7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000d0001525f7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000d0004525f61086e6115d8565b90505f7fffffff6e4604afefe123321beef1b02fffffffffffffffffffffffff00010001525f815f0160089054906101000a900460ff16159050807fffffff6e4604afefe123321beef1b02fffffffffffffffffffffffff00000002525f825f015f9054906101000a900467ffffffffffffffff169050807fffffff6e4604afefe123321beef1b02fffffffffffffffffffffffff00000003525f5f8267ffffffffffffffff1614801561091f5750825b9050807fffffff6e4604afefe123321beef1b02fffffffffffffffffffffffff00000004525f60018367ffffffffffffffff1614801561097557505f3073ffffffffffffffffffffffffffffffffffffffff163b145b9050807fffffff6e4604afefe123321beef1b02fffffffffffffffffffffffff0000000552811580156109a6575080155b156109dd576040517ff92ee8a900000000000000000000000000000000000000000000000000000000815260040160405180910390fd5b6001855f015f6101000a81548167ffffffffffffffff021916908367ffffffffffffffff1602179055505f855f015f9054906101000a900467ffffffffffffffff169050807fffffff6e4604afefe123321beef1b02fffffffffffffffffffffffff00000009528415610a67576001865f0160086101000a81548160ff0219169083151502179055505b8415610ac1575f865f0160086101000a81548160ff0219169083151502179055507fc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d26001604051610ab8919061185a565b60405180910390a15b505050505050565b8064f196e5000e7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000e00005260017fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000e00015260017fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000e000552807fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000e600052815f610b676115d8565b90505f7fffffff6e4604afefe123321beef1b02fffffffffffffffffffffffff0001000652805f0160089054906101000a900460ff1680610bd257508167ffffffffffffffff16815f015f9054906101000a900467ffffffffffffffff1667ffffffffffffffff1610155b15610c09576040517ff92ee8a900000000000000000000000000000000000000000000000000000000815260040160405180910390fd5b81815f015f6101000a81548167ffffffffffffffff021916908367ffffffffffffffff1602179055505f815f015f9054906101000a900467ffffffffffffffff169050807fffffff6e4604afefe123321beef1b02fffffffffffffffffffffffff0000000a526001825f0160086101000a81548160ff0219169083151502179055505f825f0160089054906101000a900460ff169050807fffffff6e4604afefe123321beef1b02fffffffffffffffffffffffff0000000b525f835f0160086101000a81548160ff0219169083151502179055505f835f0160089054906101000a900460ff169050807fffffff6e4604afefe123321beef1b02fffffffffffffffffffffffff0000000c527fc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d285604051610d439190611768565b60405180910390a150505050505050565b8064f196e500097fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000900005260017fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000900015260017fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff0009000552807fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00096000525f610df16115d8565b90505f7fffffff6e4604afefe123321beef1b02fffffffffffffffffffffffff00010001525f815f0160089054906101000a900460ff16159050807fffffff6e4604afefe123321beef1b02fffffffffffffffffffffffff00000002525f825f015f9054906101000a900467ffffffffffffffff169050807fffffff6e4604afefe123321beef1b02fffffffffffffffffffffffff00000003525f5f8267ffffffffffffffff16148015610ea25750825b9050807fffffff6e4604afefe123321beef1b02fffffffffffffffffffffffff00000004525f60018367ffffffffffffffff16148015610ef857505f3073ffffffffffffffffffffffffffffffffffffffff163b145b9050807fffffff6e4604afefe123321beef1b02fffffffffffffffffffffffff000000055281158015610f29575080155b15610f60576040517ff92ee8a900000000000000000000000000000000000000000000000000000000815260040160405180910390fd5b6001855f015f6101000a81548167ffffffffffffffff021916908367ffffffffffffffff1602179055505f855f015f9054906101000a900467ffffffffffffffff169050807fffffff6e4604afefe123321beef1b02fffffffffffffffffffffffff00000009528415610fea576001865f0160086101000a81548160ff0219169083151502179055505b610ff388610ac9565b841561104d575f865f0160086101000a81548160ff0219169083151502179055507fc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d26001604051611044919061185a565b60405180910390a15b5050505050505050565b64f196e500067fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00060000525f7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00060001525f7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00060004525f6110ce6115d8565b90505f7fffffff6e4604afefe123321beef1b02fffffffffffffffffffffffff00010001525f815f0160089054906101000a900460ff16159050807fffffff6e4604afefe123321beef1b02fffffffffffffffffffffffff00000002525f825f015f9054906101000a900467ffffffffffffffff169050807fffffff6e4604afefe123321beef1b02fffffffffffffffffffffffff00000003525f5f8267ffffffffffffffff1614801561117f5750825b9050807fffffff6e4604afefe123321beef1b02fffffffffffffffffffffffff00000004525f60018367ffffffffffffffff161480156111d557505f3073ffffffffffffffffffffffffffffffffffffffff163b145b9050807fffffff6e4604afefe123321beef1b02fffffffffffffffffffffffff000000055281158015611206575080155b1561123d576040517ff92ee8a900000000000000000000000000000000000000000000000000000000815260040160405180910390fd5b6001855f015f6101000a81548167ffffffffffffffff021916908367ffffffffffffffff1602179055505f855f015f9054906101000a900467ffffffffffffffff169050807fffffff6e4604afefe123321beef1b02fffffffffffffffffffffffff000000095284156112c7576001865f0160086101000a81548160ff0219169083151502179055505b6112cf6107f7565b8415611329575f865f0160086101000a81548160ff0219169083151502179055507fc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d26001604051611320919061185a565b60405180910390a15b505050505050565b5f64f196e500047fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00040000525f7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00040001525f7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00040004526113a86115d8565b5f0160089054906101000a900460ff16905090565b64f196e500017fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00010000525f7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00010001525f7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00010004525f6114346115d8565b90505f7fffffff6e4604afefe123321beef1b02fffffffffffffffffffffffff0001000752805f0160089054906101000a900460ff16156114a1576040517ff92ee8a900000000000000000000000000000000000000000000000000000000815260040160405180910390fd5b67ffffffffffffffff8016815f015f9054906101000a900467ffffffffffffffff1667ffffffffffffffff16146115435767ffffffffffffffff815f015f6101000a81548167ffffffffffffffff021916908367ffffffffffffffff1602179055507fc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d267ffffffffffffffff60405161153a9190611768565b60405180910390a15b50565b5f64f196e500037fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00030000525f7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00030001525f7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00030004526115bd6115d8565b5f015f9054906101000a900467ffffffffffffffff16905090565b5f64f196e500057fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00050000525f7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00050001525f7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00050004525f61165061167c565b9050807fffffff6e4604afefe123321beef1b02fffffffffffffffffffffffff00000008528091505090565b5f64f196e500027fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00020000525f7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00020001525f7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00020004527ff0c57e16840df040f15088dc2f81fe391c3923bec73e23a9662efc9c229c6a005f1b905090565b5f8115159050919050565b61172781611713565b82525050565b5f6020820190506117405f83018461171e565b92915050565b5f67ffffffffffffffff82169050919050565b61176281611746565b82525050565b5f60208201905061177b5f830184611759565b92915050565b5f5ffd5b61178e81611746565b8114611798575f5ffd5b50565b5f813590506117a981611785565b92915050565b5f602082840312156117c4576117c3611781565b5b5f6117d18482850161179b565b91505092915050565b5f5f604083850312156117f0576117ef611781565b5b5f6117fd8582860161179b565b925050602061180e8582860161179b565b9150509250929050565b5f819050919050565b5f819050919050565b5f61184461183f61183a84611818565b611821565b611746565b9050919050565b6118548161182a565b82525050565b5f60208201905061186d5f83018461184b565b9291505056fea264697066735822122088149878b30ae1496b9da5e1574c04cac09cf858b5f39bd9b9ade4b181b8566664736f6c634300081e0033",
+                "constructorSrcmap": "110:3934:1:-:0;;;;;;;;;;;;;;;;;;;",
+                "extensionContracts": [],
+                "file": "src/Formally_verifying_Initializable.sol/InitializableHarness.sol",
+                "immutables": [],
+                "internalFuncs": [],
+                "internalFunctionHarnesses": {},
+                "internalFunctionStarts": [
+                    6017,
+                    6021,
+                    5907,
+                    6168,
+                    6043,
+                    5918,
+                    6177,
+                    6186,
+                    5933,
+                    6063,
+                    4913,
+                    5053,
+                    5446,
+                    5958,
+                    2761,
+                    6219,
+                    719,
+                    595,
+                    3412,
+                    4183,
+                    5592,
+                    5977,
+                    6106,
+                    475,
+                    6234,
+                    351,
+                    1378,
+                    5992,
+                    2039,
+                    5756
+                ],
+                "internalFunctions": {
+                    "0xf196e50000": {
+                        "canonicalId": "src/Formally_verifying_Initializable.sol/Initializable.sol|Initializable",
+                        "declaringContract": "Initializable",
+                        "method": {
+                            "contractName": "Initializable",
+                            "fullArgs": [],
+                            "isLibrary": false,
+                            "name": "_checkInitializing",
+                            "notpayable": true,
+                            "originalFile": "src/Formally_verifying_Initializable.sol/Initializable.sol",
+                            "paramNames": [],
+                            "returns": [],
+                            "sighash": "0",
+                            "sourceBytes": {
+                                "begin": 7082,
+                                "size": 141
+                            },
+                            "stateMutability": "view",
+                            "visibility": "internal",
+                            "vyper_metadata": null
+                        }
+                    },
+                    "0xf196e50001": {
+                        "canonicalId": "src/Formally_verifying_Initializable.sol/Initializable.sol|Initializable",
+                        "declaringContract": "Initializable",
+                        "method": {
+                            "contractName": "Initializable",
+                            "fullArgs": [],
+                            "isLibrary": false,
+                            "name": "_disableInitializers",
+                            "notpayable": true,
+                            "originalFile": "src/Formally_verifying_Initializable.sol/Initializable.sol",
+                            "paramNames": [],
+                            "returns": [],
+                            "sighash": "0",
+                            "sourceBytes": {
+                                "begin": 7709,
+                                "size": 422
+                            },
+                            "stateMutability": "nonpayable",
+                            "visibility": "internal",
+                            "vyper_metadata": null
+                        }
+                    },
+                    "0xf196e50002": {
+                        "canonicalId": "src/Formally_verifying_Initializable.sol/Initializable.sol|Initializable",
+                        "declaringContract": "Initializable",
+                        "method": {
+                            "contractName": "Initializable",
+                            "fullArgs": [],
+                            "isLibrary": false,
+                            "name": "_initializableStorageSlot",
+                            "notpayable": true,
+                            "originalFile": "src/Formally_verifying_Initializable.sol/Initializable.sol",
+                            "paramNames": [],
+                            "returns": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "bytes32",
+                                        "type": "Primitive"
+                                    }
+                                }
+                            ],
+                            "sighash": "0",
+                            "sourceBytes": {
+                                "begin": 8819,
+                                "size": 122
+                            },
+                            "stateMutability": "pure",
+                            "visibility": "internal",
+                            "vyper_metadata": null
+                        }
+                    },
+                    "0xf196e50003": {
+                        "canonicalId": "src/Formally_verifying_Initializable.sol/Initializable.sol|Initializable",
+                        "declaringContract": "Initializable",
+                        "method": {
+                            "contractName": "Initializable",
+                            "fullArgs": [],
+                            "isLibrary": false,
+                            "name": "_getInitializedVersion",
+                            "notpayable": true,
+                            "originalFile": "src/Formally_verifying_Initializable.sol/Initializable.sol",
+                            "paramNames": [],
+                            "returns": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "uint64",
+                                        "type": "Primitive"
+                                    }
+                                }
+                            ],
+                            "sighash": "0",
+                            "sourceBytes": {
+                                "begin": 8241,
+                                "size": 128
+                            },
+                            "stateMutability": "view",
+                            "visibility": "internal",
+                            "vyper_metadata": null
+                        }
+                    },
+                    "0xf196e50004": {
+                        "canonicalId": "src/Formally_verifying_Initializable.sol/Initializable.sol|Initializable",
+                        "declaringContract": "Initializable",
+                        "method": {
+                            "contractName": "Initializable",
+                            "fullArgs": [],
+                            "isLibrary": false,
+                            "name": "_isInitializing",
+                            "notpayable": true,
+                            "originalFile": "src/Formally_verifying_Initializable.sol/Initializable.sol",
+                            "paramNames": [],
+                            "returns": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "bool",
+                                        "type": "Primitive"
+                                    }
+                                }
+                            ],
+                            "sighash": "0",
+                            "sourceBytes": {
+                                "begin": 8485,
+                                "size": 120
+                            },
+                            "stateMutability": "view",
+                            "visibility": "internal",
+                            "vyper_metadata": null
+                        }
+                    },
+                    "0xf196e50005": {
+                        "canonicalId": "src/Formally_verifying_Initializable.sol/Initializable.sol|Initializable",
+                        "declaringContract": "Initializable",
+                        "method": {
+                            "contractName": "Initializable",
+                            "fullArgs": [],
+                            "isLibrary": false,
+                            "name": "_getInitializableStorage",
+                            "notpayable": true,
+                            "originalFile": "src/Formally_verifying_Initializable.sol/Initializable.sol",
+                            "paramNames": [],
+                            "returns": [
+                                {
+                                    "location": "storage",
+                                    "typeDesc": {
+                                        "astId": 105,
+                                        "canonicalId": "src/Formally_verifying_Initializable.sol/Initializable.sol|Initializable.InitializableStorage",
+                                        "containingContract": "Initializable",
+                                        "structMembers": [
+                                            {
+                                                "name": "_initialized",
+                                                "type": {
+                                                    "primitiveName": "uint64",
+                                                    "type": "Primitive"
+                                                }
+                                            },
+                                            {
+                                                "name": "_initializing",
+                                                "type": {
+                                                    "primitiveName": "bool",
+                                                    "type": "Primitive"
+                                                }
+                                            }
+                                        ],
+                                        "structName": "InitializableStorage",
+                                        "type": "UserDefinedStruct"
+                                    }
+                                }
+                            ],
+                            "sighash": "0",
+                            "sourceBytes": {
+                                "begin": 9071,
+                                "size": 205
+                            },
+                            "stateMutability": "pure",
+                            "visibility": "private",
+                            "vyper_metadata": null
+                        }
+                    },
+                    "0xf196e50006": {
+                        "canonicalId": "src/Formally_verifying_Initializable.sol/InitializableHarness.sol|InitializableHarness",
+                        "declaringContract": "InitializableHarness",
+                        "method": {
+                            "contractName": "InitializableHarness",
+                            "fullArgs": [],
+                            "isLibrary": false,
+                            "name": "nested_init_init",
+                            "notpayable": true,
+                            "originalFile": "src/Formally_verifying_Initializable.sol/InitializableHarness.sol",
+                            "paramNames": [],
+                            "returns": [],
+                            "sighash": "eed2724f",
+                            "sourceBytes": {
+                                "begin": 361,
+                                "size": 94
+                            },
+                            "stateMutability": "nonpayable",
+                            "visibility": "public",
+                            "vyper_metadata": null
+                        }
+                    },
+                    "0xf196e50007": {
+                        "canonicalId": "src/Formally_verifying_Initializable.sol/InitializableHarness.sol|InitializableHarness",
+                        "declaringContract": "InitializableHarness",
+                        "method": {
+                            "contractName": "InitializableHarness",
+                            "fullArgs": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "uint64",
+                                        "type": "Primitive"
+                                    }
+                                },
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "uint64",
+                                        "type": "Primitive"
+                                    }
+                                }
+                            ],
+                            "isLibrary": false,
+                            "name": "nested_reinit_reinit",
+                            "notpayable": true,
+                            "originalFile": "src/Formally_verifying_Initializable.sol/InitializableHarness.sol",
+                            "paramNames": [
+                                "n",
+                                "m"
+                            ],
+                            "returns": [],
+                            "sighash": "6c41d270",
+                            "sourceBytes": {
+                                "begin": 658,
+                                "size": 94
+                            },
+                            "stateMutability": "nonpayable",
+                            "visibility": "public",
+                            "vyper_metadata": null
+                        }
+                    },
+                    "0xf196e50008": {
+                        "canonicalId": "src/Formally_verifying_Initializable.sol/InitializableHarness.sol|InitializableHarness",
+                        "declaringContract": "InitializableHarness",
+                        "method": {
+                            "contractName": "InitializableHarness",
+                            "fullArgs": [],
+                            "isLibrary": false,
+                            "name": "version",
+                            "notpayable": true,
+                            "originalFile": "src/Formally_verifying_Initializable.sol/InitializableHarness.sol",
+                            "paramNames": [],
+                            "returns": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "uint64",
+                                        "type": "Primitive"
+                                    }
+                                }
+                            ],
+                            "sighash": "54fd4d50",
+                            "sourceBytes": {
+                                "begin": 758,
+                                "size": 96
+                            },
+                            "stateMutability": "view",
+                            "visibility": "public",
+                            "vyper_metadata": null
+                        }
+                    },
+                    "0xf196e50009": {
+                        "canonicalId": "src/Formally_verifying_Initializable.sol/InitializableHarness.sol|InitializableHarness",
+                        "declaringContract": "InitializableHarness",
+                        "method": {
+                            "contractName": "InitializableHarness",
+                            "fullArgs": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "uint64",
+                                        "type": "Primitive"
+                                    }
+                                }
+                            ],
+                            "isLibrary": false,
+                            "name": "nested_init_reinit",
+                            "notpayable": true,
+                            "originalFile": "src/Formally_verifying_Initializable.sol/InitializableHarness.sol",
+                            "paramNames": [
+                                "m"
+                            ],
+                            "returns": [],
+                            "sighash": "9b98ba33",
+                            "sourceBytes": {
+                                "begin": 460,
+                                "size": 94
+                            },
+                            "stateMutability": "nonpayable",
+                            "visibility": "public",
+                            "vyper_metadata": null
+                        }
+                    },
+                    "0xf196e5000a": {
+                        "canonicalId": "src/Formally_verifying_Initializable.sol/InitializableHarness.sol|InitializableHarness",
+                        "declaringContract": "InitializableHarness",
+                        "method": {
+                            "contractName": "InitializableHarness",
+                            "fullArgs": [],
+                            "isLibrary": false,
+                            "name": "initializing",
+                            "notpayable": true,
+                            "originalFile": "src/Formally_verifying_Initializable.sol/InitializableHarness.sol",
+                            "paramNames": [],
+                            "returns": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "bool",
+                                        "type": "Primitive"
+                                    }
+                                }
+                            ],
+                            "sighash": "2599f159",
+                            "sourceBytes": {
+                                "begin": 860,
+                                "size": 92
+                            },
+                            "stateMutability": "view",
+                            "visibility": "public",
+                            "vyper_metadata": null
+                        }
+                    },
+                    "0xf196e5000b": {
+                        "canonicalId": "src/Formally_verifying_Initializable.sol/InitializableHarness.sol|InitializableHarness",
+                        "declaringContract": "InitializableHarness",
+                        "method": {
+                            "contractName": "InitializableHarness",
+                            "fullArgs": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "uint64",
+                                        "type": "Primitive"
+                                    }
+                                }
+                            ],
+                            "isLibrary": false,
+                            "name": "nested_reinit_init",
+                            "notpayable": true,
+                            "originalFile": "src/Formally_verifying_Initializable.sol/InitializableHarness.sol",
+                            "paramNames": [
+                                "n"
+                            ],
+                            "returns": [],
+                            "sighash": "55466bdf",
+                            "sourceBytes": {
+                                "begin": 559,
+                                "size": 94
+                            },
+                            "stateMutability": "nonpayable",
+                            "visibility": "public",
+                            "vyper_metadata": null
+                        }
+                    },
+                    "0xf196e5000c": {
+                        "canonicalId": "src/Formally_verifying_Initializable.sol/InitializableHarness.sol|InitializableHarness",
+                        "declaringContract": "InitializableHarness",
+                        "method": {
+                            "contractName": "InitializableHarness",
+                            "fullArgs": [],
+                            "isLibrary": false,
+                            "name": "disable",
+                            "notpayable": true,
+                            "originalFile": "src/Formally_verifying_Initializable.sol/InitializableHarness.sol",
+                            "paramNames": [],
+                            "returns": [],
+                            "sighash": "2f2770db",
+                            "sourceBytes": {
+                                "begin": 289,
+                                "size": 66
+                            },
+                            "stateMutability": "nonpayable",
+                            "visibility": "public",
+                            "vyper_metadata": null
+                        }
+                    },
+                    "0xf196e5000d": {
+                        "canonicalId": "src/Formally_verifying_Initializable.sol/InitializableHarness.sol|InitializableHarness",
+                        "declaringContract": "InitializableHarness",
+                        "method": {
+                            "contractName": "InitializableHarness",
+                            "fullArgs": [],
+                            "isLibrary": false,
+                            "name": "initialize",
+                            "notpayable": true,
+                            "originalFile": "src/Formally_verifying_Initializable.sol/InitializableHarness.sol",
+                            "paramNames": [],
+                            "returns": [],
+                            "sighash": "8129fc1c",
+                            "sourceBytes": {
+                                "begin": 163,
+                                "size": 58
+                            },
+                            "stateMutability": "nonpayable",
+                            "visibility": "public",
+                            "vyper_metadata": null
+                        }
+                    },
+                    "0xf196e5000e": {
+                        "canonicalId": "src/Formally_verifying_Initializable.sol/InitializableHarness.sol|InitializableHarness",
+                        "declaringContract": "InitializableHarness",
+                        "method": {
+                            "contractName": "InitializableHarness",
+                            "fullArgs": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "uint64",
+                                        "type": "Primitive"
+                                    }
+                                }
+                            ],
+                            "isLibrary": false,
+                            "name": "reinitialize",
+                            "notpayable": true,
+                            "originalFile": "src/Formally_verifying_Initializable.sol/InitializableHarness.sol",
+                            "paramNames": [
+                                "n"
+                            ],
+                            "returns": [],
+                            "sighash": "9a1b97df",
+                            "sourceBytes": {
+                                "begin": 226,
+                                "size": 58
+                            },
+                            "stateMutability": "nonpayable",
+                            "visibility": "public",
+                            "vyper_metadata": null
+                        }
+                    }
+                },
+                "is_static_address": false,
+                "lang": "Solidity",
+                "localAssignments": {
+                    "1": {
+                        "lhs": "$",
+                        "sourceLoc": {
+                            "begin": "4158",
+                            "len": "59",
+                            "source": "0"
+                        }
+                    },
+                    "10": {
+                        "lhs": "$._initialized",
+                        "sourceLoc": {
+                            "begin": "6539",
+                            "len": "24",
+                            "source": "0"
+                        }
+                    },
+                    "11": {
+                        "lhs": "$._initializing",
+                        "sourceLoc": {
+                            "begin": "6573",
+                            "len": "22",
+                            "source": "0"
+                        }
+                    },
+                    "12": {
+                        "lhs": "$._initializing",
+                        "sourceLoc": {
+                            "begin": "6616",
+                            "len": "23",
+                            "source": "0"
+                        }
+                    },
+                    "2": {
+                        "lhs": "isTopLevelCall",
+                        "sourceLoc": {
+                            "begin": "4279",
+                            "len": "38",
+                            "source": "0"
+                        }
+                    },
+                    "3": {
+                        "lhs": "initialized",
+                        "sourceLoc": {
+                            "begin": "4327",
+                            "len": "35",
+                            "source": "0"
+                        }
+                    },
+                    "4": {
+                        "lhs": "initialSetup",
+                        "sourceLoc": {
+                            "begin": "4704",
+                            "len": "54",
+                            "source": "0"
+                        }
+                    },
+                    "5": {
+                        "lhs": "construction",
+                        "sourceLoc": {
+                            "begin": "4768",
+                            "len": "70",
+                            "source": "0"
+                        }
+                    },
+                    "6": {
+                        "lhs": "$",
+                        "sourceLoc": {
+                            "begin": "6355",
+                            "len": "59",
+                            "source": "0"
+                        }
+                    },
+                    "7": {
+                        "lhs": "$",
+                        "sourceLoc": {
+                            "begin": "7824",
+                            "len": "59",
+                            "source": "0"
+                        }
+                    },
+                    "8": {
+                        "lhs": "slot",
+                        "sourceLoc": {
+                            "begin": "9171",
+                            "len": "42",
+                            "source": "0"
+                        }
+                    },
+                    "9": {
+                        "lhs": "$._initialized",
+                        "sourceLoc": {
+                            "begin": "4949",
+                            "len": "18",
+                            "source": "0"
+                        }
+                    }
+                },
+                "methods": [
+                    {
+                        "contractName": "InitializableHarness",
+                        "fullArgs": [],
+                        "isLibrary": false,
+                        "name": "nested_init_init",
+                        "notpayable": true,
+                        "originalFile": "src/Formally_verifying_Initializable.sol/InitializableHarness.sol",
+                        "paramNames": [],
+                        "returns": [],
+                        "sighash": "eed2724f",
+                        "sourceBytes": {
+                            "begin": 361,
+                            "size": 94
+                        },
+                        "stateMutability": "nonpayable",
+                        "visibility": "public",
+                        "vyper_metadata": null
+                    },
+                    {
+                        "contractName": "InitializableHarness",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint64",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint64",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "nested_reinit_reinit",
+                        "notpayable": true,
+                        "originalFile": "src/Formally_verifying_Initializable.sol/InitializableHarness.sol",
+                        "paramNames": [
+                            "n",
+                            "m"
+                        ],
+                        "returns": [],
+                        "sighash": "6c41d270",
+                        "sourceBytes": {
+                            "begin": 658,
+                            "size": 94
+                        },
+                        "stateMutability": "nonpayable",
+                        "visibility": "public",
+                        "vyper_metadata": null
+                    },
+                    {
+                        "contractName": "InitializableHarness",
+                        "fullArgs": [],
+                        "isLibrary": false,
+                        "name": "version",
+                        "notpayable": true,
+                        "originalFile": "src/Formally_verifying_Initializable.sol/InitializableHarness.sol",
+                        "paramNames": [],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint64",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "54fd4d50",
+                        "sourceBytes": {
+                            "begin": 758,
+                            "size": 96
+                        },
+                        "stateMutability": "view",
+                        "visibility": "public",
+                        "vyper_metadata": null
+                    },
+                    {
+                        "contractName": "InitializableHarness",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint64",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "nested_init_reinit",
+                        "notpayable": true,
+                        "originalFile": "src/Formally_verifying_Initializable.sol/InitializableHarness.sol",
+                        "paramNames": [
+                            "m"
+                        ],
+                        "returns": [],
+                        "sighash": "9b98ba33",
+                        "sourceBytes": {
+                            "begin": 460,
+                            "size": 94
+                        },
+                        "stateMutability": "nonpayable",
+                        "visibility": "public",
+                        "vyper_metadata": null
+                    },
+                    {
+                        "contractName": "InitializableHarness",
+                        "fullArgs": [],
+                        "isLibrary": false,
+                        "name": "initializing",
+                        "notpayable": true,
+                        "originalFile": "src/Formally_verifying_Initializable.sol/InitializableHarness.sol",
+                        "paramNames": [],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "bool",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "2599f159",
+                        "sourceBytes": {
+                            "begin": 860,
+                            "size": 92
+                        },
+                        "stateMutability": "view",
+                        "visibility": "public",
+                        "vyper_metadata": null
+                    },
+                    {
+                        "contractName": "InitializableHarness",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint64",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "nested_reinit_init",
+                        "notpayable": true,
+                        "originalFile": "src/Formally_verifying_Initializable.sol/InitializableHarness.sol",
+                        "paramNames": [
+                            "n"
+                        ],
+                        "returns": [],
+                        "sighash": "55466bdf",
+                        "sourceBytes": {
+                            "begin": 559,
+                            "size": 94
+                        },
+                        "stateMutability": "nonpayable",
+                        "visibility": "public",
+                        "vyper_metadata": null
+                    },
+                    {
+                        "contractName": "InitializableHarness",
+                        "fullArgs": [],
+                        "isLibrary": false,
+                        "name": "disable",
+                        "notpayable": true,
+                        "originalFile": "src/Formally_verifying_Initializable.sol/InitializableHarness.sol",
+                        "paramNames": [],
+                        "returns": [],
+                        "sighash": "2f2770db",
+                        "sourceBytes": {
+                            "begin": 289,
+                            "size": 66
+                        },
+                        "stateMutability": "nonpayable",
+                        "visibility": "public",
+                        "vyper_metadata": null
+                    },
+                    {
+                        "contractName": "InitializableHarness",
+                        "fullArgs": [],
+                        "isLibrary": false,
+                        "name": "initialize",
+                        "notpayable": true,
+                        "originalFile": "src/Formally_verifying_Initializable.sol/InitializableHarness.sol",
+                        "paramNames": [],
+                        "returns": [],
+                        "sighash": "8129fc1c",
+                        "sourceBytes": {
+                            "begin": 163,
+                            "size": 58
+                        },
+                        "stateMutability": "nonpayable",
+                        "visibility": "public",
+                        "vyper_metadata": null
+                    },
+                    {
+                        "contractName": "InitializableHarness",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint64",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "reinitialize",
+                        "notpayable": true,
+                        "originalFile": "src/Formally_verifying_Initializable.sol/InitializableHarness.sol",
+                        "paramNames": [
+                            "n"
+                        ],
+                        "returns": [],
+                        "sighash": "9a1b97df",
+                        "sourceBytes": {
+                            "begin": 226,
+                            "size": 58
+                        },
+                        "stateMutability": "nonpayable",
+                        "visibility": "public",
+                        "vyper_metadata": null
+                    }
+                ],
+                "name": "InitializableHarness",
+                "original_file": "src/Formally_verifying_Initializable.sol/InitializableHarness.sol",
+                "solidityTypes": [
+                    {
+                        "astId": 162,
+                        "canonicalId": "src/Formally_verifying_Initializable.sol/Initializable.sol|Initializable.InitializableStorage",
+                        "containingContract": "Initializable",
+                        "structMembers": [
+                            {
+                                "name": "_initialized",
+                                "type": {
+                                    "primitiveName": "uint64",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "name": "_initializing",
+                                "type": {
+                                    "primitiveName": "bool",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "structName": "InitializableStorage",
+                        "type": "UserDefinedStruct"
+                    }
+                ],
+                "sourceBytes": {
+                    "begin": 110,
+                    "size": 844
+                },
+                "srcmap": "110:3934:1:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;3676:366;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;1018:340;;;:::i;:::-;;3300:370;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;2287:110;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;2794:109;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;163:73;;;:::i;:::-;;547:74;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;1782:109;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;1364:108;;;:::i;:::-;;3676:366;3721:4;3830:13;3762:66;3755:89;3920:1;3852:66;3845:77;3998:1;3930:66;3923:77;4018:17;:15;:17::i;:::-;4011:24;;3676:366;:::o;1018:340::-;1160:13;1092:66;1085:89;1250:1;1182:66;1175:77;1328:1;1260:66;1253:77;1333:22;:20;:22::i;:::-;1018:340::o;3300:370::-;3340:6;3451:13;3383:66;3376:89;3541:1;3473:66;3466:77;3619:1;3551:66;3544:77;3639:24;:22;:24::i;:::-;3632:31;;3300:370;:::o;2287:110::-;2358:1;2534:13;2466:66;2459:89;2624:1;2556:66;2549:77;2702:1;2634:66;2627:77;2780:1;2712:66;2705:77;2374:1:::1;7064:30:0;7097:26;:24;:26::i;:::-;7064:59;;7223:1;7156:66;7149:76;7240:1;:15;;;;;;;;;;;;:44;;;;7277:7;7259:25;;:1;:14;;;;;;;;;;;;:25;;;;7240:44;7236:105;;;7307:23;;;;;;;;;;;;;;7236:105;7367:7;7350:1;:14;;;:24;;;;;;;;;;;;;;;;;;7375:22;7400:1;:14;;;;;;;;;;;;7375:39;;7514:15;7447:66;7440:90;7558:4;7540:1;:15;;;:22;;;;;;;;;;;;;;;;;;7563:20;7586:1;:15;;;;;;;;;;;;7563:38;;7701:15;7634:66;7627:90;2379:12:1::2;:10;:12::i;:::-;7756:5:0::1;7738:1;:15;;;:23;;;;;;;;;;;;;;;;;;7762:20;7785:1;:15;;;;;;;;;;;;7762:38;;7900:15;7833:66;7826:90;7931:20;7943:7;7931:20;;;;;;:::i;:::-;;;;;;;;6998:960;;;;2785:1:1;2287:110:::0;;:::o;2794:109::-;2864:1;3039:13;2971:66;2964:89;3129:1;3061:66;3054:77;3207:1;3139:66;3132:77;3285:1;3217:66;3210:77;2880:1:::1;7064:30:0;7097:26;:24;:26::i;:::-;7064:59;;7223:1;7156:66;7149:76;7240:1;:15;;;;;;;;;;;;:44;;;;7277:7;7259:25;;:1;:14;;;;;;;;;;;;:25;;;;7240:44;7236:105;;;7307:23;;;;;;;;;;;;;;7236:105;7367:7;7350:1;:14;;;:24;;;;;;;;;;;;;;;;;;7375:22;7400:1;:14;;;;;;;;;;;;7375:39;;7514:15;7447:66;7440:90;7558:4;7540:1;:15;;;:22;;;;;;;;;;;;;;;;;;7563:20;7586:1;:15;;;;;;;;;;;;7563:38;;7701:15;7634:66;7627:90;2885:15:1::2;2898:1;2885:12;:15::i;:::-;7756:5:0::1;7738:1;:15;;;:23;;;;;;;;;;;;;;;;;;7762:20;7785:1;:15;;;;;;;;;;;;7762:38;;7900:15;7833:66;7826:90;7931:20;7943:7;7931:20;;;;;;:::i;:::-;;;;;;;;6998:960;;;;3290:1:1;2794:109:::0;;;:::o;163:73::-;365:13;297:66;290:89;455:1;387:66;380:77;533:1;465:66;458:77;4158:30:0::1;4191:26;:24;:26::i;:::-;4158:59;;4317:1;4250:66;4243:76;4381:19;4404:1;:15;;;;;;;;;;;;4403:16;4381:38;;4519:14;4452:66;4445:89;4544:18;4565:1;:14;;;;;;;;;;;;4544:35;;4679:11;4612:66;4605:86;5033:17;5068:1;5053:11;:16;;;:34;;;;;5073:14;5053:34;5033:54;;5187:12;5120:66;5113:87;5210:17;5245:1;5230:11;:16;;;:50;;;;;5279:1;5258:4;5250:25;;;:30;5230:50;5210:70;;5380:12;5313:66;5306:87;5409:12;5408:13;:30;;;;;5426:12;5425:13;5408:30;5404:91;;;5461:23;;;;;;;;;;;;;;5404:91;5521:1;5504;:14;;;:18;;;;;;;;;;;;;;;;;;5523:21;5547:1;:14;;;;;;;;;;;;5523:38;;5661:14;5594:66;5587:89;5690:14;5686:67;;;5738:4;5720:1;:15;;;:22;;;;;;;;;;;;;;;;;;5686:67;5777:14;5773:101;;;5825:5;5807:1;:15;;;:23;;;;;;;;;;;;;;;;;;5849:14;5861:1;5849:14;;;;;;:::i;:::-;;;;;;;;5773:101;4092:1788;;;;;;163:73:1:o:0;547:74::-;600:1;758:13;690:66;683:89;848:1;780:66;773:77;926:1;858:66;851:77;1004:1;936:66;929:77;616:1:::1;7064:30:0;7097:26;:24;:26::i;:::-;7064:59;;7223:1;7156:66;7149:76;7240:1;:15;;;;;;;;;;;;:44;;;;7277:7;7259:25;;:1;:14;;;;;;;;;;;;:25;;;;7240:44;7236:105;;;7307:23;;;;;;;;;;;;;;7236:105;7367:7;7350:1;:14;;;:24;;;;;;;;;;;;;;;;;;7375:22;7400:1;:14;;;;;;;;;;;;7375:39;;7514:15;7447:66;7440:90;7558:4;7540:1;:15;;;:22;;;;;;;;;;;;;;;;;;7563:20;7586:1;:15;;;;;;;;;;;;7563:38;;7701:15;7634:66;7627:90;7756:5;7738:1;:15;;;:23;;;;;;;;;;;;;;;;;;7762:20;7785:1;:15;;;;;;;;;;;;7762:38;;7900:15;7833:66;7826:90;7931:20;7943:7;7931:20;;;;;;:::i;:::-;;;;;;;;6998:960;;;;1009:1:1;547:74:::0;;:::o;1782:109::-;1852:1;2027:13;1959:66;1952:89;2117:1;2049:66;2042:77;2195:1;2127:66;2120:77;2273:1;2205:66;2198:77;4158:30:0::1;4191:26;:24;:26::i;:::-;4158:59;;4317:1;4250:66;4243:76;4381:19;4404:1;:15;;;;;;;;;;;;4403:16;4381:38;;4519:14;4452:66;4445:89;4544:18;4565:1;:14;;;;;;;;;;;;4544:35;;4679:11;4612:66;4605:86;5033:17;5068:1;5053:11;:16;;;:34;;;;;5073:14;5053:34;5033:54;;5187:12;5120:66;5113:87;5210:17;5245:1;5230:11;:16;;;:50;;;;;5279:1;5258:4;5250:25;;;:30;5230:50;5210:70;;5380:12;5313:66;5306:87;5409:12;5408:13;:30;;;;;5426:12;5425:13;5408:30;5404:91;;;5461:23;;;;;;;;;;;;;;5404:91;5521:1;5504;:14;;;:18;;;;;;;;;;;;;;;;;;5523:21;5547:1;:14;;;;;;;;;;;;5523:38;;5661:14;5594:66;5587:89;5690:14;5686:67;;;5738:4;5720:1;:15;;;:22;;;;;;;;;;;;;;;;;;5686:67;1873:15:1::2;1886:1;1873:12;:15::i;:::-;5777:14:0::1;5773:101;;;5825:5;5807:1;:15;;;:23;;;;;;;;;;;;;;;;;;5849:14;5861:1;5849:14;;;;;;:::i;:::-;;;;;;;;5773:101;4092:1788;;;;;;1782:109:1::0;;:::o;1364:108::-;1600:13;1532:66;1525:89;1690:1;1622:66;1615:77;1768:1;1700:66;1693:77;4158:30:0::1;4191:26;:24;:26::i;:::-;4158:59;;4317:1;4250:66;4243:76;4381:19;4404:1;:15;;;;;;;;;;;;4403:16;4381:38;;4519:14;4452:66;4445:89;4544:18;4565:1;:14;;;;;;;;;;;;4544:35;;4679:11;4612:66;4605:86;5033:17;5068:1;5053:11;:16;;;:34;;;;;5073:14;5053:34;5033:54;;5187:12;5120:66;5113:87;5210:17;5245:1;5230:11;:16;;;:50;;;;;5279:1;5258:4;5250:25;;;:30;5230:50;5210:70;;5380:12;5313:66;5306:87;5409:12;5408:13;:30;;;;;5426:12;5425:13;5408:30;5404:91;;;5461:23;;;;;;;;;;;;;;5404:91;5521:1;5504;:14;;;:18;;;;;;;;;;;;;;;;;;5523:21;5547:1;:14;;;;;;;;;;;;5523:38;;5661:14;5594:66;5587:89;5690:14;5686:67;;;5738:4;5720:1;:15;;;:22;;;;;;;;;;;;;;;;;;5686:67;1454:12:1::2;:10;:12::i;:::-;5777:14:0::1;5773:101;;;5825:5;5807:1;:15;;;:23;;;;;;;;;;;;;;;;;;5849:14;5861:1;5849:14;;;;;;:::i;:::-;;;;;;;;5773:101;4092:1788;;;;;;1364:108:1:o:0;10686:394:0:-;10736:4;10845:13;10777:66;10770:89;10935:1;10867:66;10860:77;11013:1;10945:66;10938:77;11033:26;:24;:26::i;:::-;:40;;;;;;;;;;;;11026:47;;10686:394;:::o;9260:798::-;9412:13;9344:66;9337:89;9502:1;9434:66;9427:77;9580:1;9512:66;9505:77;9649:30;9682:26;:24;:26::i;:::-;9649:59;;9808:1;9741:66;9734:76;9825:1;:15;;;;;;;;;;;;9821:76;;;9863:23;;;;;;;;;;;;;;9821:76;9928:16;9910:34;;:1;:14;;;;;;;;;;;;:34;;;9906:146;;9977:16;9960:1;:14;;;:33;;;;;;;;;;;;;;;;;;10012:29;10024:16;10012:29;;;;;;:::i;:::-;;;;;;;;9906:146;9309:749;9260:798::o;10168:402::-;10225:6;10336:13;10268:66;10261:89;10426:1;10358:66;10351:77;10504:1;10436:66;10429:77;10524:26;:24;:26::i;:::-;:39;;;;;;;;;;;;10517:46;;10168:402;:::o;11820:584::-;11878:30;12013:13;11945:66;11938:89;12103:1;12035:66;12028:77;12181:1;12113:66;12106:77;12194:12;12209:27;:25;:27::i;:::-;12194:42;;12336:4;12269:66;12262:79;12384:4;12374:14;;12360:38;11820:584;:::o;11294:396::-;11362:7;11474:13;11406:66;11399:89;11564:1;11496:66;11489:77;11642:1;11574:66;11567:77;3147:66;11662:21;;11655:28;;11294:396;:::o;7:90:2:-;41:7;84:5;77:13;70:21;59:32;;7:90;;;:::o;103:109::-;184:21;199:5;184:21;:::i;:::-;179:3;172:34;103:109;;:::o;218:210::-;305:4;343:2;332:9;328:18;320:26;;356:65;418:1;407:9;403:17;394:6;356:65;:::i;:::-;218:210;;;;:::o;434:101::-;470:7;510:18;503:5;499:30;488:41;;434:101;;;:::o;541:115::-;626:23;643:5;626:23;:::i;:::-;621:3;614:36;541:115;;:::o;662:218::-;753:4;791:2;780:9;776:18;768:26;;804:69;870:1;859:9;855:17;846:6;804:69;:::i;:::-;662:218;;;;:::o;967:117::-;1076:1;1073;1066:12;1213:120;1285:23;1302:5;1285:23;:::i;:::-;1278:5;1275:34;1265:62;;1323:1;1320;1313:12;1265:62;1213:120;:::o;1339:137::-;1384:5;1422:6;1409:20;1400:29;;1438:32;1464:5;1438:32;:::i;:::-;1339:137;;;;:::o;1482:327::-;1540:6;1589:2;1577:9;1568:7;1564:23;1560:32;1557:119;;;1595:79;;:::i;:::-;1557:119;1715:1;1740:52;1784:7;1775:6;1764:9;1760:22;1740:52;:::i;:::-;1730:62;;1686:116;1482:327;;;;:::o;1815:470::-;1881:6;1889;1938:2;1926:9;1917:7;1913:23;1909:32;1906:119;;;1944:79;;:::i;:::-;1906:119;2064:1;2089:52;2133:7;2124:6;2113:9;2109:22;2089:52;:::i;:::-;2079:62;;2035:116;2190:2;2216:52;2260:7;2251:6;2240:9;2236:22;2216:52;:::i;:::-;2206:62;;2161:117;1815:470;;;;;:::o;2291:85::-;2336:7;2365:5;2354:16;;2291:85;;;:::o;2382:60::-;2410:3;2431:5;2424:12;;2382:60;;;:::o;2448:156::-;2505:9;2538:60;2555:42;2564:32;2590:5;2564:32;:::i;:::-;2555:42;:::i;:::-;2538:60;:::i;:::-;2525:73;;2448:156;;;:::o;2610:145::-;2704:44;2742:5;2704:44;:::i;:::-;2699:3;2692:57;2610:145;;:::o;2761:236::-;2861:4;2899:2;2888:9;2884:18;2876:26;;2912:78;2987:1;2976:9;2972:17;2963:6;2912:78;:::i;:::-;2761:236;;;;:::o",
+                "storageLayout": {
+                    "storage": [],
+                    "types": null
+                },
+                "transientStorageLayout": {
+                    "storage": [],
+                    "types": null
+                },
+                "varmap": ""
+            }
+        ],
+        "legacyStructLinking": {},
+        "library_addresses": [],
+        "origSourceDir": ".pre_autofinders.0",
+        "primary_contract": "InitializableHarness",
+        "primary_contract_address": "00000000ce4604a0000000000000000000000003",
+        "prototypeFor": [],
+        "sdc_name": "InitializableHarness.sol_0",
+        "sourceDir": ".post_autofinders.0",
+        "srclist": {
+            "0": "src/Formally_verifying_Initializable.sol/Initializable.sol",
+            "1": "src/Formally_verifying_Initializable.sol/InitializableHarness.sol"
+        },
+        "state": {},
+        "structLinkingInfo": {}
+    }
+}

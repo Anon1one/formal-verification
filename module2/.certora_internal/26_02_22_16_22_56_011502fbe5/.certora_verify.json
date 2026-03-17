@@ -1,0 +1,8 @@
+{
+    "importFilesToOrigRelpaths": {},
+    "primary_contract": "ERC20",
+    "specfile": "certora/Using_requireInvariant_in_Rules_and_Invariants/ERC20.spec",
+    "specfileOrigRelpath": "certora/Using_requireInvariant_in_Rules_and_Invariants/ERC20.spec",
+    "specfilesToImportDecls": {},
+    "type": "spec"
+}

@@ -1,0 +1,634 @@
+{
+    "OwnableHarness_00000000ce4604a0000000000000000000000005": {
+        "contracts": [
+            {
+                "address": "00000000ce4604a0000000000000000000000005",
+                "allMethods": [
+                    {
+                        "contractName": "OwnableHarness",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "address",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "constructor",
+                        "notpayable": true,
+                        "originalFile": "src/Formally_Verifying_Ownable.sol/OwnableHarness.sol",
+                        "paramNames": [
+                            "initialOwner"
+                        ],
+                        "returns": [],
+                        "sighash": "0",
+                        "sourceBytes": {
+                            "begin": 139,
+                            "size": 58
+                        },
+                        "stateMutability": "nonpayable",
+                        "visibility": "public",
+                        "vyper_metadata": null
+                    },
+                    {
+                        "contractName": "OwnableHarness",
+                        "fullArgs": [],
+                        "isLibrary": false,
+                        "name": "owner",
+                        "notpayable": true,
+                        "originalFile": "src/Formally_Verifying_Ownable.sol/Ownable.sol",
+                        "paramNames": [],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "address",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "8da5cb5b",
+                        "sourceBytes": {
+                            "begin": 1631,
+                            "size": 85
+                        },
+                        "stateMutability": "view",
+                        "visibility": "public",
+                        "vyper_metadata": null
+                    },
+                    {
+                        "contractName": "OwnableHarness",
+                        "fullArgs": [],
+                        "isLibrary": false,
+                        "name": "renounceOwnership",
+                        "notpayable": true,
+                        "originalFile": "src/Formally_Verifying_Ownable.sol/Ownable.sol",
+                        "paramNames": [],
+                        "returns": [],
+                        "sighash": "715018a6",
+                        "sourceBytes": {
+                            "begin": 2286,
+                            "size": 101
+                        },
+                        "stateMutability": "nonpayable",
+                        "visibility": "public",
+                        "vyper_metadata": null
+                    },
+                    {
+                        "contractName": "OwnableHarness",
+                        "fullArgs": [],
+                        "isLibrary": false,
+                        "name": "restricted",
+                        "notpayable": true,
+                        "originalFile": "src/Formally_Verifying_Ownable.sol/OwnableHarness.sol",
+                        "paramNames": [],
+                        "returns": [],
+                        "sighash": "7072c6b1",
+                        "sourceBytes": {
+                            "begin": 203,
+                            "size": 43
+                        },
+                        "stateMutability": "nonpayable",
+                        "visibility": "external",
+                        "vyper_metadata": null
+                    },
+                    {
+                        "contractName": "OwnableHarness",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "address",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "transferOwnership",
+                        "notpayable": true,
+                        "originalFile": "src/Formally_Verifying_Ownable.sol/Ownable.sol",
+                        "paramNames": [
+                            "newOwner"
+                        ],
+                        "returns": [],
+                        "sighash": "f2fde38b",
+                        "sourceBytes": {
+                            "begin": 2536,
+                            "size": 215
+                        },
+                        "stateMutability": "nonpayable",
+                        "visibility": "public",
+                        "vyper_metadata": null
+                    }
+                ],
+                "bytecode": "608060405234801561000f575f5ffd5b506004361061004a575f3560e01c80637072c6b11461004e578063715018a6146100585780638da5cb5b14610062578063f2fde38b14610080575b5f5ffd5b61005661009c565b005b6100606100a6565b005b61006a610127565b60405161007791906105f5565b60405180910390f35b61009a6004803603810190610095919061063c565b6101bc565b005b6100a46102d5565b565b64f196e500097fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00090000525f7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00090001525f7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000900045261011c6102d5565b6101255f6103ca565b565b5f64f196e500077fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00070000525f7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00070001525f7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00070004525f5f9054906101000a900473ffffffffffffffffffffffffffffffffffffffff16905090565b8064f196e500087fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000800005260017fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000800015260017fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff0008000552807fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00086000526102586102d5565b5f73ffffffffffffffffffffffffffffffffffffffff168273ffffffffffffffffffffffffffffffffffffffff16036102c8575f6040517f1e4fbdf70000000000000000000000000000000000000000000000000000000081526004016102bf91906105f5565b60405180910390fd5b6102d1826103ca565b5050565b64f196e500037fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00030000525f7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00030001525f7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000300045261034b610541565b73ffffffffffffffffffffffffffffffffffffffff16610369610127565b73ffffffffffffffffffffffffffffffffffffffff16146103c85761038c610541565b6040517f118cdaa70000000000000000000000000000000000000000000000000000000081526004016103bf91906105f5565b60405180910390fd5b565b64f196e500047fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000400005260017fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000400015260017fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff0004000552807fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00046000525f5f5f9054906101000a900473ffffffffffffffffffffffffffffffffffffffff169050807fffffff6e4604afefe123321beef1b02fffffffffffffffffffffffff0000000152815f5f6101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055508173ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff167f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e060405160405180910390a35050565b5f64f196e500007fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00000000525f7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00000001525f7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000000045233905090565b5f73ffffffffffffffffffffffffffffffffffffffff82169050919050565b5f6105df826105b6565b9050919050565b6105ef816105d5565b82525050565b5f6020820190506106085f8301846105e6565b92915050565b5f5ffd5b61061b816105d5565b8114610625575f5ffd5b50565b5f8135905061063681610612565b92915050565b5f602082840312156106515761065061060e565b5b5f61065e84828501610628565b9150509291505056fea2646970667358221220ca879707a8a2d5f6c35306c11f273e7907f720f6f8a960324545e8670594666364736f6c634300081e0033",
+                "compilerName": "solc",
+                "compilerParameters": {
+                    "optimizerOn": false,
+                    "optimizerRuns": null,
+                    "type": "SolcParameters",
+                    "viaIR": false
+                },
+                "compilerVersion": "0.8.30",
+                "constructorBytecode": "608060405234801561000f575f5ffd5b5060405161098a38038061098a8339818101604052810190610031919061028d565b805f73ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff16036100a2575f6040517f1e4fbdf700000000000000000000000000000000000000000000000000000000815260040161009991906102c7565b60405180910390fd5b6100b1816100b860201b60201c565b50506102e0565b64f196e500047fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000400005260017fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000400015260017fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff0004000552807fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00046000525f5f5f9054906101000a900473ffffffffffffffffffffffffffffffffffffffff169050807fffffff6e4604afefe123321beef1b02fffffffffffffffffffffffff0000000152815f5f6101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055508173ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff167f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e060405160405180910390a35050565b5f5ffd5b5f73ffffffffffffffffffffffffffffffffffffffff82169050919050565b5f61025c82610233565b9050919050565b61026c81610252565b8114610276575f5ffd5b50565b5f8151905061028781610263565b92915050565b5f602082840312156102a2576102a161022f565b5b5f6102af84828501610279565b91505092915050565b6102c181610252565b82525050565b5f6020820190506102da5f8301846102b8565b92915050565b61069d806102ed5f395ff3fe608060405234801561000f575f5ffd5b506004361061004a575f3560e01c80637072c6b11461004e578063715018a6146100585780638da5cb5b14610062578063f2fde38b14610080575b5f5ffd5b61005661009c565b005b6100606100a6565b005b61006a610127565b60405161007791906105f5565b60405180910390f35b61009a6004803603810190610095919061063c565b6101bc565b005b6100a46102d5565b565b64f196e500097fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00090000525f7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00090001525f7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000900045261011c6102d5565b6101255f6103ca565b565b5f64f196e500077fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00070000525f7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00070001525f7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00070004525f5f9054906101000a900473ffffffffffffffffffffffffffffffffffffffff16905090565b8064f196e500087fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000800005260017fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000800015260017fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff0008000552807fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00086000526102586102d5565b5f73ffffffffffffffffffffffffffffffffffffffff168273ffffffffffffffffffffffffffffffffffffffff16036102c8575f6040517f1e4fbdf70000000000000000000000000000000000000000000000000000000081526004016102bf91906105f5565b60405180910390fd5b6102d1826103ca565b5050565b64f196e500037fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00030000525f7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00030001525f7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000300045261034b610541565b73ffffffffffffffffffffffffffffffffffffffff16610369610127565b73ffffffffffffffffffffffffffffffffffffffff16146103c85761038c610541565b6040517f118cdaa70000000000000000000000000000000000000000000000000000000081526004016103bf91906105f5565b60405180910390fd5b565b64f196e500047fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000400005260017fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000400015260017fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff0004000552807fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00046000525f5f5f9054906101000a900473ffffffffffffffffffffffffffffffffffffffff169050807fffffff6e4604afefe123321beef1b02fffffffffffffffffffffffff0000000152815f5f6101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055508173ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff167f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e060405160405180910390a35050565b5f64f196e500007fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00000000525f7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00000001525f7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000000045233905090565b5f73ffffffffffffffffffffffffffffffffffffffff82169050919050565b5f6105df826105b6565b9050919050565b6105ef816105d5565b82525050565b5f6020820190506106085f8301846105e6565b92915050565b5f5ffd5b61061b816105d5565b8114610625575f5ffd5b50565b5f8135905061063681610612565b92915050565b5f602082840312156106515761065061060e565b5b5f61065e84828501610628565b9150509291505056fea2646970667358221220ca879707a8a2d5f6c35306c11f273e7907f720f6f8a960324545e8670594666364736f6c634300081e0033",
+                "constructorSrcmap": "98:150:2:-:0;;;139:58;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;181:12;1290:1:1;1266:26;;:12;:26;;;1262:95;;1343:1;1315:31;;;;;;;;;;;:::i;:::-;;;;;;;;1262:95;1366:32;1385:12;1366:18;;;:32;;:::i;:::-;1218:187;139:58:2;98:150;;4200:655:1;4366:13;4298:66;4291:89;4456:1;4388:66;4381:77;4534:1;4466:66;4459:77;4612:8;4544:66;4537:84;4632:16;4651:6;;;;;;;;;;;4632:25;;4757:8;4690:66;4683:83;4785:8;4776:6;;:17;;;;;;;;;;;;;;;;;;4839:8;4808:40;;4829:8;4808:40;;;;;;;;;;;;4263:592;4200:655;:::o;88:117:3:-;197:1;194;187:12;334:126;371:7;411:42;404:5;400:54;389:65;;334:126;;;:::o;466:96::-;503:7;532:24;550:5;532:24;:::i;:::-;521:35;;466:96;;;:::o;568:122::-;641:24;659:5;641:24;:::i;:::-;634:5;631:35;621:63;;680:1;677;670:12;621:63;568:122;:::o;696:143::-;753:5;784:6;778:13;769:22;;800:33;827:5;800:33;:::i;:::-;696:143;;;;:::o;845:351::-;915:6;964:2;952:9;943:7;939:23;935:32;932:119;;;970:79;;:::i;:::-;932:119;1090:1;1115:64;1171:7;1162:6;1151:9;1147:22;1115:64;:::i;:::-;1105:74;;1061:128;845:351;;;;:::o;1202:118::-;1289:24;1307:5;1289:24;:::i;:::-;1284:3;1277:37;1202:118;;:::o;1326:222::-;1419:4;1457:2;1446:9;1442:18;1434:26;;1470:71;1538:1;1527:9;1523:17;1514:6;1470:71;:::i;:::-;1326:222;;;;:::o;98:150:2:-;;;;;;;",
+                "extensionContracts": [],
+                "file": "src/Formally_Verifying_Ownable.sol/OwnableHarness.sol",
+                "immutables": [],
+                "internalFuncs": [],
+                "internalFunctionHarnesses": {},
+                "internalFunctionStarts": [
+                    1345,
+                    166,
+                    295,
+                    1576,
+                    1510,
+                    970,
+                    1550,
+                    1554,
+                    725,
+                    1525,
+                    1493,
+                    1462,
+                    444,
+                    156,
+                    1596
+                ],
+                "internalFunctions": {
+                    "0xf196e50000": {
+                        "canonicalId": "src/Formally_Verifying_Ownable.sol/Context.sol|Context",
+                        "declaringContract": "Context",
+                        "method": {
+                            "contractName": "Context",
+                            "fullArgs": [],
+                            "isLibrary": false,
+                            "name": "_msgSender",
+                            "notpayable": true,
+                            "originalFile": "src/Formally_Verifying_Ownable.sol/Context.sol",
+                            "paramNames": [],
+                            "returns": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "address",
+                                        "type": "Primitive"
+                                    }
+                                }
+                            ],
+                            "sighash": "0",
+                            "sourceBytes": {
+                                "begin": 656,
+                                "size": 96
+                            },
+                            "stateMutability": "view",
+                            "visibility": "internal",
+                            "vyper_metadata": null
+                        }
+                    },
+                    "0xf196e50001": {
+                        "canonicalId": "src/Formally_Verifying_Ownable.sol/Context.sol|Context",
+                        "declaringContract": "Context",
+                        "method": {
+                            "contractName": "Context",
+                            "fullArgs": [],
+                            "isLibrary": false,
+                            "name": "_msgData",
+                            "notpayable": true,
+                            "originalFile": "src/Formally_Verifying_Ownable.sol/Context.sol",
+                            "paramNames": [],
+                            "returns": [
+                                {
+                                    "location": "calldata",
+                                    "typeDesc": {
+                                        "type": "PackedBytes"
+                                    }
+                                }
+                            ],
+                            "sighash": "0",
+                            "sourceBytes": {
+                                "begin": 758,
+                                "size": 99
+                            },
+                            "stateMutability": "view",
+                            "visibility": "internal",
+                            "vyper_metadata": null
+                        }
+                    },
+                    "0xf196e50002": {
+                        "canonicalId": "src/Formally_Verifying_Ownable.sol/Context.sol|Context",
+                        "declaringContract": "Context",
+                        "method": {
+                            "contractName": "Context",
+                            "fullArgs": [],
+                            "isLibrary": false,
+                            "name": "_contextSuffixLength",
+                            "notpayable": true,
+                            "originalFile": "src/Formally_Verifying_Ownable.sol/Context.sol",
+                            "paramNames": [],
+                            "returns": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "uint256",
+                                        "type": "Primitive"
+                                    }
+                                }
+                            ],
+                            "sighash": "0",
+                            "sourceBytes": {
+                                "begin": 863,
+                                "size": 97
+                            },
+                            "stateMutability": "view",
+                            "visibility": "internal",
+                            "vyper_metadata": null
+                        }
+                    },
+                    "0xf196e50003": {
+                        "canonicalId": "src/Formally_Verifying_Ownable.sol/Ownable.sol|Ownable",
+                        "declaringContract": "Ownable",
+                        "method": {
+                            "contractName": "Ownable",
+                            "fullArgs": [],
+                            "isLibrary": false,
+                            "name": "_checkOwner",
+                            "notpayable": true,
+                            "originalFile": "src/Formally_Verifying_Ownable.sol/Ownable.sol",
+                            "paramNames": [],
+                            "returns": [],
+                            "sighash": "0",
+                            "sourceBytes": {
+                                "begin": 1789,
+                                "size": 162
+                            },
+                            "stateMutability": "view",
+                            "visibility": "internal",
+                            "vyper_metadata": null
+                        }
+                    },
+                    "0xf196e50004": {
+                        "canonicalId": "src/Formally_Verifying_Ownable.sol/Ownable.sol|Ownable",
+                        "declaringContract": "Ownable",
+                        "method": {
+                            "contractName": "Ownable",
+                            "fullArgs": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "address",
+                                        "type": "Primitive"
+                                    }
+                                }
+                            ],
+                            "isLibrary": false,
+                            "name": "_transferOwnership",
+                            "notpayable": true,
+                            "originalFile": "src/Formally_Verifying_Ownable.sol/Ownable.sol",
+                            "paramNames": [
+                                "newOwner"
+                            ],
+                            "returns": [],
+                            "sighash": "0",
+                            "sourceBytes": {
+                                "begin": 2905,
+                                "size": 187
+                            },
+                            "stateMutability": "nonpayable",
+                            "visibility": "internal",
+                            "vyper_metadata": null
+                        }
+                    },
+                    "0xf196e50005": {
+                        "canonicalId": "src/Formally_Verifying_Ownable.sol/Ownable.sol|Ownable",
+                        "declaringContract": "Ownable",
+                        "method": {
+                            "contractName": "Ownable",
+                            "fullArgs": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "address",
+                                        "type": "Primitive"
+                                    }
+                                }
+                            ],
+                            "isLibrary": false,
+                            "name": "transferOwnership",
+                            "notpayable": true,
+                            "originalFile": "src/Formally_Verifying_Ownable.sol/Ownable.sol",
+                            "paramNames": [
+                                "newOwner"
+                            ],
+                            "returns": [],
+                            "sighash": "f2fde38b",
+                            "sourceBytes": {
+                                "begin": 2536,
+                                "size": 215
+                            },
+                            "stateMutability": "nonpayable",
+                            "visibility": "public",
+                            "vyper_metadata": null
+                        }
+                    },
+                    "0xf196e50006": {
+                        "canonicalId": "src/Formally_Verifying_Ownable.sol/Ownable.sol|Ownable",
+                        "declaringContract": "Ownable",
+                        "method": {
+                            "contractName": "Ownable",
+                            "fullArgs": [],
+                            "isLibrary": false,
+                            "name": "renounceOwnership",
+                            "notpayable": true,
+                            "originalFile": "src/Formally_Verifying_Ownable.sol/Ownable.sol",
+                            "paramNames": [],
+                            "returns": [],
+                            "sighash": "715018a6",
+                            "sourceBytes": {
+                                "begin": 2286,
+                                "size": 101
+                            },
+                            "stateMutability": "nonpayable",
+                            "visibility": "public",
+                            "vyper_metadata": null
+                        }
+                    },
+                    "0xf196e50007": {
+                        "canonicalId": "src/Formally_Verifying_Ownable.sol/Ownable.sol|Ownable",
+                        "declaringContract": "Ownable",
+                        "method": {
+                            "contractName": "Ownable",
+                            "fullArgs": [],
+                            "isLibrary": false,
+                            "name": "owner",
+                            "notpayable": true,
+                            "originalFile": "src/Formally_Verifying_Ownable.sol/Ownable.sol",
+                            "paramNames": [],
+                            "returns": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "address",
+                                        "type": "Primitive"
+                                    }
+                                }
+                            ],
+                            "sighash": "8da5cb5b",
+                            "sourceBytes": {
+                                "begin": 1631,
+                                "size": 85
+                            },
+                            "stateMutability": "view",
+                            "visibility": "public",
+                            "vyper_metadata": null
+                        }
+                    },
+                    "0xf196e50008": {
+                        "canonicalId": "src/Formally_Verifying_Ownable.sol/Ownable.sol|OwnableHarness",
+                        "declaringContract": "OwnableHarness",
+                        "method": {
+                            "contractName": "OwnableHarness",
+                            "fullArgs": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "address",
+                                        "type": "Primitive"
+                                    }
+                                }
+                            ],
+                            "isLibrary": false,
+                            "name": "transferOwnership",
+                            "notpayable": true,
+                            "originalFile": "src/Formally_Verifying_Ownable.sol/Ownable.sol",
+                            "paramNames": [
+                                "newOwner"
+                            ],
+                            "returns": [],
+                            "sighash": "f2fde38b",
+                            "sourceBytes": {
+                                "begin": 2536,
+                                "size": 215
+                            },
+                            "stateMutability": "nonpayable",
+                            "visibility": "public",
+                            "vyper_metadata": null
+                        }
+                    },
+                    "0xf196e50009": {
+                        "canonicalId": "src/Formally_Verifying_Ownable.sol/Ownable.sol|OwnableHarness",
+                        "declaringContract": "OwnableHarness",
+                        "method": {
+                            "contractName": "OwnableHarness",
+                            "fullArgs": [],
+                            "isLibrary": false,
+                            "name": "renounceOwnership",
+                            "notpayable": true,
+                            "originalFile": "src/Formally_Verifying_Ownable.sol/Ownable.sol",
+                            "paramNames": [],
+                            "returns": [],
+                            "sighash": "715018a6",
+                            "sourceBytes": {
+                                "begin": 2286,
+                                "size": 101
+                            },
+                            "stateMutability": "nonpayable",
+                            "visibility": "public",
+                            "vyper_metadata": null
+                        }
+                    }
+                },
+                "is_static_address": false,
+                "lang": "Solidity",
+                "localAssignments": {
+                    "1": {
+                        "lhs": "oldOwner",
+                        "sourceLoc": {
+                            "begin": "2978",
+                            "len": "25",
+                            "source": "1"
+                        }
+                    }
+                },
+                "methods": [
+                    {
+                        "contractName": "OwnableHarness",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "address",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "constructor",
+                        "notpayable": true,
+                        "originalFile": "src/Formally_Verifying_Ownable.sol/OwnableHarness.sol",
+                        "paramNames": [
+                            "initialOwner"
+                        ],
+                        "returns": [],
+                        "sighash": "0",
+                        "sourceBytes": {
+                            "begin": 139,
+                            "size": 58
+                        },
+                        "stateMutability": "nonpayable",
+                        "visibility": "public",
+                        "vyper_metadata": null
+                    },
+                    {
+                        "contractName": "OwnableHarness",
+                        "fullArgs": [],
+                        "isLibrary": false,
+                        "name": "renounceOwnership",
+                        "notpayable": true,
+                        "originalFile": "src/Formally_Verifying_Ownable.sol/Ownable.sol",
+                        "paramNames": [],
+                        "returns": [],
+                        "sighash": "715018a6",
+                        "sourceBytes": {
+                            "begin": 2286,
+                            "size": 101
+                        },
+                        "stateMutability": "nonpayable",
+                        "visibility": "public",
+                        "vyper_metadata": null
+                    },
+                    {
+                        "contractName": "OwnableHarness",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "address",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "transferOwnership",
+                        "notpayable": true,
+                        "originalFile": "src/Formally_Verifying_Ownable.sol/Ownable.sol",
+                        "paramNames": [
+                            "newOwner"
+                        ],
+                        "returns": [],
+                        "sighash": "f2fde38b",
+                        "sourceBytes": {
+                            "begin": 2536,
+                            "size": 215
+                        },
+                        "stateMutability": "nonpayable",
+                        "visibility": "public",
+                        "vyper_metadata": null
+                    },
+                    {
+                        "contractName": "OwnableHarness",
+                        "fullArgs": [],
+                        "isLibrary": false,
+                        "name": "restricted",
+                        "notpayable": true,
+                        "originalFile": "src/Formally_Verifying_Ownable.sol/OwnableHarness.sol",
+                        "paramNames": [],
+                        "returns": [],
+                        "sighash": "7072c6b1",
+                        "sourceBytes": {
+                            "begin": 203,
+                            "size": 43
+                        },
+                        "stateMutability": "nonpayable",
+                        "visibility": "external",
+                        "vyper_metadata": null
+                    },
+                    {
+                        "contractName": "OwnableHarness",
+                        "fullArgs": [],
+                        "isLibrary": false,
+                        "name": "owner",
+                        "notpayable": true,
+                        "originalFile": "src/Formally_Verifying_Ownable.sol/Ownable.sol",
+                        "paramNames": [],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "address",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "8da5cb5b",
+                        "sourceBytes": {
+                            "begin": 1631,
+                            "size": 85
+                        },
+                        "stateMutability": "view",
+                        "visibility": "public",
+                        "vyper_metadata": null
+                    }
+                ],
+                "name": "OwnableHarness",
+                "original_file": "src/Formally_Verifying_Ownable.sol/OwnableHarness.sol",
+                "solidityTypes": [],
+                "sourceBytes": {
+                    "begin": 98,
+                    "size": 150
+                },
+                "srcmap": "98:150:2:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;203:43;;;:::i;:::-;;2834:115:1;;;:::i;:::-;;1631:359;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;3403:237;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;203:43:2;1524:13:1;:11;:13::i;:::-;203:43:2:o;2834:115:1:-;3077:13;3009:66;3002:89;3167:1;3099:66;3092:77;3245:1;3177:66;3170:77;1524:13:::1;:11;:13::i;:::-;2912:30:::2;2939:1;2912:18;:30::i;:::-;2834:115::o:0;1631:359::-;1677:7;1789:13;1721:66;1714:89;1879:1;1811:66;1804:77;1957:1;1889:66;1882:77;1977:6;;;;;;;;;;;1970:13;;1631:359;:::o;3403:237::-;3476:8;3784:13;3716:66;3709:89;3874:1;3806:66;3799:77;3952:1;3884:66;3877:77;4030:8;3962:66;3955:84;1524:13:::1;:11;:13::i;:::-;3529:1:::2;3509:22;;:8;:22;;::::0;3505:91:::2;;3582:1;3554:31;;;;;;;;;;;:::i;:::-;;;;;;;;3505:91;3605:28;3624:8;3605:18;:28::i;:::-;3403:237:::0;;:::o;2063:436::-;2211:13;2143:66;2136:89;2301:1;2233:66;2226:77;2379:1;2311:66;2304:77;2407:12;:10;:12::i;:::-;2396:23;;:7;:5;:7::i;:::-;:23;;;2392:101;;2469:12;:10;:12::i;:::-;2442:40;;;;;;;;;;;:::i;:::-;;;;;;;;2392:101;2063:436::o;4200:655::-;4366:13;4298:66;4291:89;4456:1;4388:66;4381:77;4534:1;4466:66;4459:77;4612:8;4544:66;4537:84;4632:16;4651:6;;;;;;;;;;;4632:25;;4757:8;4690:66;4683:83;4785:8;4776:6;;:17;;;;;;;;;;;;;;;;;;4839:8;4808:40;;4829:8;4808:40;;;;;;;;;;;;4263:592;4200:655;:::o;656:370:0:-;709:7;821:13;753:66;746:89;911:1;843:66;836:77;989:1;921:66;914:77;1009:10;1002:17;;656:370;:::o;7:126:3:-;44:7;84:42;77:5;73:54;62:65;;7:126;;;:::o;139:96::-;176:7;205:24;223:5;205:24;:::i;:::-;194:35;;139:96;;;:::o;241:118::-;328:24;346:5;328:24;:::i;:::-;323:3;316:37;241:118;;:::o;365:222::-;458:4;496:2;485:9;481:18;473:26;;509:71;577:1;566:9;562:17;553:6;509:71;:::i;:::-;365:222;;;;:::o;674:117::-;783:1;780;773:12;920:122;993:24;1011:5;993:24;:::i;:::-;986:5;983:35;973:63;;1032:1;1029;1022:12;973:63;920:122;:::o;1048:139::-;1094:5;1132:6;1119:20;1110:29;;1148:33;1175:5;1148:33;:::i;:::-;1048:139;;;;:::o;1193:329::-;1252:6;1301:2;1289:9;1280:7;1276:23;1272:32;1269:119;;;1307:79;;:::i;:::-;1269:119;1427:1;1452:53;1497:7;1488:6;1477:9;1473:22;1452:53;:::i;:::-;1442:63;;1398:117;1193:329;;;;:::o",
+                "storageLayout": {
+                    "storage": [
+                        {
+                            "astId": 30,
+                            "contract": "/home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/.certora_internal/26_02_18_14_15_52_1561582da8/.certora_sources/src/Formally_Verifying_Ownable.sol/OwnableHarness.sol:OwnableHarness",
+                            "descriptor": {
+                                "annotations": [
+                                    {
+                                        "numberOfBytes": "20",
+                                        "type": "StorageAnnotation"
+                                    }
+                                ],
+                                "primitiveName": "address",
+                                "type": "Primitive"
+                            },
+                            "label": "_owner",
+                            "offset": 0,
+                            "slot": "0",
+                            "type": "t_address"
+                        }
+                    ],
+                    "types": {
+                        "t_address": {
+                            "encoding": "inplace",
+                            "label": "address",
+                            "numberOfBytes": "20"
+                        }
+                    }
+                },
+                "transientStorageLayout": {
+                    "storage": [],
+                    "types": null
+                },
+                "varmap": ""
+            }
+        ],
+        "legacyStructLinking": {},
+        "library_addresses": [],
+        "origSourceDir": ".pre_autofinders.0",
+        "primary_contract": "OwnableHarness",
+        "primary_contract_address": "00000000ce4604a0000000000000000000000005",
+        "prototypeFor": [],
+        "sdc_name": "OwnableHarness.sol_0",
+        "sourceDir": ".post_autofinders.0",
+        "srclist": {
+            "0": "src/Formally_Verifying_Ownable.sol/Context.sol",
+            "1": "src/Formally_Verifying_Ownable.sol/Ownable.sol",
+            "2": "src/Formally_Verifying_Ownable.sol/OwnableHarness.sol"
+        },
+        "state": {},
+        "structLinkingInfo": {}
+    }
+}

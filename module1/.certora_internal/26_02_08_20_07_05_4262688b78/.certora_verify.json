@@ -1,0 +1,8 @@
+{
+    "importFilesToOrigRelpaths": {},
+    "primary_contract": "Math",
+    "specfile": "/home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/certora/Implication_Operator/Math.spec",
+    "specfileOrigRelpath": "certora/Implication_Operator/Math.spec",
+    "specfilesToImportDecls": {},
+    "type": "spec"
+}

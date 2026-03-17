@@ -1,0 +1,8 @@
+{
+    "importFilesToOrigRelpaths": {},
+    "primary_contract": "Math",
+    "specfile": "certora/Biconditional_Operator/Math.spec",
+    "specfileOrigRelpath": "certora/Biconditional_Operator/Math.spec",
+    "specfilesToImportDecls": {},
+    "type": "spec"
+}

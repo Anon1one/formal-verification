@@ -1,0 +1,8 @@
+{
+    "importFilesToOrigRelpaths": {},
+    "primary_contract": "RareToken",
+    "specfile": "/home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/certora/Introduction_to_Method_Properties/RareToken.spec",
+    "specfileOrigRelpath": "certora/Introduction_to_Method_Properties/RareToken.spec",
+    "specfilesToImportDecls": {},
+    "type": "spec"
+}

@@ -1,0 +1,651 @@
+{
+    "Initializable_00000000ce4604a0000000000000000000000001": {
+        "contracts": [
+            {
+                "address": "00000000ce4604a0000000000000000000000001",
+                "allMethods": [
+                    {
+                        "contractName": "Initializable",
+                        "fullArgs": [],
+                        "isLibrary": false,
+                        "name": "_checkInitializing",
+                        "notpayable": true,
+                        "originalFile": null,
+                        "paramNames": [],
+                        "returns": [],
+                        "sighash": "0",
+                        "sourceBytes": null,
+                        "stateMutability": "view",
+                        "visibility": "internal",
+                        "vyper_metadata": null
+                    },
+                    {
+                        "contractName": "Initializable",
+                        "fullArgs": [],
+                        "isLibrary": false,
+                        "name": "_disableInitializers",
+                        "notpayable": true,
+                        "originalFile": null,
+                        "paramNames": [],
+                        "returns": [],
+                        "sighash": "0",
+                        "sourceBytes": null,
+                        "stateMutability": "nonpayable",
+                        "visibility": "internal",
+                        "vyper_metadata": null
+                    },
+                    {
+                        "contractName": "Initializable",
+                        "fullArgs": [],
+                        "isLibrary": false,
+                        "name": "_getInitializableStorage",
+                        "notpayable": true,
+                        "originalFile": null,
+                        "paramNames": [],
+                        "returns": [
+                            {
+                                "location": "storage",
+                                "typeDesc": {
+                                    "astId": 10,
+                                    "canonicalId": "src/Formally_verifying_Initializable.sol/Initializable.sol|Initializable.InitializableStorage",
+                                    "containingContract": "Initializable",
+                                    "structMembers": [
+                                        {
+                                            "name": "_initialized",
+                                            "type": {
+                                                "primitiveName": "uint64",
+                                                "type": "Primitive"
+                                            }
+                                        },
+                                        {
+                                            "name": "_initializing",
+                                            "type": {
+                                                "primitiveName": "bool",
+                                                "type": "Primitive"
+                                            }
+                                        }
+                                    ],
+                                    "structName": "InitializableStorage",
+                                    "type": "UserDefinedStruct"
+                                }
+                            }
+                        ],
+                        "sighash": "0",
+                        "sourceBytes": null,
+                        "stateMutability": "pure",
+                        "visibility": "private",
+                        "vyper_metadata": null
+                    },
+                    {
+                        "contractName": "Initializable",
+                        "fullArgs": [],
+                        "isLibrary": false,
+                        "name": "_getInitializedVersion",
+                        "notpayable": true,
+                        "originalFile": null,
+                        "paramNames": [],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint64",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "0",
+                        "sourceBytes": null,
+                        "stateMutability": "view",
+                        "visibility": "internal",
+                        "vyper_metadata": null
+                    },
+                    {
+                        "contractName": "Initializable",
+                        "fullArgs": [],
+                        "isLibrary": false,
+                        "name": "_initializableStorageSlot",
+                        "notpayable": true,
+                        "originalFile": null,
+                        "paramNames": [],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "bytes32",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "0",
+                        "sourceBytes": null,
+                        "stateMutability": "pure",
+                        "visibility": "internal",
+                        "vyper_metadata": null
+                    },
+                    {
+                        "contractName": "Initializable",
+                        "fullArgs": [],
+                        "isLibrary": false,
+                        "name": "_isInitializing",
+                        "notpayable": true,
+                        "originalFile": null,
+                        "paramNames": [],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "bool",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "0",
+                        "sourceBytes": null,
+                        "stateMutability": "view",
+                        "visibility": "internal",
+                        "vyper_metadata": null
+                    }
+                ],
+                "bytecode": "60806040525f5ffdfea2646970667358221220c8e4e049c8ff7a16c9f63e2b2ec57e5bcb739154ef041341b51731944d107d6364736f6c634300081e0033",
+                "compilerName": "solc",
+                "compilerParameters": {
+                    "optimizerOn": false,
+                    "optimizerRuns": null,
+                    "type": "SolcParameters",
+                    "viaIR": false
+                },
+                "compilerVersion": "0.8.30",
+                "constructorBytecode": "6080604052348015600e575f5ffd5b50603e80601a5f395ff3fe60806040525f5ffdfea2646970667358221220c8e4e049c8ff7a16c9f63e2b2ec57e5bcb739154ef041341b51731944d107d6364736f6c634300081e0033",
+                "constructorSrcmap": "2349:10048:0:-:0;;;;;;;;;;;;;;;;;;;",
+                "extensionContracts": [],
+                "file": "src/Formally_verifying_Initializable.sol/Initializable.sol",
+                "immutables": [],
+                "internalFuncs": [
+                    {
+                        "contractName": "Initializable",
+                        "fullArgs": [],
+                        "isLibrary": false,
+                        "name": "_checkInitializing",
+                        "notpayable": true,
+                        "originalFile": null,
+                        "paramNames": [],
+                        "returns": [],
+                        "sighash": "0",
+                        "sourceBytes": null,
+                        "stateMutability": "view",
+                        "visibility": "internal",
+                        "vyper_metadata": null
+                    },
+                    {
+                        "contractName": "Initializable",
+                        "fullArgs": [],
+                        "isLibrary": false,
+                        "name": "_disableInitializers",
+                        "notpayable": true,
+                        "originalFile": null,
+                        "paramNames": [],
+                        "returns": [],
+                        "sighash": "0",
+                        "sourceBytes": null,
+                        "stateMutability": "nonpayable",
+                        "visibility": "internal",
+                        "vyper_metadata": null
+                    },
+                    {
+                        "contractName": "Initializable",
+                        "fullArgs": [],
+                        "isLibrary": false,
+                        "name": "_initializableStorageSlot",
+                        "notpayable": true,
+                        "originalFile": null,
+                        "paramNames": [],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "bytes32",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "0",
+                        "sourceBytes": null,
+                        "stateMutability": "pure",
+                        "visibility": "internal",
+                        "vyper_metadata": null
+                    },
+                    {
+                        "contractName": "Initializable",
+                        "fullArgs": [],
+                        "isLibrary": false,
+                        "name": "_getInitializedVersion",
+                        "notpayable": true,
+                        "originalFile": null,
+                        "paramNames": [],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint64",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "0",
+                        "sourceBytes": null,
+                        "stateMutability": "view",
+                        "visibility": "internal",
+                        "vyper_metadata": null
+                    },
+                    {
+                        "contractName": "Initializable",
+                        "fullArgs": [],
+                        "isLibrary": false,
+                        "name": "_isInitializing",
+                        "notpayable": true,
+                        "originalFile": null,
+                        "paramNames": [],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "bool",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "0",
+                        "sourceBytes": null,
+                        "stateMutability": "view",
+                        "visibility": "internal",
+                        "vyper_metadata": null
+                    },
+                    {
+                        "contractName": "Initializable",
+                        "fullArgs": [],
+                        "isLibrary": false,
+                        "name": "_getInitializableStorage",
+                        "notpayable": true,
+                        "originalFile": null,
+                        "paramNames": [],
+                        "returns": [
+                            {
+                                "location": "storage",
+                                "typeDesc": {
+                                    "astId": 10,
+                                    "canonicalId": "src/Formally_verifying_Initializable.sol/Initializable.sol|Initializable.InitializableStorage",
+                                    "containingContract": "Initializable",
+                                    "structMembers": [
+                                        {
+                                            "name": "_initialized",
+                                            "type": {
+                                                "primitiveName": "uint64",
+                                                "type": "Primitive"
+                                            }
+                                        },
+                                        {
+                                            "name": "_initializing",
+                                            "type": {
+                                                "primitiveName": "bool",
+                                                "type": "Primitive"
+                                            }
+                                        }
+                                    ],
+                                    "structName": "InitializableStorage",
+                                    "type": "UserDefinedStruct"
+                                }
+                            }
+                        ],
+                        "sighash": "0",
+                        "sourceBytes": null,
+                        "stateMutability": "pure",
+                        "visibility": "private",
+                        "vyper_metadata": null
+                    }
+                ],
+                "internalFunctionHarnesses": {},
+                "internalFunctionStarts": [],
+                "internalFunctions": {
+                    "0xf196e50000": {
+                        "canonicalId": "src/Formally_verifying_Initializable.sol/Initializable.sol|Initializable",
+                        "declaringContract": "Initializable",
+                        "method": {
+                            "contractName": "Initializable",
+                            "fullArgs": [],
+                            "isLibrary": false,
+                            "name": "_checkInitializing",
+                            "notpayable": true,
+                            "originalFile": "src/Formally_verifying_Initializable.sol/Initializable.sol",
+                            "paramNames": [],
+                            "returns": [],
+                            "sighash": "0",
+                            "sourceBytes": {
+                                "begin": 7073,
+                                "size": 141
+                            },
+                            "stateMutability": "view",
+                            "visibility": "internal",
+                            "vyper_metadata": null
+                        }
+                    },
+                    "0xf196e50001": {
+                        "canonicalId": "src/Formally_verifying_Initializable.sol/Initializable.sol|Initializable",
+                        "declaringContract": "Initializable",
+                        "method": {
+                            "contractName": "Initializable",
+                            "fullArgs": [],
+                            "isLibrary": false,
+                            "name": "_disableInitializers",
+                            "notpayable": true,
+                            "originalFile": "src/Formally_verifying_Initializable.sol/Initializable.sol",
+                            "paramNames": [],
+                            "returns": [],
+                            "sighash": "0",
+                            "sourceBytes": {
+                                "begin": 7700,
+                                "size": 422
+                            },
+                            "stateMutability": "nonpayable",
+                            "visibility": "internal",
+                            "vyper_metadata": null
+                        }
+                    },
+                    "0xf196e50002": {
+                        "canonicalId": "src/Formally_verifying_Initializable.sol/Initializable.sol|Initializable",
+                        "declaringContract": "Initializable",
+                        "method": {
+                            "contractName": "Initializable",
+                            "fullArgs": [],
+                            "isLibrary": false,
+                            "name": "_initializableStorageSlot",
+                            "notpayable": true,
+                            "originalFile": "src/Formally_verifying_Initializable.sol/Initializable.sol",
+                            "paramNames": [],
+                            "returns": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "bytes32",
+                                        "type": "Primitive"
+                                    }
+                                }
+                            ],
+                            "sighash": "0",
+                            "sourceBytes": {
+                                "begin": 8810,
+                                "size": 122
+                            },
+                            "stateMutability": "pure",
+                            "visibility": "internal",
+                            "vyper_metadata": null
+                        }
+                    },
+                    "0xf196e50003": {
+                        "canonicalId": "src/Formally_verifying_Initializable.sol/Initializable.sol|Initializable",
+                        "declaringContract": "Initializable",
+                        "method": {
+                            "contractName": "Initializable",
+                            "fullArgs": [],
+                            "isLibrary": false,
+                            "name": "_getInitializedVersion",
+                            "notpayable": true,
+                            "originalFile": "src/Formally_verifying_Initializable.sol/Initializable.sol",
+                            "paramNames": [],
+                            "returns": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "uint64",
+                                        "type": "Primitive"
+                                    }
+                                }
+                            ],
+                            "sighash": "0",
+                            "sourceBytes": {
+                                "begin": 8232,
+                                "size": 128
+                            },
+                            "stateMutability": "view",
+                            "visibility": "internal",
+                            "vyper_metadata": null
+                        }
+                    },
+                    "0xf196e50004": {
+                        "canonicalId": "src/Formally_verifying_Initializable.sol/Initializable.sol|Initializable",
+                        "declaringContract": "Initializable",
+                        "method": {
+                            "contractName": "Initializable",
+                            "fullArgs": [],
+                            "isLibrary": false,
+                            "name": "_isInitializing",
+                            "notpayable": true,
+                            "originalFile": "src/Formally_verifying_Initializable.sol/Initializable.sol",
+                            "paramNames": [],
+                            "returns": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "bool",
+                                        "type": "Primitive"
+                                    }
+                                }
+                            ],
+                            "sighash": "0",
+                            "sourceBytes": {
+                                "begin": 8476,
+                                "size": 120
+                            },
+                            "stateMutability": "view",
+                            "visibility": "internal",
+                            "vyper_metadata": null
+                        }
+                    },
+                    "0xf196e50005": {
+                        "canonicalId": "src/Formally_verifying_Initializable.sol/Initializable.sol|Initializable",
+                        "declaringContract": "Initializable",
+                        "method": {
+                            "contractName": "Initializable",
+                            "fullArgs": [],
+                            "isLibrary": false,
+                            "name": "_getInitializableStorage",
+                            "notpayable": true,
+                            "originalFile": "src/Formally_verifying_Initializable.sol/Initializable.sol",
+                            "paramNames": [],
+                            "returns": [
+                                {
+                                    "location": "storage",
+                                    "typeDesc": {
+                                        "astId": 10,
+                                        "canonicalId": "src/Formally_verifying_Initializable.sol/Initializable.sol|Initializable.InitializableStorage",
+                                        "containingContract": "Initializable",
+                                        "structMembers": [
+                                            {
+                                                "name": "_initialized",
+                                                "type": {
+                                                    "primitiveName": "uint64",
+                                                    "type": "Primitive"
+                                                }
+                                            },
+                                            {
+                                                "name": "_initializing",
+                                                "type": {
+                                                    "primitiveName": "bool",
+                                                    "type": "Primitive"
+                                                }
+                                            }
+                                        ],
+                                        "structName": "InitializableStorage",
+                                        "type": "UserDefinedStruct"
+                                    }
+                                }
+                            ],
+                            "sighash": "0",
+                            "sourceBytes": {
+                                "begin": 9062,
+                                "size": 205
+                            },
+                            "stateMutability": "pure",
+                            "visibility": "private",
+                            "vyper_metadata": null
+                        }
+                    }
+                },
+                "is_static_address": false,
+                "lang": "Solidity",
+                "localAssignments": {
+                    "1": {
+                        "lhs": "$",
+                        "sourceLoc": {
+                            "begin": "4149",
+                            "len": "59",
+                            "source": "0"
+                        }
+                    },
+                    "10": {
+                        "lhs": "$._initialized",
+                        "sourceLoc": {
+                            "begin": "6530",
+                            "len": "24",
+                            "source": "0"
+                        }
+                    },
+                    "11": {
+                        "lhs": "$._initializing",
+                        "sourceLoc": {
+                            "begin": "6564",
+                            "len": "22",
+                            "source": "0"
+                        }
+                    },
+                    "12": {
+                        "lhs": "$._initializing",
+                        "sourceLoc": {
+                            "begin": "6607",
+                            "len": "23",
+                            "source": "0"
+                        }
+                    },
+                    "2": {
+                        "lhs": "isTopLevelCall",
+                        "sourceLoc": {
+                            "begin": "4270",
+                            "len": "38",
+                            "source": "0"
+                        }
+                    },
+                    "3": {
+                        "lhs": "initialized",
+                        "sourceLoc": {
+                            "begin": "4318",
+                            "len": "35",
+                            "source": "0"
+                        }
+                    },
+                    "4": {
+                        "lhs": "initialSetup",
+                        "sourceLoc": {
+                            "begin": "4695",
+                            "len": "54",
+                            "source": "0"
+                        }
+                    },
+                    "5": {
+                        "lhs": "construction",
+                        "sourceLoc": {
+                            "begin": "4759",
+                            "len": "70",
+                            "source": "0"
+                        }
+                    },
+                    "6": {
+                        "lhs": "$",
+                        "sourceLoc": {
+                            "begin": "6346",
+                            "len": "59",
+                            "source": "0"
+                        }
+                    },
+                    "7": {
+                        "lhs": "$",
+                        "sourceLoc": {
+                            "begin": "7815",
+                            "len": "59",
+                            "source": "0"
+                        }
+                    },
+                    "8": {
+                        "lhs": "slot",
+                        "sourceLoc": {
+                            "begin": "9162",
+                            "len": "42",
+                            "source": "0"
+                        }
+                    },
+                    "9": {
+                        "lhs": "$._initialized",
+                        "sourceLoc": {
+                            "begin": "4940",
+                            "len": "18",
+                            "source": "0"
+                        }
+                    }
+                },
+                "methods": [],
+                "name": "Initializable",
+                "original_file": "src/Formally_verifying_Initializable.sol/Initializable.sol",
+                "solidityTypes": [
+                    {
+                        "astId": 10,
+                        "canonicalId": "src/Formally_verifying_Initializable.sol/Initializable.sol|Initializable.InitializableStorage",
+                        "containingContract": "Initializable",
+                        "structMembers": [
+                            {
+                                "name": "_initialized",
+                                "type": {
+                                    "primitiveName": "uint64",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "name": "_initializing",
+                                "type": {
+                                    "primitiveName": "bool",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "structName": "InitializableStorage",
+                        "type": "UserDefinedStruct"
+                    }
+                ],
+                "sourceBytes": {
+                    "begin": 2349,
+                    "size": 6920
+                },
+                "srcmap": "2349:10048:0:-:0;;;;;",
+                "storageLayout": {
+                    "storage": [],
+                    "types": null
+                },
+                "transientStorageLayout": {
+                    "storage": [],
+                    "types": null
+                },
+                "varmap": ""
+            }
+        ],
+        "legacyStructLinking": {},
+        "library_addresses": [],
+        "origSourceDir": ".pre_autofinders.0",
+        "primary_contract": "Initializable",
+        "primary_contract_address": "00000000ce4604a0000000000000000000000001",
+        "prototypeFor": [],
+        "sdc_name": "Initializable.sol_0",
+        "sourceDir": ".post_autofinders.0",
+        "srclist": {
+            "0": "src/Formally_verifying_Initializable.sol/Initializable.sol"
+        },
+        "state": {},
+        "structLinkingInfo": {}
+    }
+}

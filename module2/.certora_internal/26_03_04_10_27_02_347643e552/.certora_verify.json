@@ -1,0 +1,8 @@
+{
+    "importFilesToOrigRelpaths": {},
+    "primary_contract": "ERC20Harness",
+    "specfile": "certora/Formally_Verify_an_ERC-20_Token/ERC20.spec",
+    "specfileOrigRelpath": "certora/Formally_Verify_an_ERC-20_Token/ERC20.spec",
+    "specfilesToImportDecls": {},
+    "type": "spec"
+}

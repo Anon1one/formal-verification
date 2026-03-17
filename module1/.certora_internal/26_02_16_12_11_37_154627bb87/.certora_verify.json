@@ -1,0 +1,8 @@
+{
+    "importFilesToOrigRelpaths": {},
+    "primary_contract": "PayableWhitelist",
+    "specfile": "certora/Formally_Verifying_Address_Balance/PayableWhitelist.spec",
+    "specfileOrigRelpath": "certora/Formally_Verifying_Address_Balance/PayableWhitelist.spec",
+    "specfilesToImportDecls": {},
+    "type": "spec"
+}

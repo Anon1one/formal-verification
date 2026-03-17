@@ -1,0 +1,8 @@
+{
+    "importFilesToOrigRelpaths": {},
+    "primary_contract": "Counter",
+    "specfile": "certora/Counter.spec",
+    "specfileOrigRelpath": "certora/Counter.spec",
+    "specfilesToImportDecls": {},
+    "type": "spec"
+}

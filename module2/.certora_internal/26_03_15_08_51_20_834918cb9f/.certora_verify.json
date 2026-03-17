@@ -1,0 +1,8 @@
+{
+    "importFilesToOrigRelpaths": {},
+    "primary_contract": "ERC721Harness",
+    "specfile": "certora/Mint_and_Burn_Rules_for_ERC721/ERC721.spec",
+    "specfileOrigRelpath": "certora/Mint_and_Burn_Rules_for_ERC721/ERC721.spec",
+    "specfilesToImportDecls": {},
+    "type": "spec"
+}

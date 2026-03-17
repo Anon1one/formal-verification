@@ -1,0 +1,8 @@
+{
+    "importFilesToOrigRelpaths": {},
+    "primary_contract": "Example",
+    "specfile": "certora/Loops_in_CVL_Path_Explosion_and_Loop_Unrolling/Example.spec",
+    "specfileOrigRelpath": "certora/Loops_in_CVL_Path_Explosion_and_Loop_Unrolling/Example.spec",
+    "specfilesToImportDecls": {},
+    "type": "spec"
+}

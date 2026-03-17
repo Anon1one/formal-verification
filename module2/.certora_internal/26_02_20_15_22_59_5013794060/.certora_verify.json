@@ -1,0 +1,8 @@
+{
+    "importFilesToOrigRelpaths": {},
+    "primary_contract": "WETH",
+    "specfile": "certora/Preserved_Block_and_Its_Role_in_Invariant_Verification/WETH.spec",
+    "specfileOrigRelpath": "certora/Preserved_Block_and_Its_Role_in_Invariant_Verification/WETH.spec",
+    "specfilesToImportDecls": {},
+    "type": "spec"
+}

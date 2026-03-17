@@ -1,0 +1,536 @@
+{
+    "Math_00000000ce4604a0000000000000000000000001": {
+        "contracts": [
+            {
+                "address": "00000000ce4604a0000000000000000000000001",
+                "allMethods": [
+                    {
+                        "contractName": "Math",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "max",
+                        "notpayable": true,
+                        "originalFile": "src/Biconditional_Operator/Math.sol",
+                        "paramNames": [
+                            "x",
+                            "y"
+                        ],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "6d5433e6",
+                        "sourceBytes": {
+                            "begin": 239,
+                            "size": 155
+                        },
+                        "stateMutability": "pure",
+                        "visibility": "external",
+                        "vyper_metadata": null
+                    },
+                    {
+                        "contractName": "Math",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "min",
+                        "notpayable": true,
+                        "originalFile": "src/Biconditional_Operator/Math.sol",
+                        "paramNames": [
+                            "x",
+                            "y"
+                        ],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "7ae2b5c7",
+                        "sourceBytes": {
+                            "begin": 1054,
+                            "size": 155
+                        },
+                        "stateMutability": "pure",
+                        "visibility": "external",
+                        "vyper_metadata": null
+                    },
+                    {
+                        "contractName": "Math",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "mod",
+                        "notpayable": true,
+                        "originalFile": "src/Biconditional_Operator/Math.sol",
+                        "paramNames": [
+                            "x",
+                            "y"
+                        ],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "f43f523a",
+                        "sourceBytes": {
+                            "begin": 137,
+                            "size": 96
+                        },
+                        "stateMutability": "pure",
+                        "visibility": "external",
+                        "vyper_metadata": null
+                    },
+                    {
+                        "contractName": "Math",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "mulDivUp",
+                        "notpayable": true,
+                        "originalFile": "src/Biconditional_Operator/Math.sol",
+                        "paramNames": [
+                            "x",
+                            "y",
+                            "denominator"
+                        ],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "12bd6ac0",
+                        "sourceBytes": {
+                            "begin": 400,
+                            "size": 599
+                        },
+                        "stateMutability": "pure",
+                        "visibility": "external",
+                        "vyper_metadata": null
+                    },
+                    {
+                        "contractName": "Math",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "zeroFloorSub",
+                        "notpayable": true,
+                        "originalFile": "src/Biconditional_Operator/Math.sol",
+                        "paramNames": [
+                            "x",
+                            "y"
+                        ],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "b56962c5",
+                        "sourceBytes": {
+                            "begin": 1281,
+                            "size": 156
+                        },
+                        "stateMutability": "pure",
+                        "visibility": "external",
+                        "vyper_metadata": null
+                    }
+                ],
+                "bytecode": "608060405234801561000f575f5ffd5b5060043610610055575f3560e01c806312bd6ac0146100595780636d5433e6146100895780637ae2b5c7146100b9578063b56962c5146100e9578063f43f523a14610119575b5f5ffd5b610073600480360381019061006e9190610212565b610149565b6040516100809190610271565b60405180910390f35b6100a3600480360381019061009e919061028a565b610192565b6040516100b09190610271565b60405180910390f35b6100d360048036038101906100ce919061028a565b6101a4565b6040516100e09190610271565b60405180910390f35b61010360048036038101906100fe919061028a565b6101b6565b6040516101109190610271565b60405180910390f35b610133600480360381019061012e919061028a565b6101c6565b6040516101409190610271565b60405180910390f35b5f827fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff048411830215820261017c575f5ffd5b81838502045f8385870206110190509392505050565b5f828211828418028318905092915050565b5f828210828418028318905092915050565b5f81830382841102905092915050565b5f81836101d391906102f5565b905092915050565b5f5ffd5b5f819050919050565b6101f1816101df565b81146101fb575f5ffd5b50565b5f8135905061020c816101e8565b92915050565b5f5f5f60608486031215610229576102286101db565b5b5f610236868287016101fe565b9350506020610247868287016101fe565b9250506040610258868287016101fe565b9150509250925092565b61026b816101df565b82525050565b5f6020820190506102845f830184610262565b92915050565b5f5f604083850312156102a05761029f6101db565b5b5f6102ad858286016101fe565b92505060206102be858286016101fe565b9150509250929050565b7f4e487b71000000000000000000000000000000000000000000000000000000005f52601260045260245ffd5b5f6102ff826101df565b915061030a836101df565b92508261031a576103196102c8565b5b82820690509291505056fea2646970667358221220eeb8693f4dc9ee9b315dc173a95ee94ff414198d5328eed3d4c8ab7e919ee85564736f6c634300081e0033",
+                "compilerName": "solc",
+                "compilerParameters": {
+                    "optimizerOn": false,
+                    "optimizerRuns": null,
+                    "type": "SolcParameters",
+                    "viaIR": false
+                },
+                "compilerVersion": "0.8.30",
+                "constructorBytecode": "6080604052348015600e575f5ffd5b5061035b8061001c5f395ff3fe608060405234801561000f575f5ffd5b5060043610610055575f3560e01c806312bd6ac0146100595780636d5433e6146100895780637ae2b5c7146100b9578063b56962c5146100e9578063f43f523a14610119575b5f5ffd5b610073600480360381019061006e9190610212565b610149565b6040516100809190610271565b60405180910390f35b6100a3600480360381019061009e919061028a565b610192565b6040516100b09190610271565b60405180910390f35b6100d360048036038101906100ce919061028a565b6101a4565b6040516100e09190610271565b60405180910390f35b61010360048036038101906100fe919061028a565b6101b6565b6040516101109190610271565b60405180910390f35b610133600480360381019061012e919061028a565b6101c6565b6040516101409190610271565b60405180910390f35b5f827fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff048411830215820261017c575f5ffd5b81838502045f8385870206110190509392505050565b5f828211828418028318905092915050565b5f828210828418028318905092915050565b5f81830382841102905092915050565b5f81836101d391906102f5565b905092915050565b5f5ffd5b5f819050919050565b6101f1816101df565b81146101fb575f5ffd5b50565b5f8135905061020c816101e8565b92915050565b5f5f5f60608486031215610229576102286101db565b5b5f610236868287016101fe565b9350506020610247868287016101fe565b9250506040610258868287016101fe565b9150509250925092565b61026b816101df565b82525050565b5f6020820190506102845f830184610262565b92915050565b5f5f604083850312156102a05761029f6101db565b5b5f6102ad858286016101fe565b92505060206102be858286016101fe565b9150509250929050565b7f4e487b71000000000000000000000000000000000000000000000000000000005f52601260045260245ffd5b5f6102ff826101df565b915061030a836101df565b92508261031a576103196102c8565b5b82820690509291505056fea2646970667358221220eeb8693f4dc9ee9b315dc173a95ee94ff414198d5328eed3d4c8ab7e919ee85564736f6c634300081e0033",
+                "constructorSrcmap": "58:1381:0:-:0;;;;;;;;;;;;;;;;;;;",
+                "extensionContracts": [],
+                "file": "src/Biconditional_Operator/Math.sol",
+                "immutables": [],
+                "internalFuncs": [],
+                "internalFunctionHarnesses": {},
+                "internalFunctionStarts": [
+                    610,
+                    420,
+                    454,
+                    712,
+                    329,
+                    650,
+                    488,
+                    625,
+                    402,
+                    530,
+                    757,
+                    438,
+                    475,
+                    510,
+                    479
+                ],
+                "internalFunctions": {},
+                "is_static_address": false,
+                "lang": "Solidity",
+                "localAssignments": {},
+                "methods": [
+                    {
+                        "contractName": "Math",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "mulDivUp",
+                        "notpayable": true,
+                        "originalFile": "src/Biconditional_Operator/Math.sol",
+                        "paramNames": [
+                            "x",
+                            "y",
+                            "denominator"
+                        ],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "12bd6ac0",
+                        "sourceBytes": {
+                            "begin": 400,
+                            "size": 599
+                        },
+                        "stateMutability": "pure",
+                        "visibility": "external",
+                        "vyper_metadata": null
+                    },
+                    {
+                        "contractName": "Math",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "zeroFloorSub",
+                        "notpayable": true,
+                        "originalFile": "src/Biconditional_Operator/Math.sol",
+                        "paramNames": [
+                            "x",
+                            "y"
+                        ],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "b56962c5",
+                        "sourceBytes": {
+                            "begin": 1281,
+                            "size": 156
+                        },
+                        "stateMutability": "pure",
+                        "visibility": "external",
+                        "vyper_metadata": null
+                    },
+                    {
+                        "contractName": "Math",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "max",
+                        "notpayable": true,
+                        "originalFile": "src/Biconditional_Operator/Math.sol",
+                        "paramNames": [
+                            "x",
+                            "y"
+                        ],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "6d5433e6",
+                        "sourceBytes": {
+                            "begin": 239,
+                            "size": 155
+                        },
+                        "stateMutability": "pure",
+                        "visibility": "external",
+                        "vyper_metadata": null
+                    },
+                    {
+                        "contractName": "Math",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "min",
+                        "notpayable": true,
+                        "originalFile": "src/Biconditional_Operator/Math.sol",
+                        "paramNames": [
+                            "x",
+                            "y"
+                        ],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "7ae2b5c7",
+                        "sourceBytes": {
+                            "begin": 1054,
+                            "size": 155
+                        },
+                        "stateMutability": "pure",
+                        "visibility": "external",
+                        "vyper_metadata": null
+                    },
+                    {
+                        "contractName": "Math",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "mod",
+                        "notpayable": true,
+                        "originalFile": "src/Biconditional_Operator/Math.sol",
+                        "paramNames": [
+                            "x",
+                            "y"
+                        ],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "f43f523a",
+                        "sourceBytes": {
+                            "begin": 137,
+                            "size": 96
+                        },
+                        "stateMutability": "pure",
+                        "visibility": "external",
+                        "vyper_metadata": null
+                    }
+                ],
+                "name": "Math",
+                "original_file": "src/Biconditional_Operator/Math.sol",
+                "solidityTypes": [],
+                "sourceBytes": {
+                    "begin": 58,
+                    "size": 1381
+                },
+                "srcmap": "58:1381:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;400:599;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;239:155;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;1054;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;1281:156;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;137:96;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;400:599;484:9;689:1;676:11;672:19;669:1;666:26;663:1;659:34;652:42;639:11;635:60;625:116;;725:1;722;715:12;625:116;970:11;966:1;963;959:9;955:27;951:1;937:11;933:1;930;926:9;922:27;919:34;915:68;910:73;;400:599;;;;;:::o;239:155::-;297:9;374:1;371;368:8;364:1;361;357:9;353:24;350:1;346:32;341:37;;239:155;;;;:::o;1054:::-;1112:9;1189:1;1186;1183:8;1179:1;1176;1172:9;1168:24;1165:1;1161:32;1156:37;;1054:155;;;;:::o;1281:156::-;1348:9;1418:1;1415;1411:9;1407:1;1404;1401:8;1397:24;1392:29;;1281:156;;;;:::o;137:96::-;195:7;225:1;221;:5;;;;:::i;:::-;214:12;;137:96;;;;:::o;88:117:1:-;197:1;194;187:12;334:77;371:7;400:5;389:16;;334:77;;;:::o;417:122::-;490:24;508:5;490:24;:::i;:::-;483:5;480:35;470:63;;529:1;526;519:12;470:63;417:122;:::o;545:139::-;591:5;629:6;616:20;607:29;;645:33;672:5;645:33;:::i;:::-;545:139;;;;:::o;690:619::-;767:6;775;783;832:2;820:9;811:7;807:23;803:32;800:119;;;838:79;;:::i;:::-;800:119;958:1;983:53;1028:7;1019:6;1008:9;1004:22;983:53;:::i;:::-;973:63;;929:117;1085:2;1111:53;1156:7;1147:6;1136:9;1132:22;1111:53;:::i;:::-;1101:63;;1056:118;1213:2;1239:53;1284:7;1275:6;1264:9;1260:22;1239:53;:::i;:::-;1229:63;;1184:118;690:619;;;;;:::o;1315:118::-;1402:24;1420:5;1402:24;:::i;:::-;1397:3;1390:37;1315:118;;:::o;1439:222::-;1532:4;1570:2;1559:9;1555:18;1547:26;;1583:71;1651:1;1640:9;1636:17;1627:6;1583:71;:::i;:::-;1439:222;;;;:::o;1667:474::-;1735:6;1743;1792:2;1780:9;1771:7;1767:23;1763:32;1760:119;;;1798:79;;:::i;:::-;1760:119;1918:1;1943:53;1988:7;1979:6;1968:9;1964:22;1943:53;:::i;:::-;1933:63;;1889:117;2045:2;2071:53;2116:7;2107:6;2096:9;2092:22;2071:53;:::i;:::-;2061:63;;2016:118;1667:474;;;;;:::o;2147:180::-;2195:77;2192:1;2185:88;2292:4;2289:1;2282:15;2316:4;2313:1;2306:15;2333:176;2365:1;2382:20;2400:1;2382:20;:::i;:::-;2377:25;;2416:20;2434:1;2416:20;:::i;:::-;2411:25;;2455:1;2445:35;;2460:18;;:::i;:::-;2445:35;2501:1;2498;2494:9;2489:14;;2333:176;;;;:::o",
+                "storageLayout": {
+                    "storage": [],
+                    "types": null
+                },
+                "transientStorageLayout": {
+                    "storage": [],
+                    "types": null
+                },
+                "varmap": ""
+            }
+        ],
+        "legacyStructLinking": {},
+        "library_addresses": [],
+        "origSourceDir": ".pre_autofinders.0",
+        "primary_contract": "Math",
+        "primary_contract_address": "00000000ce4604a0000000000000000000000001",
+        "prototypeFor": [],
+        "sdc_name": "Math.sol_0",
+        "sourceDir": ".post_autofinders.0",
+        "srclist": {
+            "0": "src/Biconditional_Operator/Math.sol"
+        },
+        "state": {},
+        "structLinkingInfo": {}
+    }
+}

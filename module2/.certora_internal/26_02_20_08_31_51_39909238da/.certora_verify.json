@@ -1,0 +1,8 @@
+{
+    "importFilesToOrigRelpaths": {},
+    "primary_contract": "ERC20",
+    "specfile": "/home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module2/certora/Verifying_an_Invariant_Using_Ghost_and_Hook/ERC20.spec",
+    "specfileOrigRelpath": "certora/Verifying_an_Invariant_Using_Ghost_and_Hook/ERC20.spec",
+    "specfilesToImportDecls": {},
+    "type": "spec"
+}

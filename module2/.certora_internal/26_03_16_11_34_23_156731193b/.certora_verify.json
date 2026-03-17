@@ -1,0 +1,8 @@
+{
+    "importFilesToOrigRelpaths": {},
+    "primary_contract": "ERC721Harness",
+    "specfile": "/home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module2/certora/Transfer_and_Approval_Rules_for_ERC-721/ERC721.spec",
+    "specfileOrigRelpath": "certora/Transfer_and_Approval_Rules_for_ERC-721/ERC721.spec",
+    "specfilesToImportDecls": {},
+    "type": "spec"
+}

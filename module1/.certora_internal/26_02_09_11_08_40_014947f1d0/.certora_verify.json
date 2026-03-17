@@ -1,0 +1,8 @@
+{
+    "importFilesToOrigRelpaths": {},
+    "primary_contract": "Initializable",
+    "specfile": "/home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/certora/Formally_verifying_Initializable.sol/Initializable.spec",
+    "specfileOrigRelpath": "certora/Formally_verifying_Initializable.sol/Initializable.spec",
+    "specfilesToImportDecls": {},
+    "type": "spec"
+}

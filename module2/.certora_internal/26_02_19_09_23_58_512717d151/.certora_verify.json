@@ -1,0 +1,8 @@
+{
+    "importFilesToOrigRelpaths": {},
+    "primary_contract": "Voting",
+    "specfile": "certora/Constraining_Ghosts_in_Invariants/Voting.spec",
+    "specfileOrigRelpath": "certora/Constraining_Ghosts_in_Invariants/Voting.spec",
+    "specfilesToImportDecls": {},
+    "type": "spec"
+}

@@ -1,0 +1,30 @@
+Saving last configuration file to .certora_internal/26_02_09_11_10_25_7326741912/run.conf
+You are using certora-cli version 8.6.1; however, version 8.6.4 is available. It is recommended to upgrade by running: pip install certora-cli --upgrade
+or
+pip3 install certora-cli --upgrade
+There is no TAC file. Going to script CertoraProver/certoraBuild.py to main_with_args()
+main build cache key computed based on {'files': ['src/Formally_verifying_Initializable.sol/Initializable.sol'], 'package_version_for_build_cache': 'certora-cli 8.6.1', 'packages': ['forge-std/=lib/forge-std/src', 'forge-std/src/=lib/forge-std/src'], 'packages_path': 'node_modules', 'solc': 'solc', 'solc_allow_path': '.', 'test_condition': 'True'}
+Creating dir /home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/.certora_internal/26_02_09_11_10_25_7326741912/.certora_config
+In /home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/certora/Formally_verifying_Initializable.sol/Initializable.spec, found the imports: []
+copying spec file /home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/certora/Formally_verifying_Initializable.sol/Initializable.spec to /home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/.certora_internal/26_02_09_11_10_25_7326741912/.certora_sources/.0_Initializable.spec.spec
+writing /home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/.certora_internal/26_02_09_11_10_25_7326741912/.certora_verify.json
+
+building file src/Formally_verifying_Initializable.sol/Initializable.sol
+Running cmd solc --version
+stdout, stderr = .certora_internal/26_02_09_11_10_25_7326741912/.certora_config/version_check_solc.stdout, .certora_internal/26_02_09_11_10_25_7326741912/.certora_config/version_check_solc.stderr
+Exitcode 0
+Solc run solc --version time: 0.0967
+Running cmd solc -o ".certora_internal/26_02_09_11_10_25_7326741912/.certora_config/Initializable.sol_0/" --overwrite --allow-paths ".",.,"lib/forge-std/src/","lib/forge-std/src/" --standard-json
+stdout, stderr = .certora_internal/26_02_09_11_10_25_7326741912/.certora_config/Initializable.sol_0.standard.stdout.json, .certora_internal/26_02_09_11_10_25_7326741912/.certora_config/Initializable.sol_0.standard.stderr.json
+Exitcode 0
+Solc run solc -o ".certora_internal/26_02_09_11_10_25_7326741912/.certora_config/Initializable.sol_0/" --overwrite --allow-paths ".",.,"lib/forge-std/src/","lib/forge-std/src/" --standard-json time: 0.1043
+reading standard json data from .certora_internal/26_02_09_11_10_25_7326741912/.certora_config/Initializable.sol_0.standard.stdout.json
+collecting worklist for /home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/src/Formally_verifying_Initializable.sol/Initializable.sol
+Processing dependencies from file /home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/src/Formally_verifying_Initializable.sol/Initializable.sol
+available keys: dict_keys(['/home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/src/Formally_verifying_Initializable.sol/Initializable.sol'])
+Contracts in Initializable.sol_0 (file src/Formally_verifying_Initializable.sol/Initializable.sol): ['Initializable']
+Contracts with their chosen addresses: [(274184521717934524641157099916833587200, '/home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/src/Formally_verifying_Initializable.sol/Initializable.sol:Initializable')]
+Report source list={0: 'src/Formally_verifying_Initializable.sol/Initializable.sol'}
+Finding report source file, abs path /home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/src/Formally_verifying_Initializable.sol/Initializable.sol relative to /home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1
+Working on contract Initializable
+build failed

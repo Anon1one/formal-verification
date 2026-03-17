@@ -1,0 +1,8 @@
+{
+    "importFilesToOrigRelpaths": {},
+    "primary_contract": "PointSystem",
+    "specfile": "certora/Using_Sstore_Hooks_with_Storage_Mappings/PointSystem.spec",
+    "specfileOrigRelpath": "certora/Using_Sstore_Hooks_with_Storage_Mappings/PointSystem.spec",
+    "specfilesToImportDecls": {},
+    "type": "spec"
+}

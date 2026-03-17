@@ -1,0 +1,78 @@
+Saving last configuration file to .certora_internal/26_02_16_10_17_46_16561444eb/run.conf
+You are using certora-cli version 8.6.1; however, version 8.8.0 is available. It is recommended to upgrade by running: pip install certora-cli --upgrade
+or
+pip3 install certora-cli --upgrade
+There is no TAC file. Going to script CertoraProver/certoraBuild.py to main_with_args()
+main build cache key computed based on {'files': ['src/Formally_verifying_Initializable.sol/InitializableHarness.sol'], 'package_version_for_build_cache': 'certora-cli 8.6.1', 'packages': ['forge-std/=lib/forge-std/src', 'forge-std/src/=lib/forge-std/src'], 'packages_path': 'node_modules', 'solc': 'solc', 'solc_allow_path': '.', 'test_condition': 'True'}
+Creating dir /home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/.certora_internal/26_02_16_10_17_46_16561444eb/.certora_config
+In /home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/certora/Formally_verifying_Initializable.sol/Initializable.spec, found the imports: []
+copying spec file /home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/certora/Formally_verifying_Initializable.sol/Initializable.spec to /home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/.certora_internal/26_02_16_10_17_46_16561444eb/.certora_sources/.0_Initializable.spec.spec
+writing /home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/.certora_internal/26_02_16_10_17_46_16561444eb/.certora_verify.json
+
+building file src/Formally_verifying_Initializable.sol/InitializableHarness.sol
+Running cmd solc --version
+stdout, stderr = .certora_internal/26_02_16_10_17_46_16561444eb/.certora_config/version_check_solc.stdout, .certora_internal/26_02_16_10_17_46_16561444eb/.certora_config/version_check_solc.stderr
+Exitcode 0
+Solc run solc --version time: 0.0921
+Running cmd solc -o ".certora_internal/26_02_16_10_17_46_16561444eb/.certora_config/InitializableHarness.sol_0/" --overwrite --allow-paths ".",.,"lib/forge-std/src/","lib/forge-std/src/" --standard-json
+stdout, stderr = .certora_internal/26_02_16_10_17_46_16561444eb/.certora_config/InitializableHarness.sol_0.standard.stdout.json, .certora_internal/26_02_16_10_17_46_16561444eb/.certora_config/InitializableHarness.sol_0.standard.stderr.json
+Exitcode 0
+Solc run solc -o ".certora_internal/26_02_16_10_17_46_16561444eb/.certora_config/InitializableHarness.sol_0/" --overwrite --allow-paths ".",.,"lib/forge-std/src/","lib/forge-std/src/" --standard-json time: 0.1056
+reading standard json data from .certora_internal/26_02_16_10_17_46_16561444eb/.certora_config/InitializableHarness.sol_0.standard.stdout.json
+collecting worklist for /home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/src/Formally_verifying_Initializable.sol/InitializableHarness.sol
+Processing dependencies from file /home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/src/Formally_verifying_Initializable.sol/InitializableHarness.sol
+available keys: dict_keys(['/home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/src/Formally_verifying_Initializable.sol/Initializable.sol', '/home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/src/Formally_verifying_Initializable.sol/InitializableHarness.sol'])
+Adding a base contract link ref /home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/src/Formally_verifying_Initializable.sol/Initializable.sol to worklist
+Processing dependencies from file /home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/src/Formally_verifying_Initializable.sol/Initializable.sol
+available keys: dict_keys(['/home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/src/Formally_verifying_Initializable.sol/Initializable.sol', '/home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/src/Formally_verifying_Initializable.sol/InitializableHarness.sol'])
+Contracts in InitializableHarness.sol_0 (file src/Formally_verifying_Initializable.sol/InitializableHarness.sol): ['InitializableHarness']
+Contracts with their chosen addresses: [(274184521717934524641157099916833587200, '/home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/src/Formally_verifying_Initializable.sol/Initializable.sol:Initializable'), (274184521717934524641157099916833587201, '/home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/src/Formally_verifying_Initializable.sol/InitializableHarness.sol:InitializableHarness')]
+Report source list={0: '/home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/src/Formally_verifying_Initializable.sol/Initializable.sol', 1: '/home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/src/Formally_verifying_Initializable.sol/InitializableHarness.sol'}
+Finding report source file, abs path /home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/src/Formally_verifying_Initializable.sol/InitializableHarness.sol relative to /home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1
+Working on contract Initializable
+Working on contract Initializable
+Working on contract InitializableHarness
+Working on contract InitializableHarness
+For contracts of primary InitializableHarness
+finding primary contract address of /home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/src/Formally_verifying_Initializable.sol/InitializableHarness.sol:InitializableHarness in [(274184521717934524641157099916833587200, '/home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/src/Formally_verifying_Initializable.sol/Initializable.sol:Initializable'), (274184521717934524641157099916833587201, '/home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/src/Formally_verifying_Initializable.sol/InitializableHarness.sol:InitializableHarness')]
+Contracts in SDC InitializableHarness.sol_0: ['Initializable', 'InitializableHarness']
+Building source tree
+Copying /home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/src/Formally_verifying_Initializable.sol/InitializableHarness.sol to .certora_internal/26_02_16_10_17_46_16561444eb/.certora_sources/src/Formally_verifying_Initializable.sol/InitializableHarness.sol
+Copying /home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/foundry.toml to .certora_internal/26_02_16_10_17_46_16561444eb/.certora_sources/foundry.toml
+Copying /home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/certora/Formally_verifying_Initializable.sol/Initializable.conf to .certora_internal/26_02_16_10_17_46_16561444eb/.certora_sources/certora/Formally_verifying_Initializable.sol/Initializable.conf
+Copying /home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/certora/Formally_verifying_Initializable.sol/Initializable.spec to .certora_internal/26_02_16_10_17_46_16561444eb/.certora_sources/certora/Formally_verifying_Initializable.sol/Initializable.spec
+Copying /home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/src/Formally_verifying_Initializable.sol/Initializable.sol to .certora_internal/26_02_16_10_17_46_16561444eb/.certora_sources/src/Formally_verifying_Initializable.sol/Initializable.sol
+Report source list={0: 'src/Formally_verifying_Initializable.sol/Initializable.sol', 1: 'src/Formally_verifying_Initializable.sol/InitializableHarness.sol'}
+Backing up current .certora_sources to .certora_internal/26_02_16_10_17_46_16561444eb/.certora_sources/.pre_autofinders.0
+Running cmd solc -o ".certora_internal/26_02_16_10_17_46_16561444eb/.certora_config/InitializableHarness.sol_0/" --overwrite --allow-paths "/home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/.certora_internal/26_02_16_10_17_46_16561444eb/.certora_sources",.,"lib/forge-std/src/","lib/forge-std/src/" --standard-json
+stdout, stderr = .certora_internal/26_02_16_10_17_46_16561444eb/.certora_config/InitializableHarness.sol_0.standard.stdout.json, .certora_internal/26_02_16_10_17_46_16561444eb/.certora_config/InitializableHarness.sol_0.standard.stderr.json
+Exitcode 0
+Solc run solc -o ".certora_internal/26_02_16_10_17_46_16561444eb/.certora_config/InitializableHarness.sol_0/" --overwrite --allow-paths "/home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/.certora_internal/26_02_16_10_17_46_16561444eb/.certora_sources",.,"lib/forge-std/src/","lib/forge-std/src/" --standard-json time: 0.1152
+reading standard json data from .certora_internal/26_02_16_10_17_46_16561444eb/.certora_config/InitializableHarness.sol_0.standard.stdout.json
+collecting worklist for /home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/.certora_internal/26_02_16_10_17_46_16561444eb/.certora_sources/src/Formally_verifying_Initializable.sol/InitializableHarness.sol
+Processing dependencies from file /home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/.certora_internal/26_02_16_10_17_46_16561444eb/.certora_sources/src/Formally_verifying_Initializable.sol/InitializableHarness.sol
+available keys: dict_keys(['/home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/.certora_internal/26_02_16_10_17_46_16561444eb/.certora_sources/src/Formally_verifying_Initializable.sol/Initializable.sol', '/home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/.certora_internal/26_02_16_10_17_46_16561444eb/.certora_sources/src/Formally_verifying_Initializable.sol/InitializableHarness.sol'])
+Adding a base contract link ref /home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/.certora_internal/26_02_16_10_17_46_16561444eb/.certora_sources/src/Formally_verifying_Initializable.sol/Initializable.sol to worklist
+Processing dependencies from file /home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/.certora_internal/26_02_16_10_17_46_16561444eb/.certora_sources/src/Formally_verifying_Initializable.sol/Initializable.sol
+available keys: dict_keys(['/home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/.certora_internal/26_02_16_10_17_46_16561444eb/.certora_sources/src/Formally_verifying_Initializable.sol/Initializable.sol', '/home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/.certora_internal/26_02_16_10_17_46_16561444eb/.certora_sources/src/Formally_verifying_Initializable.sol/InitializableHarness.sol'])
+Contracts in InitializableHarness.sol_0 (file .certora_internal/26_02_16_10_17_46_16561444eb/.certora_sources/src/Formally_verifying_Initializable.sol/InitializableHarness.sol): ['InitializableHarness']
+Contracts with their chosen addresses: [(274184521717934524641157099916833587202, '/home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/.certora_internal/26_02_16_10_17_46_16561444eb/.certora_sources/src/Formally_verifying_Initializable.sol/Initializable.sol:Initializable'), (274184521717934524641157099916833587203, '/home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/.certora_internal/26_02_16_10_17_46_16561444eb/.certora_sources/src/Formally_verifying_Initializable.sol/InitializableHarness.sol:InitializableHarness')]
+Report source list={0: 'src/Formally_verifying_Initializable.sol/Initializable.sol', 1: 'src/Formally_verifying_Initializable.sol/InitializableHarness.sol'}
+Finding report source file, abs path /home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/.certora_internal/26_02_16_10_17_46_16561444eb/.certora_sources/src/Formally_verifying_Initializable.sol/InitializableHarness.sol relative to .certora_internal/26_02_16_10_17_46_16561444eb/.certora_sources
+Working on contract Initializable
+Working on contract Initializable
+Working on contract InitializableHarness
+Working on contract InitializableHarness
+For contracts of primary InitializableHarness
+finding primary contract address of /home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/.certora_internal/26_02_16_10_17_46_16561444eb/.certora_sources/src/Formally_verifying_Initializable.sol/InitializableHarness.sol:InitializableHarness in [(274184521717934524641157099916833587202, '/home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/.certora_internal/26_02_16_10_17_46_16561444eb/.certora_sources/src/Formally_verifying_Initializable.sol/Initializable.sol:Initializable'), (274184521717934524641157099916833587203, '/home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/.certora_internal/26_02_16_10_17_46_16561444eb/.certora_sources/src/Formally_verifying_Initializable.sol/InitializableHarness.sol:InitializableHarness')]
+Contracts in SDC InitializableHarness.sol_0: ['Initializable', 'InitializableHarness']
+Backing up instrumented .certora_sources to .certora_internal/26_02_16_10_17_46_16561444eb/.certora_sources/.post_autofinders.0
+Rolling back .certora_sources to .certora_internal/26_02_16_10_17_46_16561444eb/.certora_sources/.pre_autofinders.0 version
+Libraries to add = []
+writing file /home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/.certora_internal/26_02_16_10_17_46_16561444eb/.certora_build.json
+writing file /home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/.certora_internal/26_02_16_10_17_46_16561444eb/.certora_build_output_props.json
+writing /home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/.certora_internal/26_02_16_10_17_46_16561444eb/.certora_verify.json
+Failed to run Certora Prover typechecker locally.
+Please check the errors below for problems in the specifications (.spec files) or the prover_args defined in the .conf file.
+[main] ERROR ALWAYS - Found errors in certora/Formally_verifying_Initializable.sol/Initializable.spec:
+[main] ERROR ALWAYS - Error in spec file (Initializable.spec:27:6): could not type expression "initializing()", message: Missing environment parameter to non-envfree function InitializableHarness.initializing() returns (bool)

@@ -1,0 +1,358 @@
+{
+    "Math_00000000ce4604a0000000000000000000000001": {
+        "contracts": [
+            {
+                "address": "00000000ce4604a0000000000000000000000001",
+                "allMethods": [
+                    {
+                        "contractName": "Math",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "max",
+                        "notpayable": true,
+                        "originalFile": "src/Implication_Operator/Math.sol",
+                        "paramNames": [
+                            "x",
+                            "y"
+                        ],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "6d5433e6",
+                        "sourceBytes": {
+                            "begin": 239,
+                            "size": 155
+                        },
+                        "stateMutability": "pure",
+                        "visibility": "external",
+                        "vyper_metadata": null
+                    },
+                    {
+                        "contractName": "Math",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "mod",
+                        "notpayable": true,
+                        "originalFile": "src/Implication_Operator/Math.sol",
+                        "paramNames": [
+                            "x",
+                            "y"
+                        ],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "f43f523a",
+                        "sourceBytes": {
+                            "begin": 137,
+                            "size": 96
+                        },
+                        "stateMutability": "pure",
+                        "visibility": "external",
+                        "vyper_metadata": null
+                    },
+                    {
+                        "contractName": "Math",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "mulDivUp",
+                        "notpayable": true,
+                        "originalFile": "src/Implication_Operator/Math.sol",
+                        "paramNames": [
+                            "x",
+                            "y",
+                            "denominator"
+                        ],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "12bd6ac0",
+                        "sourceBytes": {
+                            "begin": 400,
+                            "size": 599
+                        },
+                        "stateMutability": "pure",
+                        "visibility": "external",
+                        "vyper_metadata": null
+                    }
+                ],
+                "bytecode": "608060405234801561000f575f5ffd5b506004361061003f575f3560e01c806312bd6ac0146100435780636d5433e614610073578063f43f523a146100a3575b5f5ffd5b61005d6004803603810190610058919061017a565b6100d3565b60405161006a91906101d9565b60405180910390f35b61008d600480360381019061008891906101f2565b61011c565b60405161009a91906101d9565b60405180910390f35b6100bd60048036038101906100b891906101f2565b61012e565b6040516100ca91906101d9565b60405180910390f35b5f827fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff0484118302158202610106575f5ffd5b81838502045f8385870206110190509392505050565b5f828211828418028318905092915050565b5f818361013b919061025d565b905092915050565b5f5ffd5b5f819050919050565b61015981610147565b8114610163575f5ffd5b50565b5f8135905061017481610150565b92915050565b5f5f5f6060848603121561019157610190610143565b5b5f61019e86828701610166565b93505060206101af86828701610166565b92505060406101c086828701610166565b9150509250925092565b6101d381610147565b82525050565b5f6020820190506101ec5f8301846101ca565b92915050565b5f5f6040838503121561020857610207610143565b5b5f61021585828601610166565b925050602061022685828601610166565b9150509250929050565b7f4e487b71000000000000000000000000000000000000000000000000000000005f52601260045260245ffd5b5f61026782610147565b915061027283610147565b92508261028257610281610230565b5b82820690509291505056fea26469706673582212202a99ac8f3983a84237e76d8e648082b387f14e2a12f62260dd2b7629a7fe303864736f6c634300081e0033",
+                "compilerName": "solc",
+                "compilerParameters": {
+                    "optimizerOn": false,
+                    "optimizerRuns": null,
+                    "type": "SolcParameters",
+                    "viaIR": false
+                },
+                "compilerVersion": "0.8.30",
+                "constructorBytecode": "6080604052348015600e575f5ffd5b506102c38061001c5f395ff3fe608060405234801561000f575f5ffd5b506004361061003f575f3560e01c806312bd6ac0146100435780636d5433e614610073578063f43f523a146100a3575b5f5ffd5b61005d6004803603810190610058919061017a565b6100d3565b60405161006a91906101d9565b60405180910390f35b61008d600480360381019061008891906101f2565b61011c565b60405161009a91906101d9565b60405180910390f35b6100bd60048036038101906100b891906101f2565b61012e565b6040516100ca91906101d9565b60405180910390f35b5f827fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff0484118302158202610106575f5ffd5b81838502045f8385870206110190509392505050565b5f828211828418028318905092915050565b5f818361013b919061025d565b905092915050565b5f5ffd5b5f819050919050565b61015981610147565b8114610163575f5ffd5b50565b5f8135905061017481610150565b92915050565b5f5f5f6060848603121561019157610190610143565b5b5f61019e86828701610166565b93505060206101af86828701610166565b92505060406101c086828701610166565b9150509250925092565b6101d381610147565b82525050565b5f6020820190506101ec5f8301846101ca565b92915050565b5f5f6040838503121561020857610207610143565b5b5f61021585828601610166565b925050602061022685828601610166565b9150509250929050565b7f4e487b71000000000000000000000000000000000000000000000000000000005f52601260045260245ffd5b5f61026782610147565b915061027283610147565b92508261028257610281610230565b5b82820690509291505056fea26469706673582212202a99ac8f3983a84237e76d8e648082b387f14e2a12f62260dd2b7629a7fe303864736f6c634300081e0033",
+                "constructorSrcmap": "58:943:0:-:0;;;;;;;;;;;;;;;;;;;",
+                "extensionContracts": [],
+                "file": "src/Implication_Operator/Math.sol",
+                "immutables": [],
+                "internalFuncs": [],
+                "internalFunctionHarnesses": {},
+                "internalFunctionStarts": [
+                    323,
+                    358,
+                    327,
+                    458,
+                    302,
+                    560,
+                    336,
+                    498,
+                    211,
+                    473,
+                    378,
+                    284,
+                    605
+                ],
+                "internalFunctions": {},
+                "is_static_address": false,
+                "lang": "Solidity",
+                "localAssignments": {},
+                "methods": [
+                    {
+                        "contractName": "Math",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "mulDivUp",
+                        "notpayable": true,
+                        "originalFile": "src/Implication_Operator/Math.sol",
+                        "paramNames": [
+                            "x",
+                            "y",
+                            "denominator"
+                        ],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "12bd6ac0",
+                        "sourceBytes": {
+                            "begin": 400,
+                            "size": 599
+                        },
+                        "stateMutability": "pure",
+                        "visibility": "external",
+                        "vyper_metadata": null
+                    },
+                    {
+                        "contractName": "Math",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "mod",
+                        "notpayable": true,
+                        "originalFile": "src/Implication_Operator/Math.sol",
+                        "paramNames": [
+                            "x",
+                            "y"
+                        ],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "f43f523a",
+                        "sourceBytes": {
+                            "begin": 137,
+                            "size": 96
+                        },
+                        "stateMutability": "pure",
+                        "visibility": "external",
+                        "vyper_metadata": null
+                    },
+                    {
+                        "contractName": "Math",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "max",
+                        "notpayable": true,
+                        "originalFile": "src/Implication_Operator/Math.sol",
+                        "paramNames": [
+                            "x",
+                            "y"
+                        ],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "6d5433e6",
+                        "sourceBytes": {
+                            "begin": 239,
+                            "size": 155
+                        },
+                        "stateMutability": "pure",
+                        "visibility": "external",
+                        "vyper_metadata": null
+                    }
+                ],
+                "name": "Math",
+                "original_file": "src/Implication_Operator/Math.sol",
+                "solidityTypes": [],
+                "sourceBytes": {
+                    "begin": 58,
+                    "size": 943
+                },
+                "srcmap": "58:943:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;400:599;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;239:155;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;137:96;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;400:599;484:9;689:1;676:11;672:19;669:1;666:26;663:1;659:34;652:42;639:11;635:60;625:116;;725:1;722;715:12;625:116;970:11;966:1;963;959:9;955:27;951:1;937:11;933:1;930;926:9;922:27;919:34;915:68;910:73;;400:599;;;;;:::o;239:155::-;297:9;374:1;371;368:8;364:1;361;357:9;353:24;350:1;346:32;341:37;;239:155;;;;:::o;137:96::-;195:7;225:1;221;:5;;;;:::i;:::-;214:12;;137:96;;;;:::o;88:117:1:-;197:1;194;187:12;334:77;371:7;400:5;389:16;;334:77;;;:::o;417:122::-;490:24;508:5;490:24;:::i;:::-;483:5;480:35;470:63;;529:1;526;519:12;470:63;417:122;:::o;545:139::-;591:5;629:6;616:20;607:29;;645:33;672:5;645:33;:::i;:::-;545:139;;;;:::o;690:619::-;767:6;775;783;832:2;820:9;811:7;807:23;803:32;800:119;;;838:79;;:::i;:::-;800:119;958:1;983:53;1028:7;1019:6;1008:9;1004:22;983:53;:::i;:::-;973:63;;929:117;1085:2;1111:53;1156:7;1147:6;1136:9;1132:22;1111:53;:::i;:::-;1101:63;;1056:118;1213:2;1239:53;1284:7;1275:6;1264:9;1260:22;1239:53;:::i;:::-;1229:63;;1184:118;690:619;;;;;:::o;1315:118::-;1402:24;1420:5;1402:24;:::i;:::-;1397:3;1390:37;1315:118;;:::o;1439:222::-;1532:4;1570:2;1559:9;1555:18;1547:26;;1583:71;1651:1;1640:9;1636:17;1627:6;1583:71;:::i;:::-;1439:222;;;;:::o;1667:474::-;1735:6;1743;1792:2;1780:9;1771:7;1767:23;1763:32;1760:119;;;1798:79;;:::i;:::-;1760:119;1918:1;1943:53;1988:7;1979:6;1968:9;1964:22;1943:53;:::i;:::-;1933:63;;1889:117;2045:2;2071:53;2116:7;2107:6;2096:9;2092:22;2071:53;:::i;:::-;2061:63;;2016:118;1667:474;;;;;:::o;2147:180::-;2195:77;2192:1;2185:88;2292:4;2289:1;2282:15;2316:4;2313:1;2306:15;2333:176;2365:1;2382:20;2400:1;2382:20;:::i;:::-;2377:25;;2416:20;2434:1;2416:20;:::i;:::-;2411:25;;2455:1;2445:35;;2460:18;;:::i;:::-;2445:35;2501:1;2498;2494:9;2489:14;;2333:176;;;;:::o",
+                "storageLayout": {
+                    "storage": [],
+                    "types": null
+                },
+                "transientStorageLayout": {
+                    "storage": [],
+                    "types": null
+                },
+                "varmap": ""
+            }
+        ],
+        "legacyStructLinking": {},
+        "library_addresses": [],
+        "origSourceDir": ".pre_autofinders.0",
+        "primary_contract": "Math",
+        "primary_contract_address": "00000000ce4604a0000000000000000000000001",
+        "prototypeFor": [],
+        "sdc_name": "Math.sol_0",
+        "sourceDir": ".post_autofinders.0",
+        "srclist": {
+            "0": "src/Implication_Operator/Math.sol"
+        },
+        "state": {},
+        "structLinkingInfo": {}
+    }
+}

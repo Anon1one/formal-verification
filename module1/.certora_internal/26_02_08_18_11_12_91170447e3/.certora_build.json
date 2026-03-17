@@ -1,0 +1,358 @@
+{
+    "Math_00000000ce4604a0000000000000000000000001": {
+        "contracts": [
+            {
+                "address": "00000000ce4604a0000000000000000000000001",
+                "allMethods": [
+                    {
+                        "contractName": "Math",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "add",
+                        "notpayable": true,
+                        "originalFile": "src/Conditional_Statements_in_CVL_and_Formally_Verifying_Parts_of_Solady_and_Solmate/Math.sol",
+                        "paramNames": [
+                            "x",
+                            "y"
+                        ],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "771602f7",
+                        "sourceBytes": {
+                            "begin": 135,
+                            "size": 96
+                        },
+                        "stateMutability": "pure",
+                        "visibility": "external",
+                        "vyper_metadata": null
+                    },
+                    {
+                        "contractName": "Math",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "max",
+                        "notpayable": true,
+                        "originalFile": "src/Conditional_Statements_in_CVL_and_Formally_Verifying_Parts_of_Solady_and_Solmate/Math.sol",
+                        "paramNames": [
+                            "x",
+                            "y"
+                        ],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "6d5433e6",
+                        "sourceBytes": {
+                            "begin": 237,
+                            "size": 155
+                        },
+                        "stateMutability": "pure",
+                        "visibility": "external",
+                        "vyper_metadata": null
+                    },
+                    {
+                        "contractName": "Math",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "mulDivUp",
+                        "notpayable": true,
+                        "originalFile": "src/Conditional_Statements_in_CVL_and_Formally_Verifying_Parts_of_Solady_and_Solmate/Math.sol",
+                        "paramNames": [
+                            "x",
+                            "y",
+                            "denominator"
+                        ],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "12bd6ac0",
+                        "sourceBytes": {
+                            "begin": 398,
+                            "size": 585
+                        },
+                        "stateMutability": "pure",
+                        "visibility": "external",
+                        "vyper_metadata": null
+                    }
+                ],
+                "bytecode": "608060405234801561000f575f5ffd5b506004361061003f575f3560e01c806312bd6ac0146100435780636d5433e614610073578063771602f7146100a3575b5f5ffd5b61005d6004803603810190610058919061017a565b6100d3565b60405161006a91906101d9565b60405180910390f35b61008d600480360381019061008891906101f2565b61011c565b60405161009a91906101d9565b60405180910390f35b6100bd60048036038101906100b891906101f2565b61012e565b6040516100ca91906101d9565b60405180910390f35b5f827fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff0484118302158202610106575f5ffd5b81838502045f8385870206110190509392505050565b5f828211828418028318905092915050565b5f818361013b919061025d565b905092915050565b5f5ffd5b5f819050919050565b61015981610147565b8114610163575f5ffd5b50565b5f8135905061017481610150565b92915050565b5f5f5f6060848603121561019157610190610143565b5b5f61019e86828701610166565b93505060206101af86828701610166565b92505060406101c086828701610166565b9150509250925092565b6101d381610147565b82525050565b5f6020820190506101ec5f8301846101ca565b92915050565b5f5f6040838503121561020857610207610143565b5b5f61021585828601610166565b925050602061022685828601610166565b9150509250929050565b7f4e487b71000000000000000000000000000000000000000000000000000000005f52601160045260245ffd5b5f61026782610147565b915061027283610147565b925082820190508082111561028a57610289610230565b5b9291505056fea26469706673582212200e8645ed0195f4f4d2067856cef043a875eb4b68abda389d5f9e195d01ce595664736f6c634300081e0033",
+                "compilerName": "solc",
+                "compilerParameters": {
+                    "optimizerOn": false,
+                    "optimizerRuns": null,
+                    "type": "SolcParameters",
+                    "viaIR": false
+                },
+                "compilerVersion": "0.8.30",
+                "constructorBytecode": "6080604052348015600e575f5ffd5b506102c68061001c5f395ff3fe608060405234801561000f575f5ffd5b506004361061003f575f3560e01c806312bd6ac0146100435780636d5433e614610073578063771602f7146100a3575b5f5ffd5b61005d6004803603810190610058919061017a565b6100d3565b60405161006a91906101d9565b60405180910390f35b61008d600480360381019061008891906101f2565b61011c565b60405161009a91906101d9565b60405180910390f35b6100bd60048036038101906100b891906101f2565b61012e565b6040516100ca91906101d9565b60405180910390f35b5f827fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff0484118302158202610106575f5ffd5b81838502045f8385870206110190509392505050565b5f828211828418028318905092915050565b5f818361013b919061025d565b905092915050565b5f5ffd5b5f819050919050565b61015981610147565b8114610163575f5ffd5b50565b5f8135905061017481610150565b92915050565b5f5f5f6060848603121561019157610190610143565b5b5f61019e86828701610166565b93505060206101af86828701610166565b92505060406101c086828701610166565b9150509250925092565b6101d381610147565b82525050565b5f6020820190506101ec5f8301846101ca565b92915050565b5f5f6040838503121561020857610207610143565b5b5f61021585828601610166565b925050602061022685828601610166565b9150509250929050565b7f4e487b71000000000000000000000000000000000000000000000000000000005f52601160045260245ffd5b5f61026782610147565b915061027283610147565b925082820190508082111561028a57610289610230565b5b9291505056fea26469706673582212200e8645ed0195f4f4d2067856cef043a875eb4b68abda389d5f9e195d01ce595664736f6c634300081e0033",
+                "constructorSrcmap": "58:933:0:-:0;;;;;;;;;;;;;;;;;;;",
+                "extensionContracts": [],
+                "file": "src/Conditional_Statements_in_CVL_and_Formally_Verifying_Parts_of_Solady_and_Solmate/Math.sol",
+                "immutables": [],
+                "internalFuncs": [],
+                "internalFunctionHarnesses": {},
+                "internalFunctionStarts": [
+                    323,
+                    358,
+                    327,
+                    458,
+                    302,
+                    560,
+                    336,
+                    498,
+                    211,
+                    473,
+                    378,
+                    284,
+                    605
+                ],
+                "internalFunctions": {},
+                "is_static_address": false,
+                "lang": "Solidity",
+                "localAssignments": {},
+                "methods": [
+                    {
+                        "contractName": "Math",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "mulDivUp",
+                        "notpayable": true,
+                        "originalFile": "src/Conditional_Statements_in_CVL_and_Formally_Verifying_Parts_of_Solady_and_Solmate/Math.sol",
+                        "paramNames": [
+                            "x",
+                            "y",
+                            "denominator"
+                        ],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "12bd6ac0",
+                        "sourceBytes": {
+                            "begin": 398,
+                            "size": 585
+                        },
+                        "stateMutability": "pure",
+                        "visibility": "external",
+                        "vyper_metadata": null
+                    },
+                    {
+                        "contractName": "Math",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "max",
+                        "notpayable": true,
+                        "originalFile": "src/Conditional_Statements_in_CVL_and_Formally_Verifying_Parts_of_Solady_and_Solmate/Math.sol",
+                        "paramNames": [
+                            "x",
+                            "y"
+                        ],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "6d5433e6",
+                        "sourceBytes": {
+                            "begin": 237,
+                            "size": 155
+                        },
+                        "stateMutability": "pure",
+                        "visibility": "external",
+                        "vyper_metadata": null
+                    },
+                    {
+                        "contractName": "Math",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "add",
+                        "notpayable": true,
+                        "originalFile": "src/Conditional_Statements_in_CVL_and_Formally_Verifying_Parts_of_Solady_and_Solmate/Math.sol",
+                        "paramNames": [
+                            "x",
+                            "y"
+                        ],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "771602f7",
+                        "sourceBytes": {
+                            "begin": 135,
+                            "size": 96
+                        },
+                        "stateMutability": "pure",
+                        "visibility": "external",
+                        "vyper_metadata": null
+                    }
+                ],
+                "name": "Math",
+                "original_file": "src/Conditional_Statements_in_CVL_and_Formally_Verifying_Parts_of_Solady_and_Solmate/Math.sol",
+                "solidityTypes": [],
+                "sourceBytes": {
+                    "begin": 58,
+                    "size": 933
+                },
+                "srcmap": "58:933:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;398:585;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;237:155;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;135:96;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;398:585;500:9;693:1;680:11;676:19;673:1;670:26;667:1;663:34;656:42;643:11;639:60;629:108;;725:1;722;715:12;629:108;954:11;950:1;947;943:9;939:27;935:1;921:11;917:1;914;910:9;906:27;903:34;899:68;894:73;;398:585;;;;;:::o;237:155::-;295:9;372:1;369;366:8;362:1;359;355:9;351:24;348:1;344:32;339:37;;237:155;;;;:::o;135:96::-;193:7;223:1;219;:5;;;;:::i;:::-;212:12;;135:96;;;;:::o;88:117:1:-;197:1;194;187:12;334:77;371:7;400:5;389:16;;334:77;;;:::o;417:122::-;490:24;508:5;490:24;:::i;:::-;483:5;480:35;470:63;;529:1;526;519:12;470:63;417:122;:::o;545:139::-;591:5;629:6;616:20;607:29;;645:33;672:5;645:33;:::i;:::-;545:139;;;;:::o;690:619::-;767:6;775;783;832:2;820:9;811:7;807:23;803:32;800:119;;;838:79;;:::i;:::-;800:119;958:1;983:53;1028:7;1019:6;1008:9;1004:22;983:53;:::i;:::-;973:63;;929:117;1085:2;1111:53;1156:7;1147:6;1136:9;1132:22;1111:53;:::i;:::-;1101:63;;1056:118;1213:2;1239:53;1284:7;1275:6;1264:9;1260:22;1239:53;:::i;:::-;1229:63;;1184:118;690:619;;;;;:::o;1315:118::-;1402:24;1420:5;1402:24;:::i;:::-;1397:3;1390:37;1315:118;;:::o;1439:222::-;1532:4;1570:2;1559:9;1555:18;1547:26;;1583:71;1651:1;1640:9;1636:17;1627:6;1583:71;:::i;:::-;1439:222;;;;:::o;1667:474::-;1735:6;1743;1792:2;1780:9;1771:7;1767:23;1763:32;1760:119;;;1798:79;;:::i;:::-;1760:119;1918:1;1943:53;1988:7;1979:6;1968:9;1964:22;1943:53;:::i;:::-;1933:63;;1889:117;2045:2;2071:53;2116:7;2107:6;2096:9;2092:22;2071:53;:::i;:::-;2061:63;;2016:118;1667:474;;;;;:::o;2147:180::-;2195:77;2192:1;2185:88;2292:4;2289:1;2282:15;2316:4;2313:1;2306:15;2333:191;2373:3;2392:20;2410:1;2392:20;:::i;:::-;2387:25;;2426:20;2444:1;2426:20;:::i;:::-;2421:25;;2469:1;2466;2462:9;2455:16;;2490:3;2487:1;2484:10;2481:36;;;2497:18;;:::i;:::-;2481:36;2333:191;;;;:::o",
+                "storageLayout": {
+                    "storage": [],
+                    "types": null
+                },
+                "transientStorageLayout": {
+                    "storage": [],
+                    "types": null
+                },
+                "varmap": ""
+            }
+        ],
+        "legacyStructLinking": {},
+        "library_addresses": [],
+        "origSourceDir": ".pre_autofinders.0",
+        "primary_contract": "Math",
+        "primary_contract_address": "00000000ce4604a0000000000000000000000001",
+        "prototypeFor": [],
+        "sdc_name": "Math.sol_0",
+        "sourceDir": ".post_autofinders.0",
+        "srclist": {
+            "0": "src/Conditional_Statements_in_CVL_and_Formally_Verifying_Parts_of_Solady_and_Solmate/Math.sol"
+        },
+        "state": {},
+        "structLinkingInfo": {}
+    }
+}

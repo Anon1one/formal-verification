@@ -1,0 +1,63 @@
+Saving last configuration file to .certora_internal/26_02_16_10_43_18_262207b010/run.conf
+You are using certora-cli version 8.6.1; however, version 8.8.0 is available. It is recommended to upgrade by running: pip install certora-cli --upgrade
+or
+pip3 install certora-cli --upgrade
+There is no TAC file. Going to script CertoraProver/certoraBuild.py to main_with_args()
+main build cache key computed based on {'files': ['src/Testing_msg.sender_and_msg.value_in_CVL/OwnerCounter.sol'], 'package_version_for_build_cache': 'certora-cli 8.6.1', 'packages': ['forge-std/=lib/forge-std/src', 'forge-std/src/=lib/forge-std/src'], 'packages_path': 'node_modules', 'solc': 'solc', 'solc_allow_path': '.', 'test_condition': 'True'}
+Creating dir /home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/.certora_internal/26_02_16_10_43_18_262207b010/.certora_config
+In /home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/certora/Testing_msg.sender_and_msg.value_in_CVL/counter.spec, found the imports: []
+copying spec file /home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/certora/Testing_msg.sender_and_msg.value_in_CVL/counter.spec to /home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/.certora_internal/26_02_16_10_43_18_262207b010/.certora_sources/.0_counter.spec.spec
+writing /home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/.certora_internal/26_02_16_10_43_18_262207b010/.certora_verify.json
+
+building file src/Testing_msg.sender_and_msg.value_in_CVL/OwnerCounter.sol
+Running cmd solc --version
+stdout, stderr = .certora_internal/26_02_16_10_43_18_262207b010/.certora_config/version_check_solc.stdout, .certora_internal/26_02_16_10_43_18_262207b010/.certora_config/version_check_solc.stderr
+Exitcode 0
+Solc run solc --version time: 0.0936
+Running cmd solc -o ".certora_internal/26_02_16_10_43_18_262207b010/.certora_config/OwnerCounter.sol_0/" --overwrite --allow-paths ".",.,"lib/forge-std/src/","lib/forge-std/src/" --standard-json
+stdout, stderr = .certora_internal/26_02_16_10_43_18_262207b010/.certora_config/OwnerCounter.sol_0.standard.stdout.json, .certora_internal/26_02_16_10_43_18_262207b010/.certora_config/OwnerCounter.sol_0.standard.stderr.json
+Exitcode 0
+Solc run solc -o ".certora_internal/26_02_16_10_43_18_262207b010/.certora_config/OwnerCounter.sol_0/" --overwrite --allow-paths ".",.,"lib/forge-std/src/","lib/forge-std/src/" --standard-json time: 0.1037
+reading standard json data from .certora_internal/26_02_16_10_43_18_262207b010/.certora_config/OwnerCounter.sol_0.standard.stdout.json
+collecting worklist for /home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/src/Testing_msg.sender_and_msg.value_in_CVL/OwnerCounter.sol
+Processing dependencies from file /home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/src/Testing_msg.sender_and_msg.value_in_CVL/OwnerCounter.sol
+available keys: dict_keys(['/home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/src/Testing_msg.sender_and_msg.value_in_CVL/OwnerCounter.sol'])
+Contracts in OwnerCounter.sol_0 (file src/Testing_msg.sender_and_msg.value_in_CVL/OwnerCounter.sol): ['OwnerCounter']
+Contracts with their chosen addresses: [(274184521717934524641157099916833587200, '/home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/src/Testing_msg.sender_and_msg.value_in_CVL/OwnerCounter.sol:OwnerCounter')]
+Report source list={0: 'src/Testing_msg.sender_and_msg.value_in_CVL/OwnerCounter.sol'}
+Finding report source file, abs path /home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/src/Testing_msg.sender_and_msg.value_in_CVL/OwnerCounter.sol relative to /home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1
+Working on contract OwnerCounter
+Working on contract OwnerCounter
+For contracts of primary OwnerCounter
+finding primary contract address of /home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/src/Testing_msg.sender_and_msg.value_in_CVL/OwnerCounter.sol:OwnerCounter in [(274184521717934524641157099916833587200, '/home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/src/Testing_msg.sender_and_msg.value_in_CVL/OwnerCounter.sol:OwnerCounter')]
+Contracts in SDC OwnerCounter.sol_0: ['OwnerCounter']
+Building source tree
+Copying /home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/foundry.toml to .certora_internal/26_02_16_10_43_18_262207b010/.certora_sources/foundry.toml
+Copying /home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/src/Testing_msg.sender_and_msg.value_in_CVL/OwnerCounter.sol to .certora_internal/26_02_16_10_43_18_262207b010/.certora_sources/src/Testing_msg.sender_and_msg.value_in_CVL/OwnerCounter.sol
+Copying /home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/certora/Testing_msg.sender_and_msg.value_in_CVL/counter.conf to .certora_internal/26_02_16_10_43_18_262207b010/.certora_sources/certora/Testing_msg.sender_and_msg.value_in_CVL/counter.conf
+Copying /home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/certora/Testing_msg.sender_and_msg.value_in_CVL/counter.spec to .certora_internal/26_02_16_10_43_18_262207b010/.certora_sources/certora/Testing_msg.sender_and_msg.value_in_CVL/counter.spec
+Report source list={0: 'src/Testing_msg.sender_and_msg.value_in_CVL/OwnerCounter.sol'}
+Backing up current .certora_sources to .certora_internal/26_02_16_10_43_18_262207b010/.certora_sources/.pre_autofinders.0
+Running cmd solc -o ".certora_internal/26_02_16_10_43_18_262207b010/.certora_config/OwnerCounter.sol_0/" --overwrite --allow-paths "/home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/.certora_internal/26_02_16_10_43_18_262207b010/.certora_sources",.,"lib/forge-std/src/","lib/forge-std/src/" --standard-json
+stdout, stderr = .certora_internal/26_02_16_10_43_18_262207b010/.certora_config/OwnerCounter.sol_0.standard.stdout.json, .certora_internal/26_02_16_10_43_18_262207b010/.certora_config/OwnerCounter.sol_0.standard.stderr.json
+Exitcode 0
+Solc run solc -o ".certora_internal/26_02_16_10_43_18_262207b010/.certora_config/OwnerCounter.sol_0/" --overwrite --allow-paths "/home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/.certora_internal/26_02_16_10_43_18_262207b010/.certora_sources",.,"lib/forge-std/src/","lib/forge-std/src/" --standard-json time: 0.0974
+reading standard json data from .certora_internal/26_02_16_10_43_18_262207b010/.certora_config/OwnerCounter.sol_0.standard.stdout.json
+collecting worklist for /home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/.certora_internal/26_02_16_10_43_18_262207b010/.certora_sources/src/Testing_msg.sender_and_msg.value_in_CVL/OwnerCounter.sol
+Processing dependencies from file /home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/.certora_internal/26_02_16_10_43_18_262207b010/.certora_sources/src/Testing_msg.sender_and_msg.value_in_CVL/OwnerCounter.sol
+available keys: dict_keys(['/home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/.certora_internal/26_02_16_10_43_18_262207b010/.certora_sources/src/Testing_msg.sender_and_msg.value_in_CVL/OwnerCounter.sol'])
+Contracts in OwnerCounter.sol_0 (file .certora_internal/26_02_16_10_43_18_262207b010/.certora_sources/src/Testing_msg.sender_and_msg.value_in_CVL/OwnerCounter.sol): ['OwnerCounter']
+Contracts with their chosen addresses: [(274184521717934524641157099916833587201, '/home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/.certora_internal/26_02_16_10_43_18_262207b010/.certora_sources/src/Testing_msg.sender_and_msg.value_in_CVL/OwnerCounter.sol:OwnerCounter')]
+Report source list={0: 'src/Testing_msg.sender_and_msg.value_in_CVL/OwnerCounter.sol'}
+Finding report source file, abs path /home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/.certora_internal/26_02_16_10_43_18_262207b010/.certora_sources/src/Testing_msg.sender_and_msg.value_in_CVL/OwnerCounter.sol relative to .certora_internal/26_02_16_10_43_18_262207b010/.certora_sources
+Working on contract OwnerCounter
+Working on contract OwnerCounter
+For contracts of primary OwnerCounter
+finding primary contract address of /home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/.certora_internal/26_02_16_10_43_18_262207b010/.certora_sources/src/Testing_msg.sender_and_msg.value_in_CVL/OwnerCounter.sol:OwnerCounter in [(274184521717934524641157099916833587201, '/home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/.certora_internal/26_02_16_10_43_18_262207b010/.certora_sources/src/Testing_msg.sender_and_msg.value_in_CVL/OwnerCounter.sol:OwnerCounter')]
+Contracts in SDC OwnerCounter.sol_0: ['OwnerCounter']
+Backing up instrumented .certora_sources to .certora_internal/26_02_16_10_43_18_262207b010/.certora_sources/.post_autofinders.0
+Rolling back .certora_sources to .certora_internal/26_02_16_10_43_18_262207b010/.certora_sources/.pre_autofinders.0 version
+Libraries to add = []
+writing file /home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/.certora_internal/26_02_16_10_43_18_262207b010/.certora_build.json
+writing file /home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/.certora_internal/26_02_16_10_43_18_262207b010/.certora_build_output_props.json
+writing /home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/.certora_internal/26_02_16_10_43_18_262207b010/.certora_verify.json

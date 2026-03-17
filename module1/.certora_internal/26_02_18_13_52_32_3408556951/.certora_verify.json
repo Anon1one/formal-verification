@@ -1,0 +1,8 @@
+{
+    "importFilesToOrigRelpaths": {},
+    "primary_contract": "OwnableHarness",
+    "specfile": "certora/Formally_Verifying_Ownable.sol/Ownable.spec",
+    "specfileOrigRelpath": "certora/Formally_Verifying_Ownable.sol/Ownable.spec",
+    "specfilesToImportDecls": {},
+    "type": "spec"
+}

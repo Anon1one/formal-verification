@@ -1,0 +1,8 @@
+{
+    "importFilesToOrigRelpaths": {},
+    "primary_contract": "ERC20",
+    "specfile": "certora/Verifying_an_Invariant_Using_Ghost_and_Hook/ERC20.spec",
+    "specfileOrigRelpath": "certora/Verifying_an_Invariant_Using_Ghost_and_Hook/ERC20.spec",
+    "specfilesToImportDecls": {},
+    "type": "spec"
+}

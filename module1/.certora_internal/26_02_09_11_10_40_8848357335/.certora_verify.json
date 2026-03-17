@@ -1,0 +1,8 @@
+{
+    "importFilesToOrigRelpaths": {},
+    "primary_contract": "Initializable",
+    "specfile": "certora/Formally_verifying_Initializable.sol/Initializable.spec",
+    "specfileOrigRelpath": "certora/Formally_verifying_Initializable.sol/Initializable.spec",
+    "specfilesToImportDecls": {},
+    "type": "spec"
+}

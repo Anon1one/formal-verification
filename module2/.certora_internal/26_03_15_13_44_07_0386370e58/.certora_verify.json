@@ -1,0 +1,8 @@
+{
+    "importFilesToOrigRelpaths": {},
+    "primary_contract": "ERC721Harness",
+    "specfile": "certora/Invariants_for_ERC-721/ERC721.spec",
+    "specfileOrigRelpath": "certora/Invariants_for_ERC-721/ERC721.spec",
+    "specfilesToImportDecls": {},
+    "type": "spec"
+}

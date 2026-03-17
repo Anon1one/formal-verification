@@ -1,0 +1,8 @@
+{
+    "importFilesToOrigRelpaths": {},
+    "primary_contract": "PointSystemUnchecked",
+    "specfile": "certora/Using_Sload_Hooks_with_Storage_Mappings/PointSystemUnchecked.spec",
+    "specfileOrigRelpath": "certora/Using_Sload_Hooks_with_Storage_Mappings/PointSystemUnchecked.spec",
+    "specfilesToImportDecls": {},
+    "type": "spec"
+}

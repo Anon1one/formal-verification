@@ -1,0 +1,8 @@
+{
+    "importFilesToOrigRelpaths": {},
+    "primary_contract": "NoncesHarness",
+    "specfile": "certora/Formally_Verifying_Nonces.Sol_in_OpenZeppelin/Nonces.spec",
+    "specfileOrigRelpath": "certora/Formally_Verifying_Nonces.Sol_in_OpenZeppelin/Nonces.spec",
+    "specfilesToImportDecls": {},
+    "type": "spec"
+}

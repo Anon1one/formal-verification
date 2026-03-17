@@ -1,0 +1,8 @@
+{
+    "importFilesToOrigRelpaths": {},
+    "primary_contract": "MaxInCollection",
+    "specfile": "certora/Loops_in_CVL_Path_Explosion_and_Loop_Unrolling/MaxInCollection.spec",
+    "specfileOrigRelpath": "certora/Loops_in_CVL_Path_Explosion_and_Loop_Unrolling/MaxInCollection.spec",
+    "specfilesToImportDecls": {},
+    "type": "spec"
+}

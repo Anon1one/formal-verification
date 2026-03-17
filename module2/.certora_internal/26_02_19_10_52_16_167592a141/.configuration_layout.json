@@ -1,0 +1,120 @@
+[
+    {
+        "card_title": "general",
+        "content_type": "COMPLEX",
+        "content": [
+            {
+                "inner_title": "CLI Version",
+                "content_type": "FLAG",
+                "content": "8.6.1",
+                "doc_link": "",
+                "tooltip": "",
+                "unsound": false
+            },
+            {
+                "inner_title": "branch",
+                "content_type": "FLAG",
+                "content": "HEAD",
+                "doc_link": "",
+                "tooltip": "",
+                "unsound": false
+            },
+            {
+                "inner_title": "dirty",
+                "content_type": "FLAG",
+                "content": "true",
+                "doc_link": "",
+                "tooltip": "",
+                "unsound": false
+            },
+            {
+                "inner_title": "revision",
+                "content_type": "FLAG",
+                "content": "HEAD",
+                "doc_link": "",
+                "tooltip": "",
+                "unsound": false
+            }
+        ]
+    },
+    {
+        "card_title": "files",
+        "content_type": "SIMPLE",
+        "content": [
+            {
+                "inner_title": "files",
+                "content_type": "SIMPLE",
+                "content": [
+                    "src/Using_Sstore_Hooks_with_Storage_Mappings/PointSystem.sol"
+                ],
+                "doc_link": "https://docs.certora.com/en/latest/docs/prover/cli/options.html#files",
+                "tooltip": "",
+                "unsound": false
+            }
+        ]
+    },
+    {
+        "card_title": "options",
+        "content_type": "COMPLEX",
+        "content": [
+            {
+                "inner_title": "verify",
+                "content_type": "FLAG",
+                "content": "PointSystem:./certora/Using_Sstore_Hooks_with_Storage_Mappings/PointSystem.spec",
+                "doc_link": "https://docs.certora.com/en/latest/docs/prover/cli/options.html#verify",
+                "tooltip": "",
+                "unsound": false
+            },
+            {
+                "inner_title": "msg",
+                "content_type": "FLAG",
+                "content": "Verification of Point System",
+                "doc_link": "https://docs.certora.com/en/latest/docs/prover/cli/options.html#msg",
+                "tooltip": "",
+                "unsound": false
+            },
+            {
+                "inner_title": "optimistic_fallback",
+                "content_type": "FLAG",
+                "content": "true",
+                "doc_link": "https://docs.certora.com/en/latest/docs/prover/cli/options.html#optimistic-fallback",
+                "tooltip": "",
+                "unsound": true
+            },
+            {
+                "inner_title": "optimistic_loop",
+                "content_type": "FLAG",
+                "content": "true",
+                "doc_link": "https://docs.certora.com/en/latest/docs/prover/cli/options.html#optimistic-loop",
+                "tooltip": "",
+                "unsound": true
+            },
+            {
+                "inner_title": "rule",
+                "content_type": "SIMPLE",
+                "content": [
+                    "sumOfAllIndividualPointsEqualsTotalPoints_betterRule"
+                ],
+                "doc_link": "https://docs.certora.com/en/latest/docs/prover/cli/options.html#rule",
+                "tooltip": "",
+                "unsound": false
+            },
+            {
+                "inner_title": "rule_sanity",
+                "content_type": "FLAG",
+                "content": "basic",
+                "doc_link": "https://docs.certora.com/en/latest/docs/prover/cli/options.html#rule-sanity",
+                "tooltip": "",
+                "unsound": false
+            },
+            {
+                "inner_title": "wait_for_results",
+                "content_type": "FLAG",
+                "content": "all",
+                "doc_link": "https://docs.certora.com/en/latest/docs/prover/cli/options.html#wait-for-results",
+                "tooltip": "",
+                "unsound": false
+            }
+        ]
+    }
+]

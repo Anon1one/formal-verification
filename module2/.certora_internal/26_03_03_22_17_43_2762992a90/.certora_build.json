@@ -1,0 +1,366 @@
+{
+    "MaxInCollection_00000000ce4604a0000000000000000000000001": {
+        "contracts": [
+            {
+                "address": "00000000ce4604a0000000000000000000000001",
+                "allMethods": [
+                    {
+                        "contractName": "MaxInCollection",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "addToCollection",
+                        "notpayable": true,
+                        "originalFile": "src/Loops_in_CVL_Path_Explosion_and_Loop_Unrolling/MaxInCollection.sol",
+                        "paramNames": [
+                            "x"
+                        ],
+                        "returns": [],
+                        "sighash": "77c8012e",
+                        "sourceBytes": {
+                            "begin": 156,
+                            "size": 156
+                        },
+                        "stateMutability": "nonpayable",
+                        "visibility": "public",
+                        "vyper_metadata": null
+                    },
+                    {
+                        "contractName": "MaxInCollection",
+                        "fullArgs": [],
+                        "isLibrary": false,
+                        "name": "maxInCollection",
+                        "notpayable": true,
+                        "originalFile": "src/Loops_in_CVL_Path_Explosion_and_Loop_Unrolling/MaxInCollection.sol",
+                        "paramNames": [],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "8b2298a4",
+                        "sourceBytes": {
+                            "begin": 115,
+                            "size": 34
+                        },
+                        "stateMutability": "view",
+                        "visibility": "external",
+                        "vyper_metadata": null
+                    },
+                    {
+                        "contractName": "MaxInCollection",
+                        "fullArgs": [],
+                        "isLibrary": false,
+                        "name": "returnMax",
+                        "notpayable": true,
+                        "originalFile": "src/Loops_in_CVL_Path_Explosion_and_Loop_Unrolling/MaxInCollection.sol",
+                        "paramNames": [],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "a355fe09",
+                        "sourceBytes": {
+                            "begin": 318,
+                            "size": 273
+                        },
+                        "stateMutability": "view",
+                        "visibility": "public",
+                        "vyper_metadata": null
+                    }
+                ],
+                "bytecode": "608060405234801561000f575f5ffd5b506004361061003f575f3560e01c806377c8012e146100435780638b2298a41461005f578063a355fe091461007d575b5f5ffd5b61005d600480360381019061005891906102a3565b61009b565b005b610067610168565b60405161007491906102dd565b60405180910390f35b61008561016e565b60405161009291906102dd565b60405180910390f35b64f196e500017fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000100005260017fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000100015260017fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff0001000552807fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000160005260015481111561014057806001819055505b5f81908060018154018082558091505060019003905f5260205f20015f909190919091505550565b60015481565b5f64f196e500007fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00000000525f7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00000001525f7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00000004525f5f9050807fffffff6e4604afefe123321beef1b02fffffffffffffffffffffffff00000001525f5f90505b5f8054905081101561026457815f8281548110610229576102286102f6565b5b905f5260205f2001541115610257575f818154811061024b5761024a6102f6565b5b905f5260205f20015491505b8080600101915050610209565b508091505090565b5f5ffd5b5f819050919050565b61028281610270565b811461028c575f5ffd5b50565b5f8135905061029d81610279565b92915050565b5f602082840312156102b8576102b761026c565b5b5f6102c58482850161028f565b91505092915050565b6102d781610270565b82525050565b5f6020820190506102f05f8301846102ce565b92915050565b7f4e487b71000000000000000000000000000000000000000000000000000000005f52603260045260245ffdfea264697066735822122092bdf981cd3d58d85380e3bb67863f9105297d0157948d4651f575e61d1e3d0264736f6c634300081e0033",
+                "compilerName": "solc",
+                "compilerParameters": {
+                    "optimizerOn": false,
+                    "optimizerRuns": null,
+                    "type": "SolcParameters",
+                    "viaIR": false
+                },
+                "compilerVersion": "0.8.30",
+                "constructorBytecode": "60806040525f6001553480156012575f5ffd5b50610359806100205f395ff3fe608060405234801561000f575f5ffd5b506004361061003f575f3560e01c806377c8012e146100435780638b2298a41461005f578063a355fe091461007d575b5f5ffd5b61005d600480360381019061005891906102a3565b61009b565b005b610067610168565b60405161007491906102dd565b60405180910390f35b61008561016e565b60405161009291906102dd565b60405180910390f35b64f196e500017fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000100005260017fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000100015260017fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff0001000552807fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000160005260015481111561014057806001819055505b5f81908060018154018082558091505060019003905f5260205f20015f909190919091505550565b60015481565b5f64f196e500007fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00000000525f7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00000001525f7fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff00000004525f5f9050807fffffff6e4604afefe123321beef1b02fffffffffffffffffffffffff00000001525f5f90505b5f8054905081101561026457815f8281548110610229576102286102f6565b5b905f5260205f2001541115610257575f818154811061024b5761024a6102f6565b5b905f5260205f20015491505b8080600101915050610209565b508091505090565b5f5ffd5b5f819050919050565b61028281610270565b811461028c575f5ffd5b50565b5f8135905061029d81610279565b92915050565b5f602082840312156102b8576102b761026c565b5b5f6102c58482850161028f565b91505092915050565b6102d781610270565b82525050565b5f6020820190506102f05f8301846102ce565b92915050565b7f4e487b71000000000000000000000000000000000000000000000000000000005f52603260045260245ffdfea264697066735822122092bdf981cd3d58d85380e3bb67863f9105297d0157948d4651f575e61d1e3d0264736f6c634300081e0033",
+                "constructorSrcmap": "58:1268:0:-:0;;;148:1;115:34;;58:1268;;;;;;;;;;;;;;;;",
+                "extensionContracts": [],
+                "file": "src/Loops_in_CVL_Path_Explosion_and_Loop_Unrolling/MaxInCollection.sol",
+                "immutables": [],
+                "internalFuncs": [],
+                "internalFunctionHarnesses": {},
+                "internalFunctionStarts": [
+                    675,
+                    360,
+                    620,
+                    366,
+                    655,
+                    718,
+                    624,
+                    758,
+                    633,
+                    155,
+                    733
+                ],
+                "internalFunctions": {
+                    "0xf196e50000": {
+                        "canonicalId": "src/Loops_in_CVL_Path_Explosion_and_Loop_Unrolling/MaxInCollection.sol|MaxInCollection",
+                        "declaringContract": "MaxInCollection",
+                        "method": {
+                            "contractName": "MaxInCollection",
+                            "fullArgs": [],
+                            "isLibrary": false,
+                            "name": "returnMax",
+                            "notpayable": true,
+                            "originalFile": "src/Loops_in_CVL_Path_Explosion_and_Loop_Unrolling/MaxInCollection.sol",
+                            "paramNames": [],
+                            "returns": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "uint256",
+                                        "type": "Primitive"
+                                    }
+                                }
+                            ],
+                            "sighash": "a355fe09",
+                            "sourceBytes": {
+                                "begin": 318,
+                                "size": 273
+                            },
+                            "stateMutability": "view",
+                            "visibility": "public",
+                            "vyper_metadata": null
+                        }
+                    },
+                    "0xf196e50001": {
+                        "canonicalId": "src/Loops_in_CVL_Path_Explosion_and_Loop_Unrolling/MaxInCollection.sol|MaxInCollection",
+                        "declaringContract": "MaxInCollection",
+                        "method": {
+                            "contractName": "MaxInCollection",
+                            "fullArgs": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "uint256",
+                                        "type": "Primitive"
+                                    }
+                                }
+                            ],
+                            "isLibrary": false,
+                            "name": "addToCollection",
+                            "notpayable": true,
+                            "originalFile": "src/Loops_in_CVL_Path_Explosion_and_Loop_Unrolling/MaxInCollection.sol",
+                            "paramNames": [
+                                "x"
+                            ],
+                            "returns": [],
+                            "sighash": "77c8012e",
+                            "sourceBytes": {
+                                "begin": 156,
+                                "size": 156
+                            },
+                            "stateMutability": "nonpayable",
+                            "visibility": "public",
+                            "vyper_metadata": null
+                        }
+                    }
+                },
+                "is_static_address": false,
+                "lang": "Solidity",
+                "localAssignments": {
+                    "1": {
+                        "lhs": "maxTmp",
+                        "sourceLoc": {
+                            "begin": "379",
+                            "len": "18",
+                            "source": "0"
+                        }
+                    }
+                },
+                "methods": [
+                    {
+                        "contractName": "MaxInCollection",
+                        "fullArgs": [],
+                        "isLibrary": false,
+                        "name": "returnMax",
+                        "notpayable": true,
+                        "originalFile": "src/Loops_in_CVL_Path_Explosion_and_Loop_Unrolling/MaxInCollection.sol",
+                        "paramNames": [],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "a355fe09",
+                        "sourceBytes": {
+                            "begin": 318,
+                            "size": 273
+                        },
+                        "stateMutability": "view",
+                        "visibility": "public",
+                        "vyper_metadata": null
+                    },
+                    {
+                        "contractName": "MaxInCollection",
+                        "fullArgs": [],
+                        "isLibrary": false,
+                        "name": "maxInCollection",
+                        "notpayable": true,
+                        "originalFile": "src/Loops_in_CVL_Path_Explosion_and_Loop_Unrolling/MaxInCollection.sol",
+                        "paramNames": [],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "8b2298a4",
+                        "sourceBytes": {
+                            "begin": 115,
+                            "size": 34
+                        },
+                        "stateMutability": "view",
+                        "visibility": "external",
+                        "vyper_metadata": null
+                    },
+                    {
+                        "contractName": "MaxInCollection",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "addToCollection",
+                        "notpayable": true,
+                        "originalFile": "src/Loops_in_CVL_Path_Explosion_and_Loop_Unrolling/MaxInCollection.sol",
+                        "paramNames": [
+                            "x"
+                        ],
+                        "returns": [],
+                        "sighash": "77c8012e",
+                        "sourceBytes": {
+                            "begin": 156,
+                            "size": 156
+                        },
+                        "stateMutability": "nonpayable",
+                        "visibility": "public",
+                        "vyper_metadata": null
+                    }
+                ],
+                "name": "MaxInCollection",
+                "original_file": "src/Loops_in_CVL_Path_Explosion_and_Loop_Unrolling/MaxInCollection.sol",
+                "solidityTypes": [],
+                "sourceBytes": {
+                    "begin": 58,
+                    "size": 535
+                },
+                "srcmap": "58:1268:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;156:508;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;115:34;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;670:654;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;156:508;302:13;234:66;227:89;392:1;324:66;317:77;470:1;402:66;395:77;548:1;480:66;473:77;569:15;;565:1;:19;561:69;;;618:1;600:15;:19;;;;561:69;639:10;655:1;639:18;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;156:508;:::o;115:34::-;;;;:::o;670:654::-;712:7;824:13;756:66;749:89;914:1;846:66;839:77;992:1;924:66;917:77;1005:14;1022:1;1005:18;;1123:6;1056:66;1049:81;1145:9;1157:1;1145:13;;1140:155;1164:10;:17;;;;1160:1;:21;1140:155;;;1222:6;1206:10;1217:1;1206:13;;;;;;;;:::i;:::-;;;;;;;;;;:22;1202:83;;;1257:10;1268:1;1257:13;;;;;;;;:::i;:::-;;;;;;;;;;1248:22;;1202:83;1183:3;;;;;;;1140:155;;;;1311:6;1304:13;;;670:654;:::o;88:117:1:-;197:1;194;187:12;334:77;371:7;400:5;389:16;;334:77;;;:::o;417:122::-;490:24;508:5;490:24;:::i;:::-;483:5;480:35;470:63;;529:1;526;519:12;470:63;417:122;:::o;545:139::-;591:5;629:6;616:20;607:29;;645:33;672:5;645:33;:::i;:::-;545:139;;;;:::o;690:329::-;749:6;798:2;786:9;777:7;773:23;769:32;766:119;;;804:79;;:::i;:::-;766:119;924:1;949:53;994:7;985:6;974:9;970:22;949:53;:::i;:::-;939:63;;895:117;690:329;;;;:::o;1025:118::-;1112:24;1130:5;1112:24;:::i;:::-;1107:3;1100:37;1025:118;;:::o;1149:222::-;1242:4;1280:2;1269:9;1265:18;1257:26;;1293:71;1361:1;1350:9;1346:17;1337:6;1293:71;:::i;:::-;1149:222;;;;:::o;1377:180::-;1425:77;1422:1;1415:88;1522:4;1519:1;1512:15;1546:4;1543:1;1536:15",
+                "storageLayout": {
+                    "storage": [
+                        {
+                            "astId": 4,
+                            "contract": "/home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module2/.certora_internal/26_03_03_22_17_43_2762992a90/.certora_sources/src/Loops_in_CVL_Path_Explosion_and_Loop_Unrolling/MaxInCollection.sol:MaxInCollection",
+                            "descriptor": {
+                                "annotations": [
+                                    {
+                                        "numberOfBytes": "32",
+                                        "type": "StorageAnnotation"
+                                    }
+                                ],
+                                "dynamicArrayBaseType": {
+                                    "annotations": [
+                                        {
+                                            "numberOfBytes": "32",
+                                            "type": "StorageAnnotation"
+                                        }
+                                    ],
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                },
+                                "type": "Array"
+                            },
+                            "label": "collection",
+                            "offset": 0,
+                            "slot": "0",
+                            "type": "t_array(t_uint256)dyn_storage"
+                        },
+                        {
+                            "astId": 7,
+                            "contract": "/home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module2/.certora_internal/26_03_03_22_17_43_2762992a90/.certora_sources/src/Loops_in_CVL_Path_Explosion_and_Loop_Unrolling/MaxInCollection.sol:MaxInCollection",
+                            "descriptor": {
+                                "annotations": [
+                                    {
+                                        "numberOfBytes": "32",
+                                        "type": "StorageAnnotation"
+                                    }
+                                ],
+                                "primitiveName": "uint256",
+                                "type": "Primitive"
+                            },
+                            "label": "maxInCollection",
+                            "offset": 0,
+                            "slot": "1",
+                            "type": "t_uint256"
+                        }
+                    ],
+                    "types": {
+                        "t_array(t_uint256)dyn_storage": {
+                            "base": "t_uint256",
+                            "encoding": "dynamic_array",
+                            "label": "uint256[]",
+                            "numberOfBytes": "32"
+                        },
+                        "t_uint256": {
+                            "encoding": "inplace",
+                            "label": "uint256",
+                            "numberOfBytes": "32"
+                        }
+                    }
+                },
+                "transientStorageLayout": {
+                    "storage": [],
+                    "types": null
+                },
+                "varmap": ""
+            }
+        ],
+        "legacyStructLinking": {},
+        "library_addresses": [],
+        "origSourceDir": ".pre_autofinders.0",
+        "primary_contract": "MaxInCollection",
+        "primary_contract_address": "00000000ce4604a0000000000000000000000001",
+        "prototypeFor": [],
+        "sdc_name": "MaxInCollection.sol_0",
+        "sourceDir": ".post_autofinders.0",
+        "srclist": {
+            "0": "src/Loops_in_CVL_Path_Explosion_and_Loop_Unrolling/MaxInCollection.sol"
+        },
+        "state": {},
+        "structLinkingInfo": {}
+    }
+}

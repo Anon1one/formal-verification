@@ -1,0 +1,8 @@
+{
+    "importFilesToOrigRelpaths": {},
+    "primary_contract": "SimpleVault",
+    "specfile": "/home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module2/certora/Persistent_Ghosts/SimpleVault.spec",
+    "specfileOrigRelpath": "certora/Persistent_Ghosts/SimpleVault.spec",
+    "specfilesToImportDecls": {},
+    "type": "spec"
+}

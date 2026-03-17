@@ -1,0 +1,8 @@
+{
+    "importFilesToOrigRelpaths": {},
+    "primary_contract": "Math",
+    "specfile": "certora/Conditional_Statements_in_CVL_and_Formally_Verifying_Parts_of_Solady_and_Solmate/Math.spec",
+    "specfileOrigRelpath": "certora/Conditional_Statements_in_CVL_and_Formally_Verifying_Parts_of_Solady_and_Solmate/Math.spec",
+    "specfilesToImportDecls": {},
+    "type": "spec"
+}

@@ -1,0 +1,15 @@
+Saving last configuration file to .certora_internal/26_02_08_20_07_05_4262688b78/run.conf
+You are using certora-cli version 8.6.1; however, version 8.6.4 is available. It is recommended to upgrade by running: pip install certora-cli --upgrade
+or
+pip3 install certora-cli --upgrade
+There is no TAC file. Going to script CertoraProver/certoraBuild.py to main_with_args()
+main build cache key computed based on {'files': ['src/Implication_Operator/Math.sol'], 'package_version_for_build_cache': 'certora-cli 8.6.1', 'packages': ['forge-std/=lib/forge-std/src', 'forge-std/src/=lib/forge-std/src'], 'packages_path': 'node_modules', 'solc': 'solc', 'solc_allow_path': '.', 'test_condition': 'True'}
+Creating dir /home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/.certora_internal/26_02_08_20_07_05_4262688b78/.certora_config
+In /home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/certora/Implication_Operator/Math.spec, found the imports: []
+copying spec file /home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/certora/Implication_Operator/Math.spec to /home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/.certora_internal/26_02_08_20_07_05_4262688b78/.certora_sources/.0_Math.spec.spec
+writing /home/anon/Assembly_and_formal_verification/rareskills_certora_formalVerification/module1/.certora_internal/26_02_08_20_07_05_4262688b78/.certora_verify.json
+Failed to run Certora Prover typechecker locally.
+Please check the errors below for problems in the specifications (.spec files) or the prover_args defined in the .conf file.
+[main] ERROR ALWAYS - Additional errors:
+[main] ERROR ALWAYS - Error in spec file: The rules: [mulDivUp_RoundUp] were not found in any of the specification files. Did you mean rule mulDivUp_roundUp or mulDivUp_noRoundUp?
+build failed

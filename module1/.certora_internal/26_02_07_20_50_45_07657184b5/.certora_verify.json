@@ -1,0 +1,8 @@
+{
+    "importFilesToOrigRelpaths": {},
+    "primary_contract": "Math",
+    "specfile": "certora/Testing_Revert_Call_In_Certora/Math.spec",
+    "specfileOrigRelpath": "certora/Testing_Revert_Call_In_Certora/Math.spec",
+    "specfilesToImportDecls": {},
+    "type": "spec"
+}
